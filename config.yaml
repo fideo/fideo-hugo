@@ -1,4 +1,4 @@
-baseURL: https://fideo.github.io/fideo-hugo/
+baseURL: /
 disablePathToLower: true
 languageCode: es-es
 title: Fideo - Federico Mazzei
