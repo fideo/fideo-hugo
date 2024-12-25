@@ -1,0 +1,2963 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Fideo - Federico Mazzei</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Fideo - Federico Mazzei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sat, 07 Sep 2024 09:05:21 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Activar la sincronización de Fecha y Hora en Debian Ubuntu</title>
+      <link>http://localhost:1313/2024/09/activar-la-sincronizacion-de-fecha-y-hora-en-debian-ubuntu.html</link>
+      <pubDate>Sat, 07 Sep 2024 09:05:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/09/activar-la-sincronizacion-de-fecha-y-hora-en-debian-ubuntu.html</guid>
+      
+      <description>Si necesitas activar la sincronización de la fecha y hora en debian ubuntu o cualquier distribución derivada de Debian con un simple comando se puede reparar esto.
+Me ha pasado que he instalado debian 12 y la notebook donde lo instalé no se sincronizaba correctamente el horario ni la fecha; entonces cada vez que encendía la notebook esta no podía navegar, ya que, estaba desincronizada la fecha y la hora.</description>
+      
+    </item>
+    
+    <item>
+      <title>Convertir texto de minúscula a MAYÚSCULA en Vim</title>
+      <link>http://localhost:1313/2024/08/convertir-texto-de-minuscula-a-mayuscula-en-vim.html</link>
+      <pubDate>Fri, 09 Aug 2024 09:13:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/08/convertir-texto-de-minuscula-a-mayuscula-en-vim.html</guid>
+      
+      <description>Para convertir texto de minúscula a MAYÚSCULA en Vim se puede realizar una convinación de tres o cuatro teclas para conseguir este resultado.
+Estando en modo NORMAL en vim y presionando las teclas gUw cambian la palabra siguiente de minúscula a MAYÚSCULA y si queremos hacer el paso inverso la convinación de teclas es guw como se puede apreciar el único cambio significativo es la letra u que cambia de minúscula a mayúscula según se necesite cambiar de un estado a otro.</description>
+      
+    </item>
+    
+    <item>
+      <title>Partir en varios archivos .zip un directorio o un archivo</title>
+      <link>http://localhost:1313/2024/06/partir-en-varios-archivos-zip-un-directorio-o-un-archivo.html</link>
+      <pubDate>Wed, 05 Jun 2024 12:33:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/06/partir-en-varios-archivos-zip-un-directorio-o-un-archivo.html</guid>
+      
+      <description>En mi caso necesitaba realizar un comando que me permita partir en varios archivos .zip un directorio o un archivo .iso
+Obviamente que por pantalla gráfica esto es muy fácil de hacer pero el problema se presenta cuando estas accediendo a un servidor y tienes que partir un archivo grande en varios fragmentos para poder transportarlo ya sea para mandar por mail o copiarlo a otro lugar.
+En principio tenemos que tener instalado el p7zip si no lo tenes instalado en Ubuntu o linux derivados de Debian se instala así:</description>
+      
+    </item>
+    
+    <item>
+      <title>LazyVim muestra algunos Warnings rg, fdfind y lazygit</title>
+      <link>http://localhost:1313/2024/05/lazyvim-muestra-algunos-warnings-rg-fdfind-y-lazygit.html</link>
+      <pubDate>Tue, 14 May 2024 14:55:33 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/05/lazyvim-muestra-algunos-warnings-rg-fdfind-y-lazygit.html</guid>
+      
+      <description>Si al realizar un checkhealth en LazyVim muestra algunos Warnings rg, fdfind y lazygit la solución a estos tres warnings que no está instalado ni el rg, ni el fdfind ni el lazygit lo que se debe realizar son los siguientes pasos:
+Primero debemos realizar un checkhealth e ir verificando a cada paso que realizamos si se va subsanando el warning o advertencia sobre ese inconveniente.
+Por eso abrimos el LazyVim o neovim y ejecutamos el comando :checkhealth nos mostrará una advertencia como la siguiente:</description>
+      
+    </item>
+    
+    <item>
+      <title>Como averiguar el id de AnyDesk por consola o terminal en linux</title>
+      <link>http://localhost:1313/2024/05/como-averiguar-el-id-de-anydesk-por-consola-o-terminal-en-linux.html</link>
+      <pubDate>Mon, 13 May 2024 12:02:51 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/05/como-averiguar-el-id-de-anydesk-por-consola-o-terminal-en-linux.html</guid>
+      
+      <description>Como averiguar el id de AnyDesk por consola o terminal en linux. Si por casulidad tenes instalado AnyDesk y no conoces el id de tu cuenta con AnyDesk la podes averiguar accediendo desde consola o terminal a tu equipo.
+Claro si accedes por consola o terminal a tu equipo podrías decir para que si ya tengo conexión con mi computadora a través de mi linea de comandos si puede ser… pero muchas veces necesitas ver o acceder visualmente a tu computadora y esto lo podes hacer con AnyDesk o un servicio de VNC activo en la computadora.</description>
+      
+    </item>
+    
+    <item>
+      <title>No funciona Wi-Fi en tu notebook con Linux</title>
+      <link>http://localhost:1313/2024/03/no-funciona-wi-fi-en-tu-notebook-con-linux.html</link>
+      <pubDate>Fri, 01 Mar 2024 09:42:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/03/no-funciona-wi-fi-en-tu-notebook-con-linux.html</guid>
+      
+      <description>Si terminaste de instalar Linux y no te funciona el Wi-Fi tenes que realizar los siguientes pasos para que empiece a funcionar.
+Estos pasos a continuación son para distribuciones basadas en Debian
+Ubuntu y sus sabores, Neon, Loc-Os, Linux Mint, PureOS, Deepin, Kali Linux, etc. etc.
+Antes de empezar a ejecutar los comandos que siguen a continuación tenemos que conseguir una conexión por cable de red para poder ejecutar algunos comando y descargar algunos componentes desde internet.</description>
+      
+    </item>
+    
+    <item>
+      <title>Copiar y pegar entre Vim y tu sistema operativo</title>
+      <link>http://localhost:1313/2023/09/copiar-y-pegar-entre-vim-y-tu-sistema-operativo.html</link>
+      <pubDate>Thu, 14 Sep 2023 15:52:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/09/copiar-y-pegar-entre-vim-y-tu-sistema-operativo.html</guid>
+      
+      <description>Si necesitas copiar y pegar entre Vim y tu sistema operativo este es tu post. Pasa y muy seguido que tengas que copiar algo desde lo que estas editando con Vim y llevarlo a otro “contexto” que es tu sistema operativo
+Esto puede ser un dolor de cabeza si no se entiende bien como es que funcionan los registros de vim.
+En Vim existen registros donde uno pueda guardar lo que llevamos al portapapeles por ejemplo, si nosotros quisiesemos copiar una línea y grabarla en el registro “a” solo tendríamos que seleccionar lo que necesitamos copiar y luego ejecutar:</description>
+      
+    </item>
+    
+    <item>
+      <title>Vim - Borrar el contenido de un tag con vim</title>
+      <link>http://localhost:1313/2023/09/borrar-el-contenido-de-un-tag-con-vim.html</link>
+      <pubDate>Tue, 05 Sep 2023 15:44:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/09/borrar-el-contenido-de-un-tag-con-vim.html</guid>
+      
+      <description>Para borrar el contenido de un tag con vim solo necesitamos usar o presionar tres teclas
+dit la “d” de delete
+la “i” de inside
+la “t” de tag
+Entonces parados sobre el tag que queremos borrar el contenido ejecutamos esas tred teclas y el contenido se borrará
+También podemos utilizar la combinación de teclas dat para borrar el tag completo incluido en el que estamos posicionado.
+También se puede borrar por ejemplo el contenido de una llave o un corchete o lo que está encerrado entre una comilla simple o doble.</description>
+      
+    </item>
+    
+    <item>
+      <title>Vimdiff comparar dos archivos con VIM</title>
+      <link>http://localhost:1313/2023/09/vimdiff-comparar-dos-archivos-con-vim.html</link>
+      <pubDate>Sun, 03 Sep 2023 15:43:59 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/09/vimdiff-comparar-dos-archivos-con-vim.html</guid>
+      
+      <description>Hoy vamos a usar Vimdiff (vim -d) para comparar dos archivos con VIM.
+Vimdiff nos permite comparar dos archivos, este comando es muy bueno cuando por ejemplo bajamos un archivo de un servidor y lo queremos comparar con lo que tenemos localmente.
+Para ejecutar este comando es muy fácil solo tenemos que seleccionar dos archivos que queremos comparar para eso yo generé dos archivos de muestra que los dejo en el repositorio de github https://github.</description>
+      
+    </item>
+    
+    <item>
+      <title>Docker Compose WordPress MySQL PhpMyAdmin</title>
+      <link>http://localhost:1313/2023/08/docker-compose-wordpress-mysql-phpmyadmin.html</link>
+      <pubDate>Wed, 23 Aug 2023 13:08:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/08/docker-compose-wordpress-mysql-phpmyadmin.html</guid>
+      
+      <description>En este post dejo un código de docker compose que te permite levantar un docker con wordpress que usa una base de datos mysql y para poder administrarla usar el phpmyadmin.
+Esto es muy recomendable para aquellos desarrolladores que tienen que estar levantando ambientes de desarrollos con distintas versiones de wordpress ó mysql ya sea para actualizarlas o para probar algo en particular.
+En lo particular me sirve mucho para dejar reflejado en un ambiente local tal cual las características que tiene el sitio en producción; es decir que si el sitio de un cliente tiene en producción wordpress 5 mientras ya está vigente la versión 6 yo puedo seguir manteniendo esa versión ya sea para luego actualizarla o por resguardo (backup)</description>
+      
+    </item>
+    
+    <item>
+      <title>Got permission denied while trying to connect to the Docker daemon</title>
+      <link>http://localhost:1313/2023/08/got-permission-denied-while-trying-to-connect-to-the-docker-daemon.html</link>
+      <pubDate>Fri, 18 Aug 2023 14:38:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/08/got-permission-denied-while-trying-to-connect-to-the-docker-daemon.html</guid>
+      
+      <description>Si acabas de instalar docker y te aparece ese mensaje de error Got permission denied while trying to connect to the Docker daemon al ejecutar docker, por ejemplo “docker ps” o “docker run” o cualquier otro comando de docker esto te puede servir.
+Corregir el error Primero tenemos que agregar el grupo docker y para esto en la consola ejecutamos lo siguiente:
+sudo groupadd docker Ahora tenemos que agregar el usuario nuestro a ese nuevo grupo y para esto ejecutamos en la linea de comando lo siguiente:</description>
+      
+    </item>
+    
+    <item>
+      <title>Configurar DKIM con OpenDKIM en Cloudflare</title>
+      <link>http://localhost:1313/2023/06/configurar-dkim-con-opendkim-en-cloudflare.html</link>
+      <pubDate>Fri, 30 Jun 2023 11:21:35 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/06/configurar-dkim-con-opendkim-en-cloudflare.html</guid>
+      
+      <description>Hace un tiempo cambié de proveedor de hosting y tuve que configurar yo los registros DKIM en Cloudflare y me encontré con el problema que no sabía como obtener las claves DKIM; bueno acá dejo un instructivo de lo que hice para que me dejen de llegar los mails tipo spoofing.
+DKIM o DomainKeys Identified Mail en inglés son las claves de identificación de dominio digitales que sirven para que un intruso no mande mails en tu nombre es decir usando tu dominio; a esto se lo conoce como spoofing.</description>
+      
+    </item>
+    
+    <item>
+      <title>Comandos básicos para VIM</title>
+      <link>http://localhost:1313/2023/06/comandos-basicos-para-vim.html</link>
+      <pubDate>Tue, 20 Jun 2023 10:18:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/06/comandos-basicos-para-vim.html</guid>
+      
+      <description>Estos son algunos de los comandos básicos que uso a diario cuando utilizo VIM.
+Iniciar VIM Si usas por primera vez vim tal vez no sepas por donde empezar y deberías empezar por instalar vim aunque hoy en día la mayoría de las distribuciones linux traen instalado vim; si esto no es así solo bastará con realizar
+sudo apt install vim o el comando similar a este último que tu distribución necesite para instalarlo; en este caso esa instrucción sirve para las distribuciones basadas en debian como por ejemplo Ubuntu.</description>
+      
+    </item>
+    
+    <item>
+      <title>Comparto la configuración de VIM</title>
+      <link>http://localhost:1313/2023/03/comparto-la-configuracion-de-vim.html</link>
+      <pubDate>Fri, 24 Mar 2023 19:53:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/03/comparto-la-configuracion-de-vim.html</guid>
+      
+      <description>Dejo en el repositorio de github la configuración de VIM, acá podrás encontrar toda la configuración que utilizo para configurar mi VIM. Los complementos que utilizo son para el desarrollo de sitios webs y para administración de servidores.
+https://github.com/fideo/vim
+Dentro del repositorio git-hub que compartí en la linea de arriba pueden encontrar varios archivos pero dos son los importantes (los otros son para los videos de youtube) .vimrc y .vimrc.plug ahí está toda la configuración que uno necesita para dejar vim como se muestran en los videos de youtube (esto puede modificarse con el paso del tiempo)</description>
+      
+    </item>
+    
+    <item>
+      <title>VIM YouCompleteMe</title>
+      <link>http://localhost:1313/2023/03/vim-youcompleteme.html</link>
+      <pubDate>Fri, 24 Mar 2023 16:55:25 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/03/vim-youcompleteme.html</guid>
+      
+      <description>Si te aparece este mensaje dentro de tu editor VIM
+The ycmd server SHUT DOWN (restart with ‘:YcmRestartServer’). YCM core library not dete…; you need to compile YCM before using it. Follow the instructions in the documentation.
+esto se debe a que tu complemento YouCompleteMe necesita ser reinstalado.
+Es tan simple como posisionarse dentro del directorio de instalación de YouCompleteMe en mi caso /home/fideo/.vim/plugged/youcompleteme y ejecutar esto
+python install.py Esto hará el proceso de instalación y corrige todas las librerías y dependencias que necesita para que se ejecute correctamente el complemento.</description>
+      
+    </item>
+    
+    <item>
+      <title>Anydesk problemas con Wayland Cómo habilitar o deshabilitar wayland en Ubuntu 22.04 Desktop</title>
+      <link>http://localhost:1313/2023/01/anydesk-problemas-wayland-habilitar-o-deshabilitar-wayland-ubuntu.html</link>
+      <pubDate>Sun, 01 Jan 2023 10:25:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/01/anydesk-problemas-wayland-habilitar-o-deshabilitar-wayland-ubuntu.html</guid>
+      
+      <description>Si estas trantando de usar AnyDesk en linux y te arroja un mensaje de error como este
+No se admite el servidor remoto de pantalla wayland
+Es porque hay que colocar en false la opción WaylandEnable que se encuentra en /etc/gdm3/custom.conf esto te permitirá conectarte a esa máquina cliente; es decir que la modificación de /etc/gdm3/custom.conf hay que hacerla en la PC que queremos conectarnos.
+Para eso tiene que abrir tu consola en modo administrador / sudo y editar ese archivo, en mi caso yo uso vim asi que sería así:</description>
+      
+    </item>
+    
+    <item>
+      <title>Python qué es y quién lo creó</title>
+      <link>http://localhost:1313/2022/07/python-que-es-y-quien-lo-creo.html</link>
+      <pubDate>Fri, 15 Jul 2022 13:35:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2022/07/python-que-es-y-quien-lo-creo.html</guid>
+      
+      <description>¿Qué es Python? Python es un lenguaje de programación de alto nivel, interpretado, orientado a objetos y de uso generalizado con semántica dinámica, que se utiliza para la programación de propósito general.
+Y aunque puede que conozcas a la pitón como una gran serpiente, el nombre del lenguaje de programación Python proviene de una vieja serie de comedia de la BBC llamada Monty Python’s Flying Circus.
+En el apogeo de su éxito, el equipo de Monty Python estaba realizando sus escenas para audiencias en vivo en todo el mundo, incluso en el Hollywood Bowl.</description>
+      
+    </item>
+    
+    <item>
+      <title>Vim el editor de texto mejorado Vi</title>
+      <link>http://localhost:1313/2022/02/vim-el-editor-de-texto-mejorado-vi.html</link>
+      <pubDate>Fri, 25 Feb 2022 08:34:44 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2022/02/vim-el-editor-de-texto-mejorado-vi.html</guid>
+      
+      <description>Vi fue creado por William Nelson Joy mas conocido como Bill Joy; él empezó a desarrolar allá por el año 1976 este editor. Luego en 1991 Bram Moolenaar realiza una mejora este editor y lo llama Vim siendo este uno de los editores de texto mas utilizados por los desarrolladores.
+Pero este post no trata de hablar de historia de Vim sino de lo que se puede hacer con él.</description>
+      
+    </item>
+    
+    <item>
+      <title>Tmux github powerline status</title>
+      <link>http://localhost:1313/2022/02/tmux-github-powerline-status.html</link>
+      <pubDate>Fri, 18 Feb 2022 11:15:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2022/02/tmux-github-powerline-status.html</guid>
+      
+      <description>Tmux github powerline status. Cree un repositorio en github para publicar mi configuración de Tmux; también la configuración de powerline y el .bashrc de mi PC por si alguien quiere usar esta configuración.
+Este es el la dirección en github del repositorio desde ahí se puede descargar y/o clonar https://github.com/fideo/tmux.conf
+Hay que crear en el home de su usuario (en mi caso /home/fideo/) el archivo .tmux.conf y copiar el contenido de lo que publiqué en github o directamente descargarlo pegarlo en su home.</description>
+      
+    </item>
+    
+    <item>
+      <title>Centos Web Panel CWP ERROR: Can&amp;#8217;t create temporary directory /var/lib/clamav/</title>
+      <link>http://localhost:1313/2022/02/centos-web-panel-cwp-error-cant-create-temporary-directory-var-lib-clamav.html</link>
+      <pubDate>Fri, 18 Feb 2022 08:48:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2022/02/centos-web-panel-cwp-error-cant-create-temporary-directory-var-lib-clamav.html</guid>
+      
+      <description>Tengo un servidor con lo manejo con CWP (Centos Web Panel) y en los logs vi un error como este
+ERROR: Can&amp;#39;t create temporary directory /var/lib/clamav/ Estuve investigando un poco como corregirlo y me dí cuenta que era problemas de permisos; al ejecutar
+sudo freshclam Esto debería realizar una actualización de la base de datos del antivirus; pero por no tener bien asignados los permisos me daba ese error. Cuando estaba el contenido del directorio /var/lib/clamav/ me mostraba que existen dos tipos de usuarios clamupdate y clamscan.</description>
+      
+    </item>
+    
+    <item>
+      <title>Comando para obtener la dirección ip interna de una PC</title>
+      <link>http://localhost:1313/2022/01/comando-para-obtener-la-direccion-ip-interna-de-una-pc.html</link>
+      <pubDate>Thu, 06 Jan 2022 12:02:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2022/01/comando-para-obtener-la-direccion-ip-interna-de-una-pc.html</guid>
+      
+      <description>En linux podemos obtener de varias formas la ip interna de una PC; lo más común es ejecutar ifconfig directamente en la consola, pero para esto tenemos que tener instalado net-tools.
+sudo apt install net-tools Pero yo no quería instalar nada (de caprichoso nomás) y fui por la forma tradicional que tiene linux para mostrarte las ip y es con el comando ip propiamente dicho que acompañado por el objeto address te muestra las direcciones ip creadas para tu PC.</description>
+      
+    </item>
+    
+    <item>
+      <title>Copiar buffer consola a entorno gráfico X11</title>
+      <link>http://localhost:1313/2021/12/copiar-buffer-consola-a-entorno-grafico-x11.html</link>
+      <pubDate>Wed, 22 Dec 2021 13:05:04 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/12/copiar-buffer-consola-a-entorno-grafico-x11.html</guid>
+      
+      <description>Necesitaba copiar un texto desde un server y decidí instalarme xclip. Para esto ejecuté:
+sudo apt install xclip Es muy fácil de usar xclip; si queremos copiar un texto podemos hacer lo siguiente:
+echo &amp;#34;Un texto cualquiera&amp;#34; | xclip -i Luego si queremos copiar ese texto en la consola hacemos lo siguiente:
+xclip -o y el resultado sería –&amp;gt; Un texto cualquiera
+Me encontré con un problema… que al ejecutar el xclip por consola obtenía un mensaje de error que me decía que display no estaba configurado.</description>
+      
+    </item>
+    
+    <item>
+      <title>Como hacer para GitHub no te pida mas el usuario y la cotraseña</title>
+      <link>http://localhost:1313/2021/12/como-hacer-para-github-no-te-pida-mas-el-usuario-y-la-cotrasena.html</link>
+      <pubDate>Thu, 16 Dec 2021 09:07:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/12/como-hacer-para-github-no-te-pida-mas-el-usuario-y-la-cotrasena.html</guid>
+      
+      <description>Hace un tiempo GitHub hizo modificaciones en cuanto a su forma de autentificarse, existen muchas formas de autenticarse con GItHub; pero una de las mas comunes es que al momento de realizar un push o pull te pida un usuario y una contraseña. Pero ahora para poder realizar esto necesitas tener en tu poder un Token.
+Esto es muy simple de realizar solo tienes que ir a Settings / Developer settings / Personal access token y ahí presionar el botón Generate new token.</description>
+      
+    </item>
+    
+    <item>
+      <title>Habilitar o Deshabilitar un servicio en Linux Ubuntu</title>
+      <link>http://localhost:1313/2021/12/habilitar-o-deshabilitar-un-servicio-en-linux-ubuntu.html</link>
+      <pubDate>Thu, 09 Dec 2021 08:31:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/12/habilitar-o-deshabilitar-un-servicio-en-linux-ubuntu.html</guid>
+      
+      <description>Si tienes un servicio que necesitas deshabilitar o habilitar acá te dejo los dos comandos que te permitirán realizar esto
+Para habilitar un servicio debes ejecutar como superusuario systemctl enable servicioAHabilitar.service
+sudo systemctl enable apache2 Para deshabilitar ese mismo servicio debes ejecutar (siempre como superusuario) systemctl disable servicioADeshabilitar.service
+sudo systemctl disable apache2 </description>
+      
+    </item>
+    
+    <item>
+      <title>Hacer que Docker no inicie automáticamente</title>
+      <link>http://localhost:1313/2021/12/hacer-que-docker-no-inicie-automaticamente.html</link>
+      <pubDate>Fri, 03 Dec 2021 10:55:05 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/12/hacer-que-docker-no-inicie-automaticamente.html</guid>
+      
+      <description>Me pasó que necesitaba por un tiempo hacer que docker no inicie automáticamente; es decir, que cuando se reinicia el Servidor las imágenes de docker no se carguen automáticamente.
+El proyecto yo lo tenía con docker-compose, pero para esto usé solo los comandos de docker.
+Primero chequeo lo que está corriendo con
+docker ps Debería mostrar todas las imágenes que tenemos corriendo
+docker update --restart no e1dff1f51add Y así sucesivamente con todas las imágenes que queremos que NO se inicie al reiniciar nuestro servidor.</description>
+      
+    </item>
+    
+    <item>
+      <title>Droidcam no funciona en Google Chrome Linux</title>
+      <link>http://localhost:1313/2021/11/droidcam-no-funciona-en-google-chrome-linux.html</link>
+      <pubDate>Wed, 17 Nov 2021 20:51:29 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/11/droidcam-no-funciona-en-google-chrome-linux.html</guid>
+      
+      <description>Droidcam no funciona en google chrome en un sistema operativo Linux; en Windows funciona perfectamente, pero en Linux lo podía hacer funcionar hasta que entendí que para que google chrome lo tome hay que ejecutar una serie de comandos
+Como primer paso ejecutamos esto en la consola de linux.
+sudo apt install linux-headers-`uname -r` gcc make Luego nos dirigimos a donde tenemos instalado Droidcam; yo lo suelo instalar en /opt/ es decir que ingreso a</description>
+      
+    </item>
+    
+    <item>
+      <title>Como copiar directorios o archivos de un Docker a Local o viceversa</title>
+      <link>http://localhost:1313/2021/11/como-copiar-directorios-o-archivos-de-un-docker-a-local-o-viceversa.html</link>
+      <pubDate>Tue, 16 Nov 2021 12:42:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/11/como-copiar-directorios-o-archivos-de-un-docker-a-local-o-viceversa.html</guid>
+      
+      <description>A veces necesitamos copiar un archivo desde nuestra máquina local de desarrollo al docker o viceversa; esto es muy común o frecuente que tengas que realizarlo cuando estás desarrollando una app, una web o lo que fuese dentro de un Docker.
+Para esto tenemos un par de comandos que son muy útiles.
+El primero sirve para copiar desde un contenedor docker a una máquina local:
+docker cp NOMBRE_CONTENEDOR:RUTA_DEL_CONTENEDOR RUTA_LOCAL El segundo sirve para copiar desde la pc local a un contenedor docker:</description>
+      
+    </item>
+    
+    <item>
+      <title>Comandos útiles para Docker</title>
+      <link>http://localhost:1313/2021/11/comandos-utiles-para-docker.html</link>
+      <pubDate>Tue, 02 Nov 2021 10:25:20 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/11/comandos-utiles-para-docker.html</guid>
+      
+      <description>Esto tal vez le puede servir a mas de uno y de paso me lo dejo como ayuda memoria
+Usé un dockerfile para crear un esquema de wordpress es decir que ese docker contiene un nginx, una base mysql (mariadb) y el lenguaje PHP que utiliza WordPress; cuando levantaba el docker con docker-compose up la base me daba error entonces necesitaba ejecutar por consola algunos comandos para poder crear la base que no la había creado y también para darle privilegios al usuario en cuestión.</description>
+      
+    </item>
+    
+    <item>
+      <title>Como arreglar GDBus. Error:org. freedesktop. PolicyKit1. Error. Failed</title>
+      <link>http://localhost:1313/2021/10/como-arreglar-gdbus-errororg-freedesktop-policykit1-error-failed.html</link>
+      <pubDate>Thu, 28 Oct 2021 09:47:39 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/10/como-arreglar-gdbus-errororg-freedesktop-policykit1-error-failed.html</guid>
+      
+      <description>Durante mucho tiempo estuve teniendo este error GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed cada vez que ejecutaba sudo “service csf restart” por ejemplo o cualquier servicio que quisiera reiniciar me mostraba este error.
+Esto me sucedía en mi servidor Centos 7 con el panel de control CentOS Web Panel es decir el CWP; esto empezó a suceder luego de una actualización, estuve varios días sin poder solucionar este problema.
+Por suerte me encontré con una solución en Internet, de todas las que probé, la que resuelve el inconveniente hasta el día de hoy son estos pasos que dejo a continuación.</description>
+      
+    </item>
+    
+    <item>
+      <title>Github pide usuario y contraseña siempre</title>
+      <link>http://localhost:1313/2021/09/github-pide-usuario-y-contrasena-siempre.html</link>
+      <pubDate>Thu, 30 Sep 2021 19:51:24 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/09/github-pide-usuario-y-contrasena-siempre.html</guid>
+      
+      <description>Si sos uno de los tantos que se cansa cada vez que tienes que hacer pull o push a un repositorio en github poniendo el usuario y la contraseña, puedes realizar estos pasos y dejará de pedirte user y pass cada vez que quieras realizar un pull o push a github.
+Primero tienes que ver que esté funcionando el ssh-agent para eso ejecutar este comando en la consola de linux</description>
+      
+    </item>
+    
+    <item>
+      <title>Personalizar el prompt de tu consola</title>
+      <link>http://localhost:1313/2021/09/personalizar-el-prompt-de-tu-consola.html</link>
+      <pubDate>Fri, 03 Sep 2021 08:49:27 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/09/personalizar-el-prompt-de-tu-consola.html</guid>
+      
+      <description>Es muy útil tener siempre a mano información que nos puede servir en el día a día, y si la linea de comandos es lo que usas en el día a día entonces este post es útil para vos.
+Ya sea que uses Linux o Mac la consola es una herramienta muy potente; hoy en este post dejo un link de como personalizar el prompt de la consola como uno quiere.</description>
+      
+    </item>
+    
+    <item>
+      <title>Crear un listado de directorios o carpetas desde la consola de linux</title>
+      <link>http://localhost:1313/2021/08/crear-un-listado-de-directorios-o-carpetas-desde-la-consola-de-linux.html</link>
+      <pubDate>Mon, 09 Aug 2021 09:49:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/08/crear-un-listado-de-directorios-o-carpetas-desde-la-consola-de-linux.html</guid>
+      
+      <description>Tal vez te encuentres con la necesidad de tener que armar una lista de directorios o carpetas, de tu sistema linux, acá te dejo un comando que te permite realizar ese proceso.
+ls -R | grep &amp;#34;:$&amp;#34; | sed -e &amp;#39;s/:$//&amp;#39; -e &amp;#39;s/[^-][^\/]*\//--/g&amp;#39; -e &amp;#39;s/^/ /&amp;#39; -e &amp;#39;s/-/|/&amp;#39; También se puede instalar el comando tree que es mucho mas cuidado estéticamente y tiene una cuantos parámetros que lo puedes ejecutar a tu gusto.</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux no reconoce tu android por conexión USB para usar Droidcam</title>
+      <link>http://localhost:1313/2021/07/linux-no-reconoce-tu-android-por-conexion-usb-para-usar-droidcam.html</link>
+      <pubDate>Tue, 27 Jul 2021 19:40:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/07/linux-no-reconoce-tu-android-por-conexion-usb-para-usar-droidcam.html</guid>
+      
+      <description>Si tener un celular (dispositivo móvil) con Android y quieres usar la cámara de ese celular como webcam puedes usar un programa que se llama Droidcam, es muy buena opción para no comprar una webcam y usa ese dispositivo viejo que tenías en un cajón.
+Este artículo trae una solución a un problema frecuente que se dá cuando usas linux, el problema se presenta que no siempre reconoce las conexiones por USB.</description>
+      
+    </item>
+    
+    <item>
+      <title>Arreglar el error Droidcam unable to find dev/video0</title>
+      <link>http://localhost:1313/2021/07/arreglar-el-error-droidcam-unable-to-find-dev-video0.html</link>
+      <pubDate>Tue, 27 Jul 2021 19:21:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/07/arreglar-el-error-droidcam-unable-to-find-dev-video0.html</guid>
+      
+      <description>Los pasos que realicé para que Droidcam vuelva funcionar como tras el error Droidcam unable to find dev/video0
+$ sudo apt install v4l2loopback-utils v4l-utils v4l2loopback-dkms cmake nasm yasm pkg-config libgtk2.0-dev $ sudo modprobe v4l2loopback $ v4l2-ctl --list-devices # check if you have dummy video devices Dummy video device (0x0000) (platform:v4l2loopback-000): /dev/video0 Me pasa muy seguido que tengo que corregir droidcam tras actualizar Ubuntu y para esto solo uso este comando.</description>
+      
+    </item>
+    
+    <item>
+      <title>Comando dd clonar copiar una ISO a un Pendrive</title>
+      <link>http://localhost:1313/2020/08/comando-dd-clonar-copiar-una-iso-a-un-pendrive.html</link>
+      <pubDate>Tue, 18 Aug 2020 18:46:56 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/08/comando-dd-clonar-copiar-una-iso-a-un-pendrive.html</guid>
+      
+      <description>En este post muestro como generar un pendrive booteable para instalar linux ubuntu por ejemplo, con el comando dd (Dataset Definition), pero sirve para cualquier imagen de disco que tenga un sistema operativo o que sea booteable esa imagen luego de ser instalada dentro del pendrive.
+Para esto vamos a usar primero el comando lsblk
+lsblk Este comando nos permite listar todos los dispositivos como por ejemplo discos duros, SSD, memorias flash, CD-ROM; una vez que visualizamos donde se encuentra nuestro pendrive procedemos a desmontarlo con el comando umount</description>
+      
+    </item>
+    
+    <item>
+      <title>Recursos de Python</title>
+      <link>http://localhost:1313/2020/07/python.html</link>
+      <pubDate>Wed, 22 Jul 2020 08:46:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/07/python.html</guid>
+      
+      <description>Dejo anotado acá algunos recursos de Python que fui recompilando
+https://argentinaenpython.com/quiero-aprender-python/
+https://www.learnpython.org/es/.
+https://pywombat.com/&amp;quot;
+https://automatetheboringstuff.com/&amp;quot;
+https://argentinaenpython.com/&amp;quot;</description>
+      
+    </item>
+    
+    <item>
+      <title>Comprimir y descomprimir archivos o directorios con 7zip</title>
+      <link>http://localhost:1313/2020/06/comprimir-y-descomprimir-archivos-o-directorios-con-7zip.html</link>
+      <pubDate>Wed, 24 Jun 2020 07:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/06/comprimir-y-descomprimir-archivos-o-directorios-con-7zip.html</guid>
+      
+      <description>Desde la consola se puede comprimir archivo o directorios con un simple comando
+Comprimir Si se necesita comprimir una carpeta o un archivo lo que se necesita hacer es lo siguiente:
+7z a archivo_comprimido.7z /ruta/a/carpetas/ /ruta/a/archivos A fines prácticos si se necesita realizar una compresión de un directorio o carpeta el comando sería el siguiente:
+7z a directorios_comprimidos.7z /ruta/a/carpetas/ si fuese un archivo solo el comando sería el siguiente
+7z a archivo_comprimido.</description>
+      
+    </item>
+    
+    <item>
+      <title>Realizar backup en mongo con mongodump y mongorestore</title>
+      <link>http://localhost:1313/2020/06/realizar-backup-en-mongo-con-mongodump-y-mongorestore.html</link>
+      <pubDate>Tue, 23 Jun 2020 11:35:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/06/realizar-backup-en-mongo-con-mongodump-y-mongorestore.html</guid>
+      
+      <description>Si necesitas hacer un backup de tu base de datos con mongo este artículo te puede ayudar
+En el próximo comando realizo un backup de la base de datos llamada gastosmensuales y lo llego al directorio /home/fideo/dumps/ claro que esto puede cambiarse por la dirección que ustedes prefieran /home/user/lugarqueprefieran
+Backup mongodump –db gastosmensuales –out /home/fideo/dumps/
+Acá abajo les dejo un script para que puedan ejecutar y les genere el backup; esto lo pueden poner dentro de un cron (en linux claro) y lo ejecutan cada X cantidad de tiempo.</description>
+      
+    </item>
+    
+    <item>
+      <title>Obtener una lista de software instalados en una PC</title>
+      <link>http://localhost:1313/2020/06/obtener-una-lista-de-software-instalados-en-una-pc.html</link>
+      <pubDate>Wed, 17 Jun 2020 12:30:06 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/06/obtener-una-lista-de-software-instalados-en-una-pc.html</guid>
+      
+      <description>Si deseamos obtener una lista de todos los software que tenemos instalados en una pc solo basta con correr este comando a continuación y nos generará un archivo de salida ubicado en nuestra raíz del disco C. Se puede modificar esto para que lo escriba en donde uno lo necesite.
+wmic product get name&amp;#34;,&amp;#34; version| out-File &amp;#34;C:\lista_productos_instalados.txt&amp;#34; Si quisiéramos tener también una lista de todos los servicios que están corriendo en una PC deberíamos utilizar este comando a continuación; el cual nos genera un archivo txt con la lista de todos los servicios encontrados.</description>
+      
+    </item>
+    
+    <item>
+      <title>WordPress “tener un tema por defecto disponible”</title>
+      <link>http://localhost:1313/2020/06/wordpress-tener-un-tema-por-defecto-disponible.html</link>
+      <pubDate>Thu, 11 Jun 2020 10:17:54 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/06/wordpress-tener-un-tema-por-defecto-disponible.html</guid>
+      
+      <description>Me encontré con este error dentro de salud del sitio, Tener un tema predeterminado disponible y no entendía como solucionarlo. Hace ya un tiempo que me aparecía este mensaje de error en uno de los WordPress que mantengo y no entendía como solucionarlo, hasta que viendo otro sitio que mantengo me dí cuenta que ese error no me aparecía dentro de la salud del sitio, lo que me llevó a comparar ambos administradores de WordPress.</description>
+      
+    </item>
+    
+    <item>
+      <title>¿Que debo ejecutar para saber si mi linux es de 32 Bits o de 64 Bits?</title>
+      <link>http://localhost:1313/2020/06/que-debo-ejecutar-para-saber-si-mi-linux-es-de-32-bits-o-de-64-bits.html</link>
+      <pubDate>Tue, 09 Jun 2020 07:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/06/que-debo-ejecutar-para-saber-si-mi-linux-es-de-32-bits-o-de-64-bits.html</guid>
+      
+      <description>Para ver que tipo de arquitectura es nuestro sistema operativo Linux que estoy usando; es decir, si es de 32 Bits o de 64 Bits; para eso se ejecuta en consola el siguiente comando
+#!/bin/bash uname -m Donde muestra i686 para los sistemas operativos de 32 Bits y x86_64 para los que son de 64 Bits.
+El comando uname tiene un montón de información al ejecutarlo de la siguiente manera</description>
+      
+    </item>
+    
+    <item>
+      <title>Sincronización con Google Drive en Linux usando grive</title>
+      <link>http://localhost:1313/2020/06/sincronizacion-con-google-drive-en-linux-usando-grive.html</link>
+      <pubDate>Mon, 08 Jun 2020 13:49:52 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/06/sincronizacion-con-google-drive-en-linux-usando-grive.html</guid>
+      
+      <description>Para poder tener sincronizado los archivos que tienes en tu google drive localmente en tu PC
+Lo saqué del baúl del programador que el autor de esa nota a su vez lo sacó de una página que al momento de escribir esta nota da error 404, es decir no existe.
+Lo primero que necesitamos es instalar grive
+Para esto si estamos con la distribución de Ubuntu
+$ sudo add-apt-repository ppa:nilarimogard/webupd8 $ apt-get update $ apt-get install grive Una vez instalado creamos un directorio donde va a guardar toda la información que tenemos o sincronizaremos con google drive, para esto yo hice</description>
+      
+    </item>
+    
+    <item>
+      <title>Deploy Meteor en tu propio servidor</title>
+      <link>http://localhost:1313/2018/02/deploy-meteor-en-tu-propio-servidor.html</link>
+      <pubDate>Mon, 19 Feb 2018 11:28:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2018/02/deploy-meteor-en-tu-propio-servidor.html</guid>
+      
+      <description>Hoy voy a dejar en mi blog asentado como hice para hacer que una aplicación Meteor esté corriendo en mi servidor / hosting.
+Por el momento yo tengo mis sites alojados en DonWeb con un servicio de Cloud Server.
+Accedo a este servicio a través de una consola y en ese server tengo instalado CentOS al momento de escribir esta nota.
+Si ejecutamos cat /etc/redhat-release devuelve CentOS Linux release 7.3.1611 (Core)</description>
+      
+    </item>
+    
+    <item>
+      <title>Minimizar aplicaciones al hacer click en Ubuntu 17.10 con Gnome</title>
+      <link>http://localhost:1313/2018/02/minimizar-aplicaciones-al-click-ubuntu-17-10-gnome.html</link>
+      <pubDate>Mon, 12 Feb 2018 09:17:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2018/02/minimizar-aplicaciones-al-click-ubuntu-17-10-gnome.html</guid>
+      
+      <description>Si terminaste de instalar Ubuntu 17.10 y te encontrás que al hacer click en los íconos de la barra de tarea no se minimizan debés correr este comando para habilitarlo.
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action &#39;minimize&#39;
+Espero que te ayude a solucionarlo si es esto lo que buscabas y no olvides comentar el post agradeciendo 😉</description>
+      
+    </item>
+    
+    <item>
+      <title>Reaction Commerce usando propio servidor</title>
+      <link>http://localhost:1313/2017/09/reaction-commerce-usando-propio-servidor.html</link>
+      <pubDate>Mon, 25 Sep 2017 19:49:48 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2017/09/reaction-commerce-usando-propio-servidor.html</guid>
+      
+      <description>Les comparto este video que le prometí a Alexander Ditzend, el cual muestra como subo al servidor de hosting (en mi caso por el momento DonWeb) la plataforma de Reaction Commerce.
+Estos son los dos comandos que utilicé en el video. deployreaction.sh #!/bin/sh&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; echo &amp;#34;Generando el deploy de Reaction&amp;#34;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;echo &amp;#34;meteor build --server-only ../new_package/ &amp;amp;&amp;amp; mv ../new_package/*.tar.gz ./reaction.tar.gz&amp;#34;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; fecha=$(date +%d-%m-%Y)&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;fechahora=$(date +%Y%m%d%H%M%S)&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; meteor build --server-only ../new_package/ &amp;amp;&amp;amp; mv ../new_package/*.tar.gz ./reaction_$fechahora.tar.gz&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; Lo que hago es simplemente ejecutar el comando meteor build pero con el agregado de que cuando termine, mueva el .</description>
+      
+    </item>
+    
+    <item>
+      <title>Crear un repositorio git en servidor propio</title>
+      <link>http://localhost:1313/2017/09/crear-un-repositorio-git-en-servidor-propio.html</link>
+      <pubDate>Fri, 15 Sep 2017 12:17:37 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2017/09/crear-un-repositorio-git-en-servidor-propio.html</guid>
+      
+      <description>Para crear un repositorio git en servidor propio hay que seguir algunos pasos muy simples, pero deben hacerse en esta secuencia sin alterar nada.
+Servidor Primero entramos al servidor una vez dentro ejecutamos lo siguiente:
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;cd ~&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;mkdir repositorio.git&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;cd repositorio.git&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;git --bare init&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;git config core.sharedRepository true La primer linea cd ~ nos lleva a la home del usuario, es decir que si el usuario que está logueado es fideo la home sería /home/fideo/ para corroborar esto pueden ejecutar pwd y les mostrará donde están parados luego de ejecutar cd ~</description>
+      
+    </item>
+    
+    <item>
+      <title>Actualizar localmente wordpress da fallida</title>
+      <link>http://localhost:1313/2017/09/actualizar-localmente-wordpress-da-fallida.html</link>
+      <pubDate>Fri, 15 Sep 2017 11:23:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2017/09/actualizar-localmente-wordpress-da-fallida.html</guid>
+      
+      <description>Tengo algunos clientes que usan WordPress como CMS de su sitio y para actualizarles los plugins o a la versión mas reciente de este CMS prefiero hacerlo localmente (es decir en una máquina que no sea producción) para / por si hay errores que no impacten directamente al cliente que estaría visitando la página. También de esta forma logramos que no se pierda acceso al sitio.
+Para esto lo que necesitamos es editar el php.</description>
+      
+    </item>
+    
+    <item>
+      <title>CUPS forbidden user pass unable to upload</title>
+      <link>http://localhost:1313/2016/08/cups-forbidden-user-pass-unable-to-upload.html</link>
+      <pubDate>Sat, 27 Aug 2016 17:29:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2016/08/cups-forbidden-user-pass-unable-to-upload.html</guid>
+      
+      <description>Cuando intentás instalar una impresora en Linux a través de CUPS (que significa Common Unix Printing System) y te encontrás con errores del tipo
+forbidden unable to upload cupsd.conf file –&amp;gt; cuando intentás grabar el archivo cupsd.conf
+Login forbidden –&amp;gt; cuando intentas poner user y pass
+Print Test Page
+u otra acción esto se debe a que el usuario que estas ingresando no tiene permisos o no pertenece al grupo lpadmin, es decir CUPS forbidden.</description>
+      
+    </item>
+    
+    <item>
+      <title>Eliminar la contraseña y protección de archivos Word</title>
+      <link>http://localhost:1313/2015/11/eliminar-la-contrasena-y-proteccion-de-archivos-word.html</link>
+      <pubDate>Wed, 18 Nov 2015 10:39:30 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/11/eliminar-la-contrasena-y-proteccion-de-archivos-word.html</guid>
+      
+      <description>Para esto vamos a guardar el archivo Word en cuestion en formato .HTML luego lo abrimos con un editor de html preferido y buscamos las lineas
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;[w:DocumentProtection]......[/w:DocumentProtection] [w:UnprotectPassword]00000000[/w:UnprotectPassword] Eliminamos esas dos lineas.
+Grabamos y abrimos desde el Word el archivo html que acabamos de editar.
+Volvemos a cambiar la extensión del documento y WUALAAAA!!! listo… desbloqueado el archivo Word.
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Buscar por tamaño y antiguedad en gmail</title>
+      <link>http://localhost:1313/2015/10/buscar-por-tamano-y-antiguedad-en-gmail.html</link>
+      <pubDate>Tue, 20 Oct 2015 08:31:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/10/buscar-por-tamano-y-antiguedad-en-gmail.html</guid>
+      
+      <description>Si alguna vez tuviste la necesidad de buscar por tamaño y antigüedad en gmail acá te dejo un comando muy simple que podes poner en el buscar de gmail y te traerá todos los mails que comprendas esos valores que se configuraron en la búsqueda.
+En este ejemplo que les dejo estamos buscando mails que contengan un tamaño mayor (larger) a 2 Megas (2m) y que tengan una antigüedad (older_than) de 1 año (1y)</description>
+      
+    </item>
+    
+    <item>
+      <title>Actualizar Ubuntu de 12.10 a 14.04</title>
+      <link>http://localhost:1313/2015/09/actualizar-ubuntu-de-12-a-14.html</link>
+      <pubDate>Thu, 03 Sep 2015 08:07:35 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/09/actualizar-ubuntu-de-12-a-14.html</guid>
+      
+      <description>Si tenes una versión vieja de Ubuntu como la 12.10 y estas intentando actualizar Ubuntu a 14.04 hay algunas items a tener en cuenta.
+Si cuando ejecutas
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;sudo aptitude update y
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;sudo aptitude upgrade y por último
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;sudo update-manager -d tu Ubuntu no realiza ninguna acción de actualización es porque tenes que agregar una serie de lineas a tu sources.list
+Para los que no saben donde se encutra el sources.</description>
+      
+    </item>
+    
+    <item>
+      <title>Saber que verisón de UBUNTU tengo instalado</title>
+      <link>http://localhost:1313/2015/06/que-version-ubuntu-instalado.html</link>
+      <pubDate>Tue, 23 Jun 2015 10:57:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/06/que-version-ubuntu-instalado.html</guid>
+      
+      <description>Si alguna vez te preguntaste como averiguar que versión de Ubuntu tenes instalada eso lo podés realizar con este comando por consola
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;lsb_release -a La Salida sería algo similar a esta:
+Distributor ID: Ubuntu
+Description: Ubuntu 14.04.2 LTS
+Release: 14.04
+Codename: trusty
+También podemos usar las opciones de:
+-h, –help show this help message and exit
+-v, –version show LSB modules this system supports
+-i, –id show distributor ID</description>
+      
+    </item>
+    
+    <item>
+      <title>Iconos - Flaticon</title>
+      <link>http://localhost:1313/2015/03/iconos-flaticon.html</link>
+      <pubDate>Fri, 27 Mar 2015 11:34:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/03/iconos-flaticon.html</guid>
+      
+      <description>Iconos – Flaticon Si estas buscando iconos no dejes de visitar flaticon es muy simple de buscar y tiene una cantidad de icono considerables, aproximadamente unos 70000.
+También posee extensiones de adobe como brushes para estas versiones :
+Adobe Photoshop CS5 Adobe Photoshop CS5.1 Adobe Photoshop CS6 Adobe CC Adobe CC 2014 Iconos – Flaticon
+Existen varios buscadores de iconos pero este me pareció el mejor, mas claro y sencillo a la hora de discernir de un icono a otro</description>
+      
+    </item>
+    
+    <item>
+      <title>Cuanto pesa un directorio en linux</title>
+      <link>http://localhost:1313/2015/02/cuanto-pesa-un-directorio-en-linux.html</link>
+      <pubDate>Thu, 19 Feb 2015 08:00:19 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/02/cuanto-pesa-un-directorio-en-linux.html</guid>
+      
+      <description>Cuanto pesa un directorio en linux , si quiero conocer cuanto pesa (que tamaño ocupa) un directorio en linux puedo usar este comando:
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;du -hlsc /diretorio/hasta/donde/este/lo/que/queremos/ y te va a mostar algo así:
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;usuario@servidor:/tmp# du -hlsc /tmp/ 199M /tmp/ 199M total usuario@servidor:/tmp# La opción -h –human-readable (como leen los humanos) imprime el tamaño en un formato legible por humanos por ejemplo 1K (KiloByte) 234M (MegaByte) 2G (GigaByte).
+La opción -l –count-links (cuenta enlaces) esto realiza la sumatoria de lineas en una sola, simplifica la salida por consola.</description>
+      
+    </item>
+    
+    <item>
+      <title>Ventanas emergentes de Chrome pregunta donde descargar</title>
+      <link>http://localhost:1313/2015/02/ventanas-emergentes-de-chrome-pregunta-donde-descargar.html</link>
+      <pubDate>Fri, 13 Feb 2015 09:39:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/02/ventanas-emergentes-de-chrome-pregunta-donde-descargar.html</guid>
+      
+      <description>Si experimentaste alguna vez que chrome al descargar un archivo (por ejemplo un .pdf) te pregunta donde lo queres descargar y queres que deje de hacer esa acción, lo que hice yo pasa solucionarlo es descargar esta aplicación
+https://www.google.com/chrome/srt/
+La ejecuté borré los temporales reinicié el chrome y listo.
+Esta es la solución que encontré para las Ventanas emergentes de Chrome pregunta donde descargar
+No se entiende porqué no es configurable estas opciones como si lo es en Firefox.</description>
+      
+    </item>
+    
+    <item>
+      <title>ll: no se encontró la orden</title>
+      <link>http://localhost:1313/2015/01/ll-no-se-encontro-la-orden.html</link>
+      <pubDate>Tue, 27 Jan 2015 09:34:03 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/01/ll-no-se-encontro-la-orden.html</guid>
+      
+      <description>Cuando uno ejecuta en linea de comnado ll y por consola recibimos un mensaje del tipo ll: no se encontró la orden podemos solucionarlo simplemente realizando lo siguiente
+alias ll=&amp;#39;ls -lah&amp;#39; Si aun esto no resuelve el problema tenemos que realizar esto para reiniciar el .bashrc
+cp /etc/skel/.bashrc ~ ya que el .bashrc se encuentra en el directorio /etc/skel/ ; una vez realizado este paso volvemos a ejecutar el alias ll=’ls -lah’.</description>
+      
+    </item>
+    
+    <item>
+      <title>conq repository access denied. access via a deployment key is read-only</title>
+      <link>http://localhost:1313/2014/11/repository-denied-deployment.html</link>
+      <pubDate>Wed, 19 Nov 2014 12:07:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2014/11/repository-denied-deployment.html</guid>
+      
+      <description>Si alguna vez se toparon con este mensaje “conq repository access denied. access via a deployment key is read-only” dentro de bitbucket lo que les recomiendo es que borren el repositorio y lo vuelvan a crear.
+Se que no es una solución muy ortodoxa pero es la que me solucionó el problema; después buscar y probar varias formas de solucionarlo en google intenté hacer esto y me funcionó.
+Bitbucket Pasos que realicé:</description>
+      
+    </item>
+    
+    <item>
+      <title>Instalar paquetes deb desde consola</title>
+      <link>http://localhost:1313/2014/10/instalar-paquetes-deb-desde-consola.html</link>
+      <pubDate>Wed, 22 Oct 2014 09:38:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2014/10/instalar-paquetes-deb-desde-consola.html</guid>
+      
+      <description>Muchas veces nos vemos obligados a querer instalar paquetes .deb desde consola y para esto solo tenemos que escribir esto en la linea de comando o consola
+dpkg -i paquete.deb Ejemplo En mi caso me sirvió para instalar frostwire una aplicación muy util a la hora de usar torrents; usé esta linea de código para instalarlo.
+dpkg -i frostwire-5.7.7.all.deb Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Problemas al actualizar apache 2.4.7 en Ubuntu</title>
+      <link>http://localhost:1313/2014/06/problemas-actualizar-apache-247-ubuntu.html</link>
+      <pubDate>Sat, 14 Jun 2014 12:45:18 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2014/06/problemas-actualizar-apache-247-ubuntu.html</guid>
+      
+      <description>Hice un upgrade a Ubuntu 14.04 LTS y el apache se actualizó a 2.4.7 para mi sorpresa dejó de funcionar.
+Entonces encontré que se han realizado algunos cambios en la configuración. Para empezar si reiniciamos el apache
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;sudo /etc/init.d/apache2 restart es probable que nos muestre un mensaje del tipo:
+apache2: Could not reliably determine the server’s fully qualified domain name, using 127.0.1.1 for ServerName.
+para solucionar esto tenes que abrir una consola / terminal y ejecutar la siguiente linea</description>
+      
+    </item>
+    
+    <item>
+      <title>Problema con la Webcam Pixart Imaging Inc y Skype en Linux</title>
+      <link>http://localhost:1313/2014/03/problema_webcam_pixart_imaging_inc_skype_linux.html</link>
+      <pubDate>Tue, 11 Mar 2014 21:10:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2014/03/problema_webcam_pixart_imaging_inc_skype_linux.html</guid>
+      
+      <description>Para los que usan la Webcam Pixart Imaging en linux y están hinchados las bolas de googlear y googlear para hacer funcionar la webcam Pixart Imaging Inc acá les dejo una linea para que la ejecuten en su consola; acto seguido se les va abrir directamente Skype.
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;LD_PRELOAD=/usr/lib/i386-linux-gnu/libv4l/v4l1compat.so skype Luego vayan a opciones –&amp;gt; Dispositivos de Video y chequeen si les anda la cam.
+A mi me funcionó, si no les funciona me comentan.</description>
+      
+    </item>
+    
+    <item>
+      <title>Jugando a ser DJ On Line - You Dj</title>
+      <link>http://localhost:1313/2013/09/you-dj-jugando-a-ser-dj-on-line.html</link>
+      <pubDate>Sun, 15 Sep 2013 16:41:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/09/you-dj-jugando-a-ser-dj-on-line.html</guid>
+      
+      <description>Mi cuñado me pasó este link (PartyCloud); al que hoy en día le pusieron un nombre mas comercial y mas recordable hoy se llama you.dj.
+Lo usó en su cumpleaños para pasar música.
+http://you.dj/
+Realmente está muy bueno y es muy fácil de usar, uno puede sentirse un verdadero DJ con solo hacer un par de clicks.
+La música está guardada en la nube de ellos, no hace falta registrarse y si quieren ver como hacen mezcla otros DJ’s por el mundo puede ver la opción Live.</description>
+      
+    </item>
+    
+    <item>
+      <title>Menú realizado con puros CSS</title>
+      <link>http://localhost:1313/2013/09/menu-realizado-con-puros-css.html</link>
+      <pubDate>Mon, 09 Sep 2013 13:20:25 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/09/menu-realizado-con-puros-css.html</guid>
+      
+      <description>CSS Acá podes encontrar menues realizados integramente con CSS.
+http://tympanus.net/Tutorials/CreativeCSS3AnimationMenus/index10.html
+http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/
+Otro para visitar cada tanto para ver muy buenos ejemplos es http://css-tricks.com/
+Espero que les allá servido, al menos a mi me sirve como base para elegir los distintos tipos de menúes a la hora de armar un sitio web.
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Es solo para geeks</title>
+      <link>http://localhost:1313/2013/06/es-solo-para-geeks.html</link>
+      <pubDate>Wed, 19 Jun 2013 10:11:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/06/es-solo-para-geeks.html</guid>
+      
+      <description>Este gif animado es solo para entendidos. </description>
+      
+    </item>
+    
+    <item>
+      <title>El Gatito se quiere dormir</title>
+      <link>http://localhost:1313/2013/06/el-gatito-se-quiere-dormir.html</link>
+      <pubDate>Wed, 19 Jun 2013 09:57:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/06/el-gatito-se-quiere-dormir.html</guid>
+      
+      <description>Jaja, está muy bueno este gif animado.</description>
+      
+    </item>
+    
+    <item>
+      <title>Necesitas un icono encontralo en Icon Finder</title>
+      <link>http://localhost:1313/2013/04/necesitas-un-icono-encontralo-en-icon-finder.html</link>
+      <pubDate>Sun, 21 Apr 2013 12:26:45 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/04/necesitas-un-icono-encontralo-en-icon-finder.html</guid>
+      
+      <description>Iconfinder Si necesitas iconos podes buscarlos dentro de Icon Finder.
+Es un buscador de iconos solo tenes que poner las palabras de lo que estas buscando; y realiza una búsqueda entre los 231,590 iconos; que poseen guardados en su base de datos de las palabras ingresadas.</description>
+      
+    </item>
+    
+    <item>
+      <title>Corre Linux Corre 1 y 2</title>
+      <link>http://localhost:1313/2013/04/corre-linux-corre-1-y-2.html</link>
+      <pubDate>Wed, 17 Apr 2013 19:37:01 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/04/corre-linux-corre-1-y-2.html</guid>
+      
+      <description>Hace un tiempo algunas personas me preguntan sobre linux… si es fácil de usar si te reconoce los periféricos, si es compatible con FAT32 o NTFS de windows, etc etc ec.
+Corre Linux corre 1
+Espero que les guste y que les sea de utilidad.
+A mi de chicos me decían que “los libros no muerden”; a tiempos de hoy sería algo así como “los pdf no son virus”.
+Saludos.</description>
+      
+    </item>
+    
+    <item>
+      <title>Enlaces permanentes de wordpress error 404</title>
+      <link>http://localhost:1313/2013/04/enlaces-permanentes-de-wordpress-error-404.html</link>
+      <pubDate>Sat, 06 Apr 2013 20:35:20 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/04/enlaces-permanentes-de-wordpress-error-404.html</guid>
+      
+      <description>Luego de googlear un poco encontré una solución muy simple a este problema para los que usamos linux y es hacer lo siguiente.
+Iniciar una consola y escribimos
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;sudo a2enmod rewrite Les tiene que dar un mensaje similar al siguiente
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;Enabling module rewrite. To activate the new configuration, you need to run: service apache2 restart Luego de esto lo que tienen que hacer es reiniciar el servidor web apache, para eso hacen lo siguiente</description>
+      
+    </item>
+    
+    <item>
+      <title>Repositorio de Ubuntu Argentina no funciona</title>
+      <link>http://localhost:1313/2013/02/repositorio-de-ubuntu-argentina-no-funciona.html</link>
+      <pubDate>Sun, 17 Feb 2013 11:14:24 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/02/repositorio-de-ubuntu-argentina-no-funciona.html</guid>
+      
+      <description>Tal vez experimentaste alguna vez que al queres actualizar algo de tu ubuntu no te funciona. Eso puede deberse por varios motivos y puede pasar muy rara vez, pero puede pasar.
+Si esto ocurre lo que te recomiendo que hagas en los siguiente, que vayas a tu centro de software ubuntu una vez dentro presionar sobre editar y elegir la opción Origenes de Software.
+Se abrirá una nueva ventana similar a la de aquí abajo y debemos seleccionar donde dice Descargar desde, seleccionar Servidor principal.</description>
+      
+    </item>
+    
+    <item>
+      <title>No se ve el menú en Eclipse</title>
+      <link>http://localhost:1313/2013/02/no-se-ve-el-menu-en-eclipse.html</link>
+      <pubDate>Mon, 04 Feb 2013 11:06:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/02/no-se-ve-el-menu-en-eclipse.html</guid>
+      
+      <description>Unos de los problemas que nos encontramos varios al instalarnos el IDE Eclipse en Ubuntu es que al querer ir al menú no lo encontramos. Para esto hay una solución muy buena y facil de realizar.
+Editamos libappmenu.so con el editor que mas les guste, puede ser que no lo encuentren en ese directorio, si es así ejecuten este comando y les mostrará en todos los lugares que se encuentra .</description>
+      
+    </item>
+    
+    <item>
+      <title>Transferir archivos de gran tamaño</title>
+      <link>http://localhost:1313/2012/12/transferir-archivos-de-gran-tamano.html</link>
+      <pubDate>Mon, 03 Dec 2012 21:53:29 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/12/transferir-archivos-de-gran-tamano.html</guid>
+      
+      <description>Hace un tiempo necesitaba pasar un archivo de gran tamaño a otra persona y no sabía como. Para aquellos que están en la misma situación que yo acá les dejo el link de un sitio muy bueno https://www.wetransfer.com/ .
+Podes mandar archivos de hasta 2GB, sin necesidad de registrarse, y este documento está disponible por dos semanas.
+Añadís el archivo a transferir. Introducís el destinatario. Colocas tu dirección de mail (acá quedas prendido 😛 ) Escribís una breve descripción (si queres) Listo archivo enviado… Enjoy!</description>
+      
+    </item>
+    
+    <item>
+      <title>Instalando Windows 7 no me aparece el disco rígido</title>
+      <link>http://localhost:1313/2012/11/instalando-windows-7-no-me-aparece-el-disco-rigido.html</link>
+      <pubDate>Mon, 26 Nov 2012 15:47:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/11/instalando-windows-7-no-me-aparece-el-disco-rigido.html</guid>
+      
+      <description>Hace poco mi hermana me trajo la notebook para que se la arreglara (usa windows 7), después de luchar para recuperar los datos se decidió formatear la notebook.
+El intentar instalar Windows 7 otra vez me encontré con la sorpresa de que no me detectaba el disco duro de la notebook (sony vaio vgn-nm240f). Googlé varios días hasta que encontré la solución, y es la siguiente:
+Ponemos el cd de instalación de Windows 7 Cuando llega a la opción de seleccionar idioma presionamos las teclas “Shift+F10” Se abre una consola (prompt) donde ahí colocamos los siguientes valores: diskpart list disk (para mostrar el número de identificación de cada partición del disco duro, generalmente Disk 0) select disk 0 (cambiar 0 por otro número si es necesario) clean (esto elimina todas las particiones) create partition primary size=200000 (crea una partición con 200GB; para usar el disco entero como una partición se debe omitir el parámetro “size=value”) select partition 1 active format fs=ntfs quick (este proceso puede demorar varios minutos) exit exit Una vez terminado este proceso siguen con la instalación de Windows como siempre…</description>
+      
+    </item>
+    
+    <item>
+      <title>Conocer información sobre nuestro servidor en linux</title>
+      <link>http://localhost:1313/2012/11/conocer_informacion_sobre_nuestro_servidor_en_linux.html</link>
+      <pubDate>Tue, 13 Nov 2012 16:30:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/11/conocer_informacion_sobre_nuestro_servidor_en_linux.html</guid>
+      
+      <description>Para conocer detalle de nuestra pc desde la consola podemos utilizar algunos comandos.
+Para saber la cantidad de procesadores ejecutar este comando en Linux
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;grep processor /proc/cpuinfo | wc –l Para saber el modelo de procesador ejecutar este comando en Linux
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;cat /proc/cpuinfo | grep &amp;#34;model name&amp;#34; Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>gnome-settings usa mucho cpu</title>
+      <link>http://localhost:1313/2012/09/gnome-settings-usa-mucho-cpu.html</link>
+      <pubDate>Sun, 09 Sep 2012 11:16:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/09/gnome-settings-usa-mucho-cpu.html</guid>
+      
+      <description>Por lo general no tengo problemas con mi Linux que uso de servidor hogareño (ubuntu 12.04 en este momento), pero un día me siento delante de la pc que muy de vez en cuando utilizo, y me encuentro con que el cpu estaba siendo utilizado en gran parte por gnome-settings; me pongo a investigar que es lo que estaba sucediendo y googleando encontré que es un bug y que la solución para esto es borrar todos los archivos y directorios ocultos en el directorio home del usuario que está logueado.</description>
+      
+    </item>
+    
+    <item>
+      <title>Handbreak para convertir videos a dispositivos móviles</title>
+      <link>http://localhost:1313/2012/04/handbreak-para-convertir-videos-a-dispositivos-moviles.html</link>
+      <pubDate>Mon, 02 Apr 2012 18:44:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/04/handbreak-para-convertir-videos-a-dispositivos-moviles.html</guid>
+      
+      <description>Esta aplicación nos permite convertir videos para poder verlos en los dispositivos móviles tal como smarthphone, ipad, ipod, Apple TV, Android Mid, etc.
+Les dejo un pequeño video donde inserto una película y la convierto a el formato por defecto, dejándoles a ustedes que selecciones el formato que mas se adapte a sus necesidades.
+Es muy fácil de usar…</description>
+      
+    </item>
+    
+    <item>
+      <title>Realizar preguntas en consola bash linux</title>
+      <link>http://localhost:1313/2012/01/realizar-preguntas-en-consola-bash-linux.html</link>
+      <pubDate>Fri, 13 Jan 2012 14:23:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/01/realizar-preguntas-en-consola-bash-linux.html</guid>
+      
+      <description>Dentro de este zip ( ejemplo de confirmar en bash ) pueden encontrar un ejemplo completo de como realizar las preguntas que aparecen por la consula linux.
+Es decir, que si nosotros queremos hacer un bash donde antes de borrar un archivo nos pregunte si realmente queremos borrar ese archivo. Para esto hay una función dentro del confirmar.sh que es llamada / incluida dentro de test.sh.
+La salida sería algo así:</description>
+      
+    </item>
+    
+    <item>
+      <title>Adele - Someone like you</title>
+      <link>http://localhost:1313/2012/01/adele-someone-like-you.html</link>
+      <pubDate>Fri, 13 Jan 2012 11:02:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/01/adele-someone-like-you.html</guid>
+      
+      <description>Adele – Someone like you
+I heard that you’re settled down,
+That you found a girl and you’re married now,
+I heard that your dreams came true,
+Guess she gave you things I didn’t give to you,
+Old friend, why are you so shy?
+Ain’t like you to hold back or hide from the light,
+I hate to turn up out of the blue uninvited,
+But I couldn’t stay away, I couldn’t fight it,</description>
+      
+    </item>
+    
+    <item>
+      <title>Clase PHP para conectar con MySQL</title>
+      <link>http://localhost:1313/2011/10/clase-php-para-conectar-con-mysql.html</link>
+      <pubDate>Sat, 08 Oct 2011 10:08:40 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/10/clase-php-para-conectar-con-mysql.html</guid>
+      
+      <description>Crear un archivo que se llame mysql.php &amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;&amp;lt; ?php class MySQL{ private $conexion; private $total_consultas; public function MySQL(){ if(!isset($this-&amp;gt;conexion)){ $this-&amp;gt;conexion = (mysql_connect(&amp;#34;Servidor&amp;#34;,&amp;#34;usuario&amp;#34;,&amp;#34;password&amp;#34;)) or die(mysql_error()); mysql_select_db(&amp;#34;nombreBD&amp;#34;,$this-&amp;gt;conexion) or die(mysql_error()); } } public function consulta($consulta){ $this-&amp;gt;total_consultas++; $resultado = mysql_query($consulta,$this-&amp;gt;conexion); if(!$resultado){ echo &amp;#39;MySQL Error: &amp;#39; . mysql_error(); exit; } return $resultado; } public function fetch_array($consulta){ return mysql_fetch_array($consulta); } public function num_rows($consulta){ return mysql_num_rows($consulta); } public function getTotalConsultas(){ return $this-&amp;gt;total_consultas; } } ?&amp;gt; Acá tenemos un ejemplo de uso &amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt; &amp;lt; ?</description>
+      
+    </item>
+    
+    <item>
+      <title>Otros Comandos Linux</title>
+      <link>http://localhost:1313/2011/09/comandos-linux.html</link>
+      <pubDate>Thu, 29 Sep 2011 11:57:54 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/09/comandos-linux.html</guid>
+      
+      <description>Para mostrar la arquitectura de nuestra máquina podemos usar el comando arch el cual nos devolverá x86_64 si corresponde a una arquitectura de 64 bits o nos devolverá i386, i486, i586 o i686 si pertenece a una arquitectura de 32 bits
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;arch Si necesitamos obtener una lista de directorios (o carpetas) de una ruta específica podemos usar el siguiente comando.
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;ls -l /directorio/ | grep ^d Para pasar todas las letras Mayúsculas a Minúscula del contenido de un archivo podemos usar el comando sed tal como se muestra a continuación.</description>
+      
+    </item>
+    
+    <item>
+      <title>Comandos de Linux con ejemplos</title>
+      <link>http://localhost:1313/2011/09/comandos-de-linux-con-ejemplos.html</link>
+      <pubDate>Wed, 21 Sep 2011 12:31:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/09/comandos-de-linux-con-ejemplos.html</guid>
+      
+      <description>Comandos no tan usados pero muy útiles Algunos comandos más</description>
+      
+    </item>
+    
+    <item>
+      <title>Chau - No Te Va Gustar</title>
+      <link>http://localhost:1313/2011/09/chau-no-te-va-gustar.html</link>
+      <pubDate>Sun, 04 Sep 2011 13:55:30 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/09/chau-no-te-va-gustar.html</guid>
+      
+      <description>свети минаEstábamos los dos mirando el mar cuando la tarde moría
+Como moría lo nuestro, juro que no lo sabía
+Mire para mi derecha, vi que desaparecías
+Grité con todas mis fuerzas y note que no me oías
+Me quedé toda la noche en la arena
+Intenté que algo valiera la pena
+No puedo conseguir, cambiar ni corregir
+Lo que me corre en las venas.
+Corazón hoy no dejes de latir</description>
+      
+    </item>
+    
+    <item>
+      <title>Contar cantidad de archivos modificados</title>
+      <link>http://localhost:1313/2011/09/contar-cantidad-de-archivos-modificados.html</link>
+      <pubDate>Thu, 01 Sep 2011 21:00:35 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/09/contar-cantidad-de-archivos-modificados.html</guid>
+      
+      <description>La con consola de Linux ofrece una cantidad interesante de comandos, hoy publico esto para no olvidarme de como se arma y seguramente a alguien le puede servir.
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;find /home/fideo/ -type f -mtime 1 -ls | wc -l Esto sería algo así, el comando “find” con la opción “-type f” buscará todos los archivos y no directorios que se encuentra en el path que hayamos ingresado en mi caso “/home/fideo/”.</description>
+      
+    </item>
+    
+    <item>
+      <title>Montar automáticamente discos rígidos extras en ubuntu</title>
+      <link>http://localhost:1313/2011/08/montar-automaticamente-discos-rigidos-extras-en-ubuntu.html</link>
+      <pubDate>Sun, 07 Aug 2011 14:46:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/08/montar-automaticamente-discos-rigidos-extras-en-ubuntu.html</guid>
+      
+      <description>Православни икониCuando tenemos mas de un disco rígido en nuestro pc y tenemos instalado ubuntu en mi caso en este momento Ubuntu 11,04 podemos hacer los siguiente para poder montar los disco automáticamente.
+Primero abrimos gparted y elegimos el disco a montar, sobre ese disco hacemos botón derecho y elegimos la opción “información” y nos mostrará una ventana similar a esta.
+luego edito el archivo fstab de la siguiente manera</description>
+      
+    </item>
+    
+    <item>
+      <title>Montar un disco rígido más a nuestro ubuntu</title>
+      <link>http://localhost:1313/2011/07/montar-un-disco-rigido-mas-a-nuestro-ubuntu.html</link>
+      <pubDate>Fri, 29 Jul 2011 00:26:46 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/07/montar-un-disco-rigido-mas-a-nuestro-ubuntu.html</guid>
+      
+      <description>Para montar otro disco rígido en Ubuntu por consola se puede utilizar este comando.
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;``` sudo mount -t auto /dev/sda1 /mnt Para averiguar que tipo disco es el que queremos montar usamos </description>
+      
+    </item>
+    
+    <item>
+      <title>Instalar libreria gd para prestashop en linux ubuntu</title>
+      <link>http://localhost:1313/2011/05/instalar-libreria-gd-para-prestashop-en-linux-ubuntu.html</link>
+      <pubDate>Sun, 22 May 2011 19:50:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/05/instalar-libreria-gd-para-prestashop-en-linux-ubuntu.html</guid>
+      
+      <description>икониHace unos días estaba retomando un projecto que tenía por ahí colgado el cual usa Prestashop, para quienes no conocenen esto le recomiendo que se peguen una vueltita por el site “http://www.prestashop.com“.
+Dentro de los requerimientos que solicita para su instalación hay un punto que me costó resolver; y es el de activar en el server la librería gd.
+Yo tengo como server Linux (Ubuntu) y para solucionar el problema de que no te deje seguir con la instalación por no tener habilitada la librería gd lo que hice fue lo siguiente:</description>
+      
+    </item>
+    
+    <item>
+      <title>convertir videos por linea de comando con ffmpeg</title>
+      <link>http://localhost:1313/2011/02/convertir-videos-por-linea-de-comando-con-ffmpeg.html</link>
+      <pubDate>Wed, 23 Feb 2011 21:44:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/02/convertir-videos-por-linea-de-comando-con-ffmpeg.html</guid>
+      
+      <description>Para ver la resolución de un video ejecutamos esto en una consola
+ffmpeg -i mi-video.extension
+Luego para convertirlo lo que tenemos que hacer es lo siguiente:
+ffmpeg -i mi-video.avi (que estaba en 640×480) -s 320×240 (el tamaño al cual lo quiero pasar) mi-video-convertido.mpg
+ffmpeg -i mi-video.extension -s 320×240 mi-video-convertido.extension</description>
+      
+    </item>
+    
+    <item>
+      <title>Donde guarda las conversaciones PidGin</title>
+      <link>http://localhost:1313/2011/01/donde-guarda-las-conversaciones-pid-gin.html</link>
+      <pubDate>Wed, 05 Jan 2011 18:00:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/01/donde-guarda-las-conversaciones-pid-gin.html</guid>
+      
+      <description>Buscando en internet no encontré donde físicamente los logs de conversaciones de Pidgin; seguramente aquellos que se van de un trabajo a otro como en mi caso necesitan ir limpiando con tiempo las conversaciones que han mantenido con sus colegas de trabajo. Para eso necesitas borrar unos archivos que son muy útiles mientras estás en la empresa pero dejan de serlo cuando ya no perteneces mas a esta.
+Para eso lo que tenes que hacer en lo siguiente ir a C:\Users\(nombre de usuario que uses en Windoes)\AppData\Roaming\.</description>
+      
+    </item>
+    
+    <item>
+      <title>Para que “tomemos” conciencia - Si tomas no menejes</title>
+      <link>http://localhost:1313/2010/12/para-que-tomemos-conciencia-si-tomas-no-menejes.html</link>
+      <pubDate>Tue, 28 Dec 2010 09:11:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/12/para-que-tomemos-conciencia-si-tomas-no-menejes.html</guid>
+      
+      <description>Tomar conciencia.
+En estas fiestas es común que brindemos con amigos, luego con familiares, seguramente con compañeros de trabajo y así por dos semanas. Creo que ver este video les hará tomar conciencia de lo que puede suceder si tomamos alcohol y luego manejamos.
+LAS IMAGENES QUE SE VEN EN ESTE VIDEO SON REALMENTE FUERTES.
+Que pasen unas muy lindas fiestas en familia y con amigos.</description>
+      
+    </item>
+    
+    <item>
+      <title>Vendo Bolso Raquetero Marca Wilson para 12 raquetas</title>
+      <link>http://localhost:1313/2010/12/vendo-bolso-wilson-raquetero-para-12-raquetas.html</link>
+      <pubDate>Fri, 24 Dec 2010 15:26:44 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/12/vendo-bolso-wilson-raquetero-para-12-raquetas.html</guid>
+      
+      <description>A quien le interese este bolso no teiene mas que comentar. El bolso está nuevo, es usado, pero casi no tiene uso.
+Precio: 340 pesos</description>
+      
+    </item>
+    
+    <item>
+      <title>efecto jQuery emular revista</title>
+      <link>http://localhost:1313/2010/11/efecto-jquery-emular-revista.html</link>
+      <pubDate>Mon, 29 Nov 2010 20:13:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/11/efecto-jquery-emular-revista.html</guid>
+      
+      <description>Por un post de twitter llegué a este link que me parece excelente para aquellos que quieran mostrar un parte de una revista. Hasta ese momento no conocía otra forma de hacerlo que con Flash.
+http://builtbywill.com/code/viewbook/examples/</description>
+      
+    </item>
+    
+    <item>
+      <title>Convertir Docs a Pdf</title>
+      <link>http://localhost:1313/2010/11/convertir-docs-a-pdf.html</link>
+      <pubDate>Wed, 17 Nov 2010 12:23:05 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/11/convertir-docs-a-pdf.html</guid>
+      
+      <description>Si alguna vez necesitan pasar un documento doc a pdf y no tienen ganas de instalar pdf rewriter o el tiempo apremia. Con solo entrar a esta página pueden convertir un doc a pdf en segundos.
+Link http://www.doc2pdf.net/es/</description>
+      
+    </item>
+    
+    <item>
+      <title>Truco de CSS para mostrar texto en forma vertical</title>
+      <link>http://localhost:1313/2010/11/truco-de-css-para-mostrar-texto-en-forma-vertical.html</link>
+      <pubDate>Fri, 12 Nov 2010 21:30:19 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/11/truco-de-css-para-mostrar-texto-en-forma-vertical.html</guid>
+      
+      <description>Puede llegar a ser muy útil pero lamentablemente no funciona en todos los navegadores; por eso hay que tener muy en cuenta cuando se va a utilizar esta opción.
+Para poder visualizar el texto en forma vertical simplemente tenes que aplicar esta class al objeto deseado.
+&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;.rotate {&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;-webkit-transform: rotate(-90deg);&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;-moz-transform: rotate(-90deg);&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;}&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;
+Para ver el ejemplo solo presioná acá</description>
+      
+    </item>
+    
+    <item>
+      <title>Truco de CSS para colocar sombra interna</title>
+      <link>http://localhost:1313/2010/11/truco-de-css-para-colocar-sombra-interna.html</link>
+      <pubDate>Thu, 11 Nov 2010 21:55:55 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/11/truco-de-css-para-colocar-sombra-interna.html</guid>
+      
+      <description>Si bien esto no funciona en todos los navegadores a alguien le puede interesar colocar dentro de un div una sombra interna, ya sea por diseño u otra indole.
+Imaginemos que tenemos un contenedor de 800px de ancho por 600px de alto (px = pixel) y a ese contenedor le aplicamos la sombra interna en cuestión, bueno lo único que tienen que hacer es colocar las lineas de código que marco con comentarios.</description>
+      
+    </item>
+    
+    <item>
+      <title>Truco de CSS para centrar el contenido</title>
+      <link>http://localhost:1313/2010/11/truco-de-css-para-centrar-el-contenido.html</link>
+      <pubDate>Wed, 10 Nov 2010 21:36:07 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/11/truco-de-css-para-centrar-el-contenido.html</guid>
+      
+      <description>Si alguna vez te preguntas como centrar el contenido de una página maquetandolo en css bueno acá está la solución es simple solo tenes que copiar este código de acá abajo y listo.
+&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;.contenedor {&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;position: absolute;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;top: 50%;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;left: 50%;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;width: 800px;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;height: 600px;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;margin-left: -400px; /* 1/2 del elemento width */&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;margin-top: -300px; /* 1/2 del elemento height*/&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;background-color:#CCC;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;}
+para ver el ejemplo presioná acá.</description>
+      
+    </item>
+    
+    <item>
+      <title>Gimp con ShortCut de Photoshop</title>
+      <link>http://localhost:1313/2010/10/gimp-con-shortcut-de-photoshop.html</link>
+      <pubDate>Thu, 14 Oct 2010 22:59:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/10/gimp-con-shortcut-de-photoshop.html</guid>
+      
+      <description>холни масиGimp pasar shortcut a photoshop
+Podemos usar Gimp con los accesos directos / atajos o shortcuts (como quieran llamarlos) de Photoshop o simplemente modificarlos a su gusto.
+Les dejo como hacerlo:
+Se bajan este archivo ps-menurc lo renombran a menurc (esto lo hacen por ejemplo en el Escritorio o donde hayan bajado el archivo)
+Luego lo copian, y lo llevan a:
+Linux/Mac: ~/.gimp-2.2&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;Windows: C:\Documents and Settings\&amp;lt;em&amp;gt;&amp;lt;user name&amp;gt;&amp;lt;/em&amp;gt;\.gimp-2.2
+Bueno espero que les sirva y les funcione a mi me anda de maravillas, enjoy!</description>
+      
+    </item>
+    
+    <item>
+      <title>Gwibber no actualiza mis Twitter</title>
+      <link>http://localhost:1313/2010/09/gwibber-no-actualiza-mis-twitter.html</link>
+      <pubDate>Wed, 08 Sep 2010 00:17:24 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/09/gwibber-no-actualiza-mis-twitter.html</guid>
+      
+      <description>Es muy simple de solucionar seguí los siguientes pasos, cuando terminas abrí la aplicación y listo.
+Desde la Terminal
+sudo add-apt-repository ppa:ubuntu-desktop/ppa
+Cuando termina colocamo esto
+sudo apt-get update
+y esto:
+sudo apt-get upgrade</description>
+      
+    </item>
+    
+    <item>
+      <title>rtorrent - descargar torrents desde la consola</title>
+      <link>http://localhost:1313/2010/09/rtorrent-descargar-torrents-desde-la-consola.html</link>
+      <pubDate>Tue, 07 Sep 2010 00:33:24 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/09/rtorrent-descargar-torrents-desde-la-consola.html</guid>
+      
+      <description>Encontré otro cliente torrent para linux y que se puede usar por consola.
+Lo encontré en esta página http://www.techtear.com/2007/07/24/rtorrent-descarga-torrents-desde-la-consola/
+El resumen de ese post es este:
+Instalar: $ sudo aptitude install rtorrent
+Configurar: $ cp /usr/share/doc/rtorrent/examples/rctorrent ~/.rtorrent.rc
+Ejecución: $ rtorrent
+cargar:
+Apretamos Enter Abajo del rTorrent, va a aparecer algo que dice load&amp;gt;, para lo cual vamos a tipear la carpeta en donde se encuentran nuestros documentos… supongamos, ~/torrents (que sería, /home/tu_usuario/torrents).</description>
+      
+    </item>
+    
+    <item>
+      <title>Un editor WYSIWYG bien completo</title>
+      <link>http://localhost:1313/2010/09/un-editor-wysiwyg-bien-completo.html</link>
+      <pubDate>Mon, 06 Sep 2010 11:43:53 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/09/un-editor-wysiwyg-bien-completo.html</guid>
+      
+      <description>Un buen CMS (Content Manager System) debe contener un buen editor de contenido si este no es fácil de implementar y usar el cms no será realmente óptimo. Para los que está desarrollando CMS les recomiendo que invenstige un poco sobre este edito el cual tiene una demo en su sitio con el que pueden hacer algunas pruebas y ver como queda con solo presionar el botón de grabar.
+http://elrte.org/es/</description>
+      
+    </item>
+    
+    <item>
+      <title>Como recuperar el Grub después de haberse roto</title>
+      <link>http://localhost:1313/2010/08/como-recuperar-el-grub-despues-de-haberse-roto.html</link>
+      <pubDate>Wed, 11 Aug 2010 02:31:05 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/08/como-recuperar-el-grub-despues-de-haberse-roto.html</guid>
+      
+      <description>Comunmente el grub se rompe cuando en un mismo disco conviven Windows y Linux para recuperar el grub existen varias formas.
+Encontré este video que está muy bueno, espero que les sirva.
+Y les dejo la yapa para cuando hayan arreglado el grub pueden instalarle burg para hacer mas lindo el arranque del grub.
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Mejor no hablar (de ciertas cosas) (Autor: Indio Solari) - 5:30</title>
+      <link>http://localhost:1313/2010/08/mejor-no-hablar-de-ciertas-cosas-autor-indio-solari-530.html</link>
+      <pubDate>Tue, 10 Aug 2010 01:13:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/08/mejor-no-hablar-de-ciertas-cosas-autor-indio-solari-530.html</guid>
+      
+      <description>Leyendo algo de historia de Sumo en la Wikipedia me enteré de que una de mis canciones preferidas de Sumo no la escribió Luca George Prodan sino Carlos Alberto Solari o mas conocido como el Indio Solari.
+Ambos grupos acompañaron mi adolescencia y la de muchos Argentinos, dejándonos joyas del rock como esta canción, les y me dejo la letra para tenerla siempre presente y a mano.
+Una mujer, una mujer atrás,</description>
+      
+    </item>
+    
+    <item>
+      <title>¿Qué es #lta en twitter?</title>
+      <link>http://localhost:1313/2010/06/que-es-lta-en-twitter.html</link>
+      <pubDate>Tue, 22 Jun 2010 18:04:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/06/que-es-lta-en-twitter.html</guid>
+      
+      <description>Para todos los que preguntan ¿qué es #lta? cuando lo ven escrito en twitter, les aclaro que esto significa “La Tenes Adentro” una frase que se hizo muy popular en estos días.
+Entonces #lta = la tenes adentro
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>desactivar la hibernación en Vista y Win7</title>
+      <link>http://localhost:1313/2010/05/desactivar-la-hibernacion-en-vista-win-7.html</link>
+      <pubDate>Tue, 18 May 2010 10:59:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/05/desactivar-la-hibernacion-en-vista-win-7.html</guid>
+      
+      <description>Este tip me lo pasó un compañero de trabajo @praised1500 a quien le agredezco mucho este consejo ya que de una manera muy simple podemos hacer que windows deje de consumir varios Giga reservados para guardar todo lo necesario para la hibernación.
+Para hacerlo solo necesitamos abrir una consola con permisos de administrador y ejecutar lo siguiente:
+powercfg /hibernate off
+y listo se liberó un buen número de GigaBytes reservados para la hibernación.</description>
+      
+    </item>
+    
+    <item>
+      <title>Versiones livianas de linux</title>
+      <link>http://localhost:1313/2010/05/versiones-livianas-de-linux.html</link>
+      <pubDate>Sun, 16 May 2010 16:03:43 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/05/versiones-livianas-de-linux.html</guid>
+      
+      <description>Estuve buscando en internet distribuciones de linux que ocuparan poco lugar en nuestra pc pero también que use todo el potencial que linux trae. Encontré dos distros una es muy publicitada por la gente de Canonical, es la versión light de ubuntu y se llama lubuntu (light ubuntu 🙂 ) y la otra distribución se llama Puppy. Esta última me sorprendió mucho ya que con solo 64 MB cargados en la memoria RAM podes utilizar todo el sistema operativo completo.</description>
+      
+    </item>
+    
+    <item>
+      <title>Descargar o usar torrent desde consola</title>
+      <link>http://localhost:1313/2010/05/descargar-o-usar-torrent-desde-consola.html</link>
+      <pubDate>Mon, 10 May 2010 10:16:01 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/05/descargar-o-usar-torrent-desde-consola.html</guid>
+      
+      <description>btlaunchmanycurses
+Este es el comando que necesitas para ejecutar un cliente torrent desde consola. La operatoria es muy simple en algun lugar de tu linux creas una carpeta por ejemplo /home/usuario/Escritorio/torrent ó /home/usuario/Desktop/torrent ( según el idioma que se tenga instalado español o inglés respectivamente) una vez creada la carpeta colocamos dentro todos los torrents que queremos empezar a bajar.
+Escribimos btlaunchmanycurses /home/usuario/Escritorio/torrent (nuestra ruta hasta donde se encuentran el o los torrents para descargar) y le damos enter.</description>
+      
+    </item>
+    
+    <item>
+      <title>Armar un avi con subtitulos y pasarlo a mp4</title>
+      <link>http://localhost:1313/2010/04/armar-un-avi-con-subtitulos-y-pasarlo-a-mp4.html</link>
+      <pubDate>Wed, 28 Apr 2010 15:07:10 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/04/armar-un-avi-con-subtitulos-y-pasarlo-a-mp4.html</guid>
+      
+      <description>Ando corto de tiempo y necesitaba llevar conmigo las series que quiero ver, para eso estuve investigando (googleando) como podía hacer para obtener un mp4 con los subtitulos incluidos.
+Para eso en linux podemos usar mencoder es una aplicación que con esta linea de comando
+mencoder -sub archivodesubtitulos.srt -subcp iso-8857-9 -ovc xvid -xvidencopts bitrate=687 -oac copy -o nombrearchivonuevo.avi nombreoriginal.avi
+mencoder -ovc lavc -oac mp3lame pelicula.avi -o pelicula_con_subtitulos.avi -sub subtitulos.xxx</description>
+      
+    </item>
+    
+    <item>
+      <title>Send Fruta</title>
+      <link>http://localhost:1313/2010/04/send-fruta.html</link>
+      <pubDate>Sat, 24 Apr 2010 20:03:40 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/04/send-fruta.html</guid>
+      
+      <description>Un espacio para hablar de la fruta o de los que manda fruta (send fruta).
+Los invito a visitar este blog, podés encontrar cualquier cosa…, pero simpre tomando como actor principal a la fruta.
+http://sendfruta.blogspot.com/</description>
+      
+    </item>
+    
+    <item>
+      <title>Richard Stallman entrevista en español sobre GNU</title>
+      <link>http://localhost:1313/2010/04/richard-stallman-entrevista-en-espanol-sobre-gnu.html</link>
+      <pubDate>Sun, 11 Apr 2010 23:00:53 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/04/richard-stallman-entrevista-en-espanol-sobre-gnu.html</guid>
+      
+      <description>Dentro de esdebian.org encontré un hermoso video donde lo escuchamos hablar a Richard Stallman sobre GNU y otras yerbas.
+Les hago una mini introducción de quien es Richard Stallman, fundador de Free Software Fundation y creador de GNU; muchos creen que GNU es sinónimo de linux o vice-versa, pero no es así simplemente linux está bajo licencia GNU una sin la otra no podrían ser posibles, esto mismo lo dice él en el video de arriba.</description>
+      
+    </item>
+    
+    <item>
+      <title>Revistas de Código Abierto y Software Libre</title>
+      <link>http://localhost:1313/2010/04/revistas-de-codigo-abierto-y-software-libre.html</link>
+      <pubDate>Sun, 11 Apr 2010 22:12:51 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/04/revistas-de-codigo-abierto-y-software-libre.html</guid>
+      
+      <description>Encontré algunas revistas más sobre código abierto y software libre, digo “algunas más” porque a tuxinfo la vengo leyendo haces algo más de un año esta revista, que es muy buena.
+Pero después de un tiempo busqué algunas revistas mas de este tipo de contenido y encontré estas.
+http://www.revistabegins.org/
+http://www.papirux.org/
+http://revistauxi.wordpress.com/
+Si alguién conoce alguna más agradezco la inclución por comentario y obviamente la agregaré a la lista. Gracias.</description>
+      
+    </item>
+    
+    <item>
+      <title>Distribuciones Linux para chicos</title>
+      <link>http://localhost:1313/2010/03/distribuciones-linux-para-chicos.html</link>
+      <pubDate>Tue, 30 Mar 2010 16:07:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/03/distribuciones-linux-para-chicos.html</guid>
+      
+      <description>Distribuciones Linux para chicos.
+Me pareció interesante esta nota. Es verdad que los chicos cuando son chicos aprender rápido y son una esponja, entonces que mejor que mostrarles el sistema operativo linux desde chicos para que se vayan familiarizando con este desde muy temprano.
+En este link pueden encontrar varios ejemplo u opciones para los mas chiquitos.
+Enjoy</description>
+      
+    </item>
+    
+    <item>
+      <title>Dreamweaver cambie acentos en el código</title>
+      <link>http://localhost:1313/2010/03/dreamweaver-cambie-acentos-en-el-codigo.html</link>
+      <pubDate>Mon, 22 Mar 2010 12:36:08 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/03/dreamweaver-cambie-acentos-en-el-codigo.html</guid>
+      
+      <description>Hace un tiempo que vengo usando Dreamweaver para maquetar páginas entre otras aplicaciones. Un día me sente frente a un dreamweaver que cuando me escribía el “Día” por ejemplo en el source me escribía “Día” literal, y en realidad yo quería que me escriba el código correspondiente al acento en html, que es para el caso de la “í” “&amp;amp;iacute;”.
+Esto Dreamweaver lo hace automático y simplemente tenes que ingresar una linea de código mas en tu html y es esta:</description>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu como un programa mas dentro de windows</title>
+      <link>http://localhost:1313/2010/03/ubuntu-como-un-programa-mas-dentro-windows.html</link>
+      <pubDate>Fri, 12 Mar 2010 11:21:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/03/ubuntu-como-un-programa-mas-dentro-windows.html</guid>
+      
+      <description>Si es así de simple ubuntu corriendo en Windows, simplemente entras a Wubi te descargas una aplicación de aproximadamente 1.4 Mb y luego seguís pasos muy simple.
+La ventaja, y no menor, es que no necesitas particionar el disco rígido o modificar tu grub (sessión de arranque) para tener los dos sistemas operativos funcionando en una misma máquina.
+Es común que los usuarios de Linux en nuestro trabajo tengamos (me incluyo) que lidiar con Windows esta sería una muy buena manera de no estrañar tanto un verdadero sistema operativo.</description>
+      
+    </item>
+    
+    <item>
+      <title>Algunos tutoriales y sites de css</title>
+      <link>http://localhost:1313/2010/03/algunos-tutoriales-y-sites-de-css.html</link>
+      <pubDate>Thu, 11 Mar 2010 00:49:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/03/algunos-tutoriales-y-sites-de-css.html</guid>
+      
+      <description>Hace tiempo que no me ponia a visitar páginas que hablen de CSS ( Cascading Style Sheet ), es bueno cada tanto dejar pasar un tiempo para ver que hay de nuevo en cuanto a maquetación DIV. Para mi la única forma de aprender maquetación es con horas silla, es decir sentado en la silla y leer tutoriales o manuales o viendo como colegas arman las páginas.
+Por eso realicé una selección de páginas que hablan sobre este téma y decidí anotarmeló en mi blog para tenerlas de refencia.</description>
+      
+    </item>
+    
+    <item>
+      <title>Fideox.com cumple 5 años</title>
+      <link>http://localhost:1313/2010/02/fideox-com-cumple-5-anos.html</link>
+      <pubDate>Wed, 24 Feb 2010 01:08:37 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/02/fideox-com-cumple-5-anos.html</guid>
+      
+      <description>Mi personal weblog cumple 5 añitos.
+Feliz cumple!!!.</description>
+      
+    </item>
+    
+    <item>
+      <title>Borrar directorio y subdirectoios en linux</title>
+      <link>http://localhost:1313/2010/01/borrar-directorio-y-subdirectoios-en-linux.html</link>
+      <pubDate>Mon, 25 Jan 2010 11:13:45 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/01/borrar-directorio-y-subdirectoios-en-linux.html</guid>
+      
+      <description>Para poder borrar directorios y subdirectorios en linux lo único que hace falta es realizar este comando
+rm -RI donde -R borra recursivamente directorios que contenga el directorio que queremos borrar y -I borra recursivamente los archivos que contenga ese directorio y sus subdirectorio.
+Es decir si tenemos un directorio que se llama “directorio1” que contiene otros directorios “directorio1.1” y otro “directorio1.2” si ejecutas esto
+rm -IR borrará tanto “directorio1” como “directorio1.</description>
+      
+    </item>
+    
+    <item>
+      <title>Sincronizar N96 con google calendar y contactos</title>
+      <link>http://localhost:1313/2010/01/sincronizar-n96-con-google-calendar-y-contactos.html</link>
+      <pubDate>Mon, 18 Jan 2010 20:48:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/01/sincronizar-n96-con-google-calendar-y-contactos.html</guid>
+      
+      <description>Hace tiempo quería sincronizar mi celular (N96) con la cuenta de google, uso nucho el calendario y los contactos de esta cuenta. Investigué y navegué mucho por internet buscando una solución para esto, probé muchas pero ninguna me dejó realmente satisfecho.
+Cuando me compré el celular lo primero que hice fue instalarle varias aplicaciones de las cuales varias no le di la importancia que se merecía. Mail for Exchange es una aplicación de nokia que te permite sincronisar el celular a travez de internet (wifi) con tu cuenta de gmail (google).</description>
+      
+    </item>
+    
+    <item>
+      <title>Gmusicbrowser: música para Linux</title>
+      <link>http://localhost:1313/2010/01/gmusicbrowser-ma%c2%basica-para-linux.html</link>
+      <pubDate>Mon, 18 Jan 2010 10:28:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/01/gmusicbrowser-ma%c2%basica-para-linux.html</guid>
+      
+      <description>Gmusicbrowser: música para Linux
+Es una aplicación open-source desarrollada en perl para grandes cantidades collecciones; soporta mp3, ogg, flac, mpc, ape.
+Yo lo instalé en Mint y Ubuntu (ambos debian) con la siguiente instrucción sudo apt-get install gmusicbrowser y la verdad que me gustó mucho.
+Espero que lo disfruten.
+La información fue tomada de http://www.infosertec.com.ar/blog/?p=12716
+Posted using ShareThis</description>
+      
+    </item>
+    
+    <item>
+      <title>Feliz Año Nuevo (2010)</title>
+      <link>http://localhost:1313/2010/01/feliz-ano-nuevo-2010.html</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/01/feliz-ano-nuevo-2010.html</guid>
+      
+      <description>Que se les cumplan todos los deseos que tengan para este nuevo año que comienza.
+хотелско обзавежданеEnjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Feliz Navidad</title>
+      <link>http://localhost:1313/2009/12/feliz-navidad-5.html</link>
+      <pubDate>Fri, 25 Dec 2009 00:01:52 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/12/feliz-navidad-5.html</guid>
+      
+      <description>Que se les cumplan todos los deseos para esta navidad.</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux cumpleaños</title>
+      <link>http://localhost:1313/2009/12/linux-cumpleanos.html</link>
+      <pubDate>Thu, 24 Dec 2009 11:05:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/12/linux-cumpleanos.html</guid>
+      
+      <description>Nota extraida del diario La Nación</description>
+      
+    </item>
+    
+    <item>
+      <title>Para terminar y empezar el año</title>
+      <link>http://localhost:1313/2009/12/para-terminar-y-empezar-el-ano.html</link>
+      <pubDate>Mon, 21 Dec 2009 15:22:37 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/12/para-terminar-y-empezar-el-ano.html</guid>
+      
+      <description>Hola gente para los que me conocen de varios años saben que no suelo enviar saludos para fin de año. Los motivos los comentaré en otro momento, por ahora podemos decir que es pura vagancia.
+El punto es que entre todas las notas o cartas que suelen aparecer para estas fechas hay una que me pego y mucho.
+Me parece importantísimo tenerlas registradas en el blog ya que me va a servir como guía espiritual para aquellos momentos de depresión o incertidumbre.</description>
+      
+    </item>
+    
+    <item>
+      <title>Conocé cual es el Linux adecuado para vos</title>
+      <link>http://localhost:1313/2009/12/conoce-cual-es-el-linux-adecuado-para-vos.html</link>
+      <pubDate>Mon, 07 Dec 2009 11:03:30 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/12/conoce-cual-es-el-linux-adecuado-para-vos.html</guid>
+      
+      <description>Dentro de este sitio http://www.zegeniestudios.net/ldc/ podés encontrar un cuestionario donde con unas pocas preguntas y muy fáciles de responder, podés conocer cual es el Linux que se adecua a tus necesidades y/o conocimientos.
+Yo lo hice y los resultados de la encuesta me gustaron mucho.
+Prueben Linux, se los recomiendo.</description>
+      
+    </item>
+    
+    <item>
+      <title>PHPanywhere un editor de PHP en la Web</title>
+      <link>http://localhost:1313/2009/12/phpanywhereun-editor-de-php-en-la-web.html</link>
+      <pubDate>Wed, 02 Dec 2009 09:43:33 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/12/phpanywhereun-editor-de-php-en-la-web.html</guid>
+      
+      <description>Esta es una aplicación online, gratuita con la que podemos desarrollar nuestros proyectos en PHP desde la web, sin necesidad de descargar nada. PHPanywhere puede ser usada desde cualquier PC con acceso a Internet.
+Esta herramienta, incluye un editor de sintaxis en tiempo real que soporta todos los formatos web y también un editor FTP con los que subir los archivos desde la misma aplicación o acceder a cualquier servidor, para editar los archivos PHP que allí se encuentren.</description>
+      
+    </item>
+    
+    <item>
+      <title>Swat Orange Code aplicación web desarrollada en PHP5</title>
+      <link>http://localhost:1313/2009/11/swat-orange-code-aplicacion-web-desarrollada-en-php5.html</link>
+      <pubDate>Sat, 28 Nov 2009 10:50:33 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/11/swat-orange-code-aplicacion-web-desarrollada-en-php5.html</guid>
+      
+      <description>Swat is una aplicación web open source construida con PHP5. Está desarrollada y mantenida por silverorange, pero todas las participaciones y contribuciones con bienvenidas ya que está desarrolada bajo la licencia LGPL.
+Yo estuve viendo la página demo que tienen en el sitio oficial y realmente esta muy bueno seguramente hay otras aplicaciones web pero esta es muy fácil de implementar. Les dejo la pagina demo Swat demo y el sitio oficial https://code.</description>
+      
+    </item>
+    
+    <item>
+      <title>Player / Rotador de Fotos en Flash Open Source.</title>
+      <link>http://localhost:1313/2009/11/rotador-de-fotos-en-flash-open-source.html</link>
+      <pubDate>Fri, 27 Nov 2009 14:46:35 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/11/rotador-de-fotos-en-flash-open-source.html</guid>
+      
+      <description>Hola gente les recomiendo que se den una vuelta por este sitio, realmente muy buena solución para cuando tengan que mostrar muchas imágenes en un solo lugar, al mejor estilo player. En realidad es un player de imágenes, ya que este control les permite pasar de a una las imágenes verlas full screen entre otras cosas. Les dejo el vínculo de la página oficial de este player www.longtailvideo.com.
+Yo hice algunas pruebas con este player / rotador y lo pueden consultar en esta página que les dejo acá.</description>
+      
+    </item>
+    
+    <item>
+      <title>aTunes la versión Open Source del iTunes</title>
+      <link>http://localhost:1313/2009/11/atunes-la-version-open-source-del-itunes.html</link>
+      <pubDate>Tue, 24 Nov 2009 12:55:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/11/atunes-la-version-open-source-del-itunes.html</guid>
+      
+      <description>aTunes es la opción iTunes pero Open Source, logrando con esto ser multiplataforma y muy buena en actualizaciones. Visualmente es similar al SongBird más que al iTunes, dentro de la sección screenshots de la página oficial se puede ver que hay varias formas de visualizar el player y hasta cambiarle la apiencia para que convine mejor con nuestro desktop.
+Es mucho mas ágil – liviano que el songbird y realiza las tareas tipicas de un reproductor de música como por ejemplo lee mp3, ogg, flac, wma, mp4, ra, rm, tags y escribe mp3, ogg, flac, wma, mp4, tags muestra las imagenes incluidas en los ID3v2 Tags (etiquetas), también incluye un editor de etiquetas, karoke, etc.</description>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu 9.10 problemas para apagarse (acpi) en la Vostro 1520</title>
+      <link>http://localhost:1313/2009/11/ubuntu-9-10-problemas-para-apagarse-acpi.html</link>
+      <pubDate>Tue, 10 Nov 2009 22:15:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/11/ubuntu-9-10-problemas-para-apagarse-acpi.html</guid>
+      
+      <description>Hace tiempo que tenía el siguiente problema con Ubuntu y mi Vostro 1520
+Googlenado encontré esta solución que valga la redundancia me solucionó la vida. Colocando esto ” acpi=force apm=power_off ” dentro de /boot/grub/menu.lst en la linea que dice algo así:
+kernel /boot/vmlinuz-2.6.31-14-generic root=UUID=0dded5bf-3657-4741-bd03-ce349d78b243 ro acpi=force apm=power_off quiet splash
+#kernel /boot/vmlinuz-2.6.31-14-generic root=UUID=0dded5bf-3657-4741-bd03-ce349d78b243 ro acpi=off quiet splash
+en mi caso funcionó y muy bien, ahora mi máquina una Vostro 1520 se apaga y me muestra el icono de batería.</description>
+      
+    </item>
+    
+    <item>
+      <title>Sql Buddy una alternativa a PhpMyAdmin</title>
+      <link>http://localhost:1313/2009/11/sql-buddy.html</link>
+      <pubDate>Thu, 05 Nov 2009 08:00:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/11/sql-buddy.html</guid>
+      
+      <description>Sql Buddy es una alternativa a PhpMyAdmin, yo lo uso porque me parece estéticamente mucho mas lindo y porque tiene lo gusto y necesario para usar desde el server. También se puede rescatar que es mucho mas liviano, ofrece toda la robustes y escabilidad de estar desarrollado en PHP. Lo mas importante de todo esto que es Open Source.
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Transmisión en vivo del Pepsi Music</title>
+      <link>http://localhost:1313/2009/11/transmision-en-vivo-del-pepsi-music.html</link>
+      <pubDate>Sun, 01 Nov 2009 19:40:25 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/11/transmision-en-vivo-del-pepsi-music.html</guid>
+      
+      <description>Para ver en vivo el pepsi music 09 podes ingresar a
+www.10musica.com/contenidos/musica.html y disfrutarlo como si estuvieses ahí.
+Enjoy!!!.</description>
+      
+    </item>
+    
+    <item>
+      <title>Importar CSV a MySQL</title>
+      <link>http://localhost:1313/2009/10/importar-csv-a-mysql.html</link>
+      <pubDate>Mon, 26 Oct 2009 22:45:48 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/10/importar-csv-a-mysql.html</guid>
+      
+      <description>Este archivo reporte.csv tiene que estar alojado en el directorio data de tu server.
+&amp;lt;span style=&amp;quot;color: #000000;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #0000bb;&amp;quot;&amp;gt;mysql&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #007700;&amp;quot;&amp;gt;&amp;gt; &amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #0000bb;&amp;quot;&amp;gt;LOAD DATA INFILE &amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #dd0000;&amp;quot;&amp;gt;&#39;reporte.csv&#39; &amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #0000bb;&amp;quot;&amp;gt;INTO TABLE reporte&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #007700;&amp;quot;&amp;gt;-&amp;gt; &amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #0000bb;&amp;quot;&amp;gt;FIELDS TERMINATED BY &amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #dd0000;&amp;quot;&amp;gt;&#39;,&#39; &amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #0000bb;&amp;quot;&amp;gt;ENCLOSED BY &amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #dd0000;&amp;quot;&amp;gt;&#39;&amp;quot;&#39;&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #007700;&amp;quot;&amp;gt;-&amp;gt; &amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #0000bb;&amp;quot;&amp;gt;LINES TERMINATED BY &amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #dd0000;&amp;quot;&amp;gt;&#39;\n&#39;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color: #007700;&amp;quot;&amp;gt;; &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;
+Es muy simple, te logueas a mysql, si usas linux mysql -u root -p y una vez dentro escribis lo de arriba.</description>
+      
+    </item>
+    
+    <item>
+      <title>Sincronizar Google Calendar con Nokia N96</title>
+      <link>http://localhost:1313/2009/10/sincronizar-google-calendar-con-nokia-n96.html</link>
+      <pubDate>Thu, 08 Oct 2009 13:00:37 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/10/sincronizar-google-calendar-con-nokia-n96.html</guid>
+      
+      <description>Hola gente hace un tiempo que quería sincronizar mi N96 con Google Calendar después de buscar y buscar encontré un site que tiene dos modalidades; la opción paga y la gratis, como todo buen ratón eligo la opción gratis.
+Te registras, obtenes los datos para sincronizar con tu cuenta y listo.
+Hay que seguir algunos pasos para poder sincronizar via internet, que a mi parecer es la opción mas cómoda.</description>
+      
+    </item>
+    
+    <item>
+      <title>Volver a cargar GRUB</title>
+      <link>http://localhost:1313/2009/09/volver-a-cargar-grub.html</link>
+      <pubDate>Sat, 12 Sep 2009 01:37:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/09/volver-a-cargar-grub.html</guid>
+      
+      <description>Para volver a cargar GRUB como cargador de arranque sigue estos pasos:
+Otra opción es la siguente:
+Arranca el sistema desde un Live CD de Linux. Puedes descargarte uno desde la página oficial de Ubuntu, por ejemplo. Cuando el sistema este cargado abre un terminal. Crea el directorio donde montarás tu partición de Linux:
+sudo mkdir /mnt/linux (u otra ruta, la que decidas) Monta la partición de Linux en el directorio recien creado:</description>
+      
+    </item>
+    
+    <item>
+      <title>Impossible to create a database using MySQL - No podes crear una base de datos en MySQL</title>
+      <link>http://localhost:1313/2009/09/impossible-to-create-a-database-using-mysql.html</link>
+      <pubDate>Sat, 05 Sep 2009 16:05:30 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/09/impossible-to-create-a-database-using-mysql.html</guid>
+      
+      <description>Esto me ayudó muchísimo cuando me da el error 1006 (errno:13) en MySQL.
+Este error significa es que no tenemos permiso de escritura en la carpeta donde se alojarán las bases de datos.
+Esto se soluciona así:
+chown mysql.mysql -R /var/lib/mysql
+chmod 750 -R /var/lib/mysql
+Este error no debería aparecer mas “Message : #1006 – Can’t create database ‘MyDataBase’. (errno: 13)”</description>
+      
+    </item>
+    
+    <item>
+      <title>Brasil usa software libre</title>
+      <link>http://localhost:1313/2009/08/brasil-usa-software-libre.html</link>
+      <pubDate>Tue, 04 Aug 2009 01:34:43 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/08/brasil-usa-software-libre.html</guid>
+      
+      <description>El Gobierno de Brasil, dentro de sus nuevas normas para la contratación de servicios de tecnologías de la información, ha decidido obligar a las administraciones públicas a consultar una web de aplicaciones libres antes de desarrollar una nueva, con el objetivo de aprovechar los recursos y evitar estar constantemente reinventando la rueda.
+La normativa, publicada en el Diário Oficial da União el 20 de mayo de 2008 con el título “Instrucciones para la contratación de servicios TI (Tecnologías de la Información)”, obliga a consultar el Portal del Software Público Brasileño antes de contratar la creación de una nueva aplicación por parte de cualquier administración de este país.</description>
+      
+    </item>
+    
+    <item>
+      <title>Carta de Pergolini a Fernando Peña</title>
+      <link>http://localhost:1313/2009/06/carta-de-pergolini-a-fernando-pena.html</link>
+      <pubDate>Fri, 19 Jun 2009 00:31:48 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/06/carta-de-pergolini-a-fernando-pena.html</guid>
+      
+      <description>Irse… de a poco o rápidamente
+No me gusta mucho escribir despedidas. O Necrológicas. No me gusta escribir sobre lo inevitable y mucho menos de la mirada que a uno le deja la gente que se va. Por vaya uno a saber que extraña yunta, muchas personas que he conocido se han ido. Y juro no tener la edad de mis abuelos o de mis padres como para ya tener tantos muertos a cuestas.</description>
+      
+    </item>
+    
+    <item>
+      <title>Instalando Garmin en el Nokia N96</title>
+      <link>http://localhost:1313/2009/05/instalando-garmin-en-el-nokia-n96.html</link>
+      <pubDate>Fri, 29 May 2009 12:00:38 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/05/instalando-garmin-en-el-nokia-n96.html</guid>
+      
+      <description>DEPRECADO NO USAR
+Buscando en internet como instalar el Garmin en un Nokia N96 encontré en taringa un post muy interesante y que realmente me ayudó mucho para la instalación del software, si bien el artículo publicado era para el N95 básicamente el N96 es una versión mejorada del N95.
+Les dejo dos zip donde van a encontrar algunos ejecutables y otros archivos comprimidos.
+1 – GarminMobileXTforSymbianS603rdEdition_50000.exe (Para instalar en el N96)</description>
+      
+    </item>
+    
+    <item>
+      <title>JQuery User Interface</title>
+      <link>http://localhost:1313/2009/05/jquery-user-interface.html</link>
+      <pubDate>Thu, 28 May 2009 12:08:20 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/05/jquery-user-interface.html</guid>
+      
+      <description>No deja de sorprenderme esta librery de javascript, les recomiendo que visiten este vínculo http://jqueryui.com/home .
+Es muy fácil de usar e implementar, se pueden utilizar los themes (temas) que presentan en el site o también modificarlos a gusto y piaccere nuestro.
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Feliz Día para todos los Trabajadores</title>
+      <link>http://localhost:1313/2009/05/feliz-dia-para-todos-los-trabajadores.html</link>
+      <pubDate>Fri, 01 May 2009 01:27:37 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/05/feliz-dia-para-todos-los-trabajadores.html</guid>
+      
+      <description>Les deseo mucha felicidades a todas aquellas personas que trabajan día a día para superarse.
+Abrazos.</description>
+      
+    </item>
+    
+    <item>
+      <title>Aceite de Cocina como Combustible.</title>
+      <link>http://localhost:1313/2009/04/aceite-de-cocina-como-combustible.html</link>
+      <pubDate>Mon, 06 Apr 2009 11:16:10 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/04/aceite-de-cocina-como-combustible.html</guid>
+      
+      <description>Escuchando la Rock &amp;amp; Pop esta mañana me enteré de unos mexicanos (ella nacionalizada, origen Francés) que decidieron recorrer desde México hasta la Patagonia en una camioneta adaptada para utilizar Aceite de cocina (si si aceite de cocina) como combustible.
+Para mas información pueden ingresar a esta página que les dejo para interiorisarse del proyecto.
+http://www.laboratorioenmovimiento.com
+Para ver fotos de este viaje.
+http://www.flickr.com/photos/26630539@N04/
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>PAMP, servidor Apache, php y MySQL con Symbian</title>
+      <link>http://localhost:1313/2009/02/pamp-servidor-apache-php-y-mysql-con-symbian.html</link>
+      <pubDate>Thu, 26 Feb 2009 13:27:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/02/pamp-servidor-apache-php-y-mysql-con-symbian.html</guid>
+      
+      <description>Instalé PAMP (Personal Apache MySQL PHP) en mi N96, funciona de maravillas. Se puedo ejecutar consultas a el server (MySQL). Si bien el modulo fué probado en un N95 con mi N96 funciona muy bien, no esperaba menos.
+Nokia Connecting People</description>
+      
+    </item>
+    
+    <item>
+      <title>Trucos para el N96</title>
+      <link>http://localhost:1313/2009/02/trucos-para-el-n96.html</link>
+      <pubDate>Tue, 24 Feb 2009 16:20:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/02/trucos-para-el-n96.html</guid>
+      
+      <description>Averiguar la mac adress: *#62209526# Averiguar el Serial number: *#06#
+Averiguar la version de software: *#0000# (Gracias Pablo Sabogal)
+Si alguien tiene algo mas para aportar informe. Gracias.</description>
+      
+    </item>
+    
+    <item>
+      <title>Cavallino Rampante</title>
+      <link>http://localhost:1313/2009/02/cavallino-rampante.html</link>
+      <pubDate>Fri, 20 Feb 2009 10:43:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/02/cavallino-rampante.html</guid>
+      
+      <description>Ferrari ha usado el Cavallino Rampante en su material de oficina desde 1929. Desde la carrera de las 24 horas de Spa de 1932, el Cavallino Rampante ha sido utilizado en los Alfa Romeo usados por la Scuderia Ferrari.
+Un caballo negro similar sobre un fondo amarillo es el escudo de armas de la ciudad alemana de Stuttgart. El dibujo del caballo se debe al origen del nombre de la ciudad: Stuttgart procede de Stutengarten, una forma del alemán arcaico Gestüt, que se traduce al castellano como yeguada y al italiano como Scuderia.</description>
+      
+    </item>
+    
+    <item>
+      <title>Natación</title>
+      <link>http://localhost:1313/2009/02/natacion.html</link>
+      <pubDate>Sat, 07 Feb 2009 12:00:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/02/natacion.html</guid>
+      
+      <description>Empiezo a nadar después de varios años sin esta actividad. Esta nota no tiene otro fin mas que recordarme cuando empecé, pero si seguramente publicaré los metros nadados y los pequeños avances si es que los hay.</description>
+      
+    </item>
+    
+    <item>
+      <title>Xoopit - Plugin para Firefox</title>
+      <link>http://localhost:1313/2009/02/xoopit-plugin-para-firefox.html</link>
+      <pubDate>Fri, 06 Feb 2009 10:08:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/02/xoopit-plugin-para-firefox.html</guid>
+      
+      <description>Probé por recomendación de Firefox (Herrramientas – Complemento – Obtener Complemento) el plugin xoopit y quedé maravillado.
+Para quienes usamos la cuenta de Gmail como cuenta principal, es altamente recomendable.
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Walking in my shoes</title>
+      <link>http://localhost:1313/2009/01/walking-in-my-shoes.html</link>
+      <pubDate>Fri, 30 Jan 2009 14:28:59 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/01/walking-in-my-shoes.html</guid>
+      
+      <description>I would tell you about the things
+They put me through
+The pain Ive been subjected to
+But the lord himself would blush
+The countless feasts laid at my feet
+Forbidden fruits for me to eat
+But I think your pulse would start to rush
+Now Im not looking for absolution
+Forgiveness for the things I do
+But before you come to any conclusions
+Try walking in my shoes
+Try walking in my shoes</description>
+      
+    </item>
+    
+    <item>
+      <title>Jimmy Curry = Chimichurry</title>
+      <link>http://localhost:1313/2009/01/jimmy-curry-chimichurry.html</link>
+      <pubDate>Thu, 29 Jan 2009 16:10:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/01/jimmy-curry-chimichurry.html</guid>
+      
+      <description>Hay varias versiones del origen del chimichurry tanto del nombre como de la mezcla en si; pero a mi me gustó esta historia.
+A mediados del siglo XIX llegó al país un comerciante inglés, llamado Jimmy Curry interesado en importar carne al Reino Unido.
+Para agasajarlo lo llevaron a una estancia cercana a Cañuelas y le prepararon un asado criollo. El inglés quedó maravillado con lo que vió sobre las parrillas y los asadores pero, fundamentalmente, por el aroma que inundaba el lugar.</description>
+      
+    </item>
+    
+    <item>
+      <title>Feliz 2009</title>
+      <link>http://localhost:1313/2009/01/feliz-ano-nuevo-4.html</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:51 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/01/feliz-ano-nuevo-4.html</guid>
+      
+      <description>Que este año sea mucho, pero muchísimo MEJOR que el anterior.
+Feliz Año!!! </description>
+      
+    </item>
+    
+    <item>
+      <title>Fideox les desea&amp;#8230;</title>
+      <link>http://localhost:1313/2008/12/feliz-navidad-4.html</link>
+      <pubDate>Thu, 25 Dec 2008 00:00:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/12/feliz-navidad-4.html</guid>
+      
+      <description>Mis deseos para esta navidad es que tengan una…
+Feliz Navidad!!! </description>
+      
+    </item>
+    
+    <item>
+      <title>Nokia N96</title>
+      <link>http://localhost:1313/2008/10/nokia-n96.html</link>
+      <pubDate>Tue, 28 Oct 2008 08:48:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/10/nokia-n96.html</guid>
+      
+      <description>🙂 ieeeaa
+i like it!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Mapa de la Ciudad Autónoma de Buenos Aires</title>
+      <link>http://localhost:1313/2008/10/mapa-de-la-ciudad-autonoma-de-buenos-aires.html</link>
+      <pubDate>Thu, 16 Oct 2008 14:47:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/10/mapa-de-la-ciudad-autonoma-de-buenos-aires.html</guid>
+      
+      <description>Hoy un compañero de trabajo me paso este vínculo http://mapa.buenosaires.gov.ar/sig/index.phtml les recomiendo que se peguen una vueltita por este sitio.
+No es simplemente un mapa más de Buenos Aires, este tiene la particularidad de comparar como se vía un barrio en 1940 y como se ve ahora (lo mas actual es 2004). Pero esto no es solo lo que me dejó maravillado sino que te muestra el mapa dividido por parcela, te informa en que sección, manzana y parcela se encuentra la dirección ingresada y como si esto fuera poco muestra una foto del frente de la casa edificio galpón, etc.</description>
+      
+    </item>
+    
+    <item>
+      <title>Navegador de Google “Chrome”</title>
+      <link>http://localhost:1313/2008/09/navegador-de-google-chrome.html</link>
+      <pubDate>Wed, 03 Sep 2008 11:36:30 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/09/navegador-de-google-chrome.html</guid>
+      
+      <description>Recién terminé de instalar el navegador de google “Chome” y la verdad que no me impactó demasiado o no lo que esperaba de google como nos tiene acostumbrados, tal vez se deba a eso a que me tiene acostumbrado a buenas herramientas y en cuanto algo no supera las expectativas básica ya lo tildo de malo.
+Dejemos que corra un poco el tiempo para ver si mejora un poco.
+Acá les dejo el link para que lo descarguen y lo prueben ustedes y me comenten que les parece.</description>
+      
+    </item>
+    
+    <item>
+      <title>Frameworks javascript library effects</title>
+      <link>http://localhost:1313/2008/09/frameworks-javascript-library-effects.html</link>
+      <pubDate>Tue, 02 Sep 2008 11:33:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/09/frameworks-javascript-library-effects.html</guid>
+      
+      <description>Navegando por la internesss encontré esta dirección donde hace una recompilación de todas las librerías javascript (o las mas conocidas) http://www.anieto2k.com/tag/prototype/ .</description>
+      
+    </item>
+    
+    <item>
+      <title>Cambio de dominio</title>
+      <link>http://localhost:1313/2008/08/cambio-de-dominio.html</link>
+      <pubDate>Mon, 25 Aug 2008 23:24:04 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/08/cambio-de-dominio.html</guid>
+      
+      <description>Ahora www.fideox.com.ar es www.federicomazzei.com.ar, esto se debe por varios motivos algunos de estos son no quería pagar dos servers para cada dominio, el hosting que elegí para Fideox.com.ar no me permitia manegarlo desde redes con filtrados de puertos, mucho más caro que el de federicomazzei.com.ar y no por eso mucho mejor, en fin varios motivos; pero por suerte ya estoy again On Line.
+Este nuevo dominio también incluyó un nuevo plug-in para las fotos, estoy reemplazando FAlbum por Slickr, lo pueden ver a la derecha de la página o encontrarlo en esta dirección http://www.</description>
+      
+    </item>
+    
+    <item>
+      <title>Problemas con Firestarter</title>
+      <link>http://localhost:1313/2008/06/problemas-con-firestarter.html</link>
+      <pubDate>Mon, 16 Jun 2008 10:25:30 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/06/problemas-con-firestarter.html</guid>
+      
+      <description>El dispositivo eth0 no está preparado este mensaje se dá cuando reliasamos modificaciones en la configuracuión de Firestarter (Firewall de linux). Después de mucho buscar encontré que la solución es esta.
+1º debemos editar el archivo firestarter.sh que se encuentra en /etc/firestarter/firestarter.sh (yo lo hago con mcedit utilizando mc), una vez encontrado el archivo y en estado de edición, encuentran la línea que dice así.
+MASK=/sbin/ifconfig $IF | grep M&amp;lt;span style=&amp;quot;color: #0000ff;&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;s | cut -d : -f 4</description>
+      
+    </item>
+    
+    <item>
+      <title>Aporte de LES LUTHIERS a nuestro vocabulario</title>
+      <link>http://localhost:1313/2008/06/aporte-de-les-luthiers-a-nuestro-vocabulario.html</link>
+      <pubDate>Fri, 13 Jun 2008 12:00:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/06/aporte-de-les-luthiers-a-nuestro-vocabulario.html</guid>
+      
+      <description>INESTABLE: Mesa norteamericana de Inés.
+ENVERGADURA: Lugar de la anatomía humana en dónde se colocan los condones.
+ONDEANDO: Onde estoy.
+CAMARÓN: Aparato enorme que saca fotos.
+DECIMAL: Pronunciar equivocadamente.
+BECERRO: Que ve u observa una loma o colina.
+BERMUDAS: Observar a las que no hablan.
+TELEPATÍA: aparato de TV para la hermana de mi mamá.
+TELÓN: Tela de 50 metros … o más.
+ANÓMALO: Hemorroides.
+BERRO: Bastor Alebán.
+BARBARISMO: Colección exagerada de muñecas barbie.</description>
+      
+    </item>
+    
+    <item>
+      <title>Mail de oficina.</title>
+      <link>http://localhost:1313/2008/06/mail-de-oficina.html</link>
+      <pubDate>Wed, 04 Jun 2008 17:07:40 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/06/mail-de-oficina.html</guid>
+      
+      <description> </description>
+      
+    </item>
+    
+    <item>
+      <title>Mi xorg.conf Problemas de resolución en Ubuntu</title>
+      <link>http://localhost:1313/2008/05/mi-xorgconf-problemas-de-resolucion-en-ubuntu.html</link>
+      <pubDate>Mon, 26 May 2008 00:21:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/05/mi-xorgconf-problemas-de-resolucion-en-ubuntu.html</guid>
+      
+      <description>Publique mi xorg.conf a modo de backup, pero tal vez a alguien le sirva.
+el original era asi:
+????????
+# xorg.conf (X.Org X Window System server configuration file)
+#
+# This file was generated by dexconf, the Debian X Configuration tool, using
+# values from the debconf database.
+#
+# Edit this file with caution, and see the xorg.conf manual page.
+# (Type “man xorg.conf” at the shell prompt.)
+#</description>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu - Mensaje de error en Apache2</title>
+      <link>http://localhost:1313/2008/05/ubuntu-mensaje-de-error-en-apache2.html</link>
+      <pubDate>Sun, 25 May 2008 16:30:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/05/ubuntu-mensaje-de-error-en-apache2.html</guid>
+      
+      <description>Seguramente aquellos que están instalando de cero un apache2 en ubuntu (apt-get install apache2) es muy probable que le aparezca una leyenda de este tipo, “apache2: Could not reliably determine the server’s fully qualified domain name, using 127.0.1.1 for ServerName” cuando quiera reiniciar el servidor apache2 (/etc/init.d/apache2 restart). En un foro encontré que para solucinar esto se tiene que colocar la siguiente linea ServerName &amp;lt;nameOfMyServer&amp;gt; en el httpd.conf.
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Cerrar programas bloqueados en Linux</title>
+      <link>http://localhost:1313/2008/05/cerrar-programas-bloqueados-en-linux.html</link>
+      <pubDate>Thu, 22 May 2008 11:32:53 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/05/cerrar-programas-bloqueados-en-linux.html</guid>
+      
+      <description>Si alguna vez algún programa se queda bloqueado hay una forma de cerrarlo desde la consola: usando el comando kill. Este comando tiene esta sintaxis:
+kill
+Para averiguar cuál es el proceso que queremos cerrar o matar (¡qué violento!) usamos el comando ps, que muestra la lista de procesos activos:
+gorka@homer-desktop:~$ ps -A
+PID TTY TIME CMD
+5239 ? 00:00:00 mixer_applet2
+5243 ? 00:00:01 notification-da
+5251 ? 00:03:52 firefox-bin
+5255 ?</description>
+      
+    </item>
+    
+    <item>
+      <title>Averiguar la edad con PHP</title>
+      <link>http://localhost:1313/2008/05/averiguar-la-edad-con-php.html</link>
+      <pubDate>Wed, 21 May 2008 16:10:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/05/averiguar-la-edad-con-php.html</guid>
+      
+      <description>Supongamos que uno quiere publicar la edad de nuestros clientes y el dato que tenemos es la fecha de nacimiento, esta función que esta acá debajo es muy útil.
+Enjoy!!!
+&amp;lt;?
+function Edad($dob){
+// El formato es dd/mm/yy
+list($d,$m,$y)=explode(“/”,$dob);
+//si el formato de la fecha lo tienen como 12-05-2008 reemplacen “/” por “-”
+$hoy=mktime(0,0,0,date(“d”),date(“m”),date(“Y”));
+$cumple=mktime(0,0,0,”$d”,”$m”,”$y”);
+$age=intval(($hoy-$cumple)/(60*60*24*365));
+return $age;
+}
+echo Edad(“02/12/73”); //edad del cliente
+?&amp;gt;
+Otra manera de averiguar la edad.</description>
+      
+    </item>
+    
+    <item>
+      <title>Instalar Eclipse PDT para PHP</title>
+      <link>http://localhost:1313/2008/05/instalar-eclipse-pdt-para-php.html</link>
+      <pubDate>Sat, 03 May 2008 09:00:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/05/instalar-eclipse-pdt-para-php.html</guid>
+      
+      <description>Eclipse PDT para PHP
+En este tutorial veremos como descargar, instalar y configurar el Entorno de Desarrollo Eclipse para trabajar con PHP. Eclipse es uno de los mas poderosos editores, para lenguajes como JAVA, C, PHP, y otros, y lo mejor de todo es que es de uso Gratuito.
+Instalar Eclipse PDT para PHP
+Eclipse, es un Entorno de Desarrollo Profesional y Gratuito, que puede ser utilizado para varios lenguajes Java, C, C++, PHP, etc.</description>
+      
+    </item>
+    
+    <item>
+      <title>Si el amor se cae - Los Cafres</title>
+      <link>http://localhost:1313/2008/05/si-el-amor-se-cae-los-cafres.html</link>
+      <pubDate>Fri, 02 May 2008 10:25:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/05/si-el-amor-se-cae-los-cafres.html</guid>
+      
+      <description>No es muy claro el cielo
+Y esta cerca este desierto
+No hay amor en el diario de hoy
+Si perdiste la pasión en un remate de dolor
+A destiempo va ese corazón
+Si el amor se cae, todo alrededor se cae
+Si el amor se cae, todo alrededor se cae
+Siento un cambio adentro que se aproxima
+Aunque entiendo al que resigna,
+Pero alcanzo al que camina
+Tengo bronca, tengo tiempo,</description>
+      
+    </item>
+    
+    <item>
+      <title>MI VIDA</title>
+      <link>http://localhost:1313/2008/04/mi-vida.html</link>
+      <pubDate>Wed, 30 Apr 2008 16:27:46 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/04/mi-vida.html</guid>
+      
+      <description>.flickr-photo { } .flickr-frame { float: left; text-align: center; margin-right: 15px; margin-bottom: 15px; } .flickr-caption { font-size: 0.8em; margin-top: 0px; }</description>
+      
+    </item>
+    
+    <item>
+      <title>¿Es o no la carta de Gabriel García Marquez?</title>
+      <link>http://localhost:1313/2008/04/es-o-no-la-carta-de-gabriel-garcia-marquez.html</link>
+      <pubDate>Tue, 29 Apr 2008 12:05:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/04/es-o-no-la-carta-de-gabriel-garcia-marquez.html</guid>
+      
+      <description>¿CÓMO SE SIENTE, YANQUI?
+¿Cómo se siente ver que el horror estalla en tu patio y no en la sala del vecino?
+¿Cómo se siente el miedo apretando tu pecho, el pánico que provocan el ruido ensordecedor, las llamas sin control, los edificios que se derrumban, ese terrible olor que se mete hasta el fondo en los pulmones, los ojos de los inocentes que caminan cubiertos de sangre y polvo? ¿Cómo se vive, por un día, en tu propia casa, la incertidumbre de lo que va a pasar?</description>
+      
+    </item>
+    
+    <item>
+      <title>Flof mapa de Buenos Aires</title>
+      <link>http://localhost:1313/2008/03/flof-mapa-de-buenos-aires.html</link>
+      <pubDate>Mon, 31 Mar 2008 09:10:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/03/flof-mapa-de-buenos-aires.html</guid>
+      
+      <description>Hoy descubrí “Flof” gracias al diario “La Nación” en su sección de tecnología, salió publicado “Freeware para agregarle funciones al navegador” dentro de esta nota hablan sobre varias extensiones tanto para Firefox (navegador que amo, y que día a día no deja de sorprenderme) y también para “eso” que usa el común de los internautas (que por suerte cada día son menos), entre las varias mejoras que se pueden realizar a los navegadores, mensionaban a FLOF.</description>
+      
+    </item>
+    
+    <item>
+      <title>Pic Lens, efecto para picasa, flickr, &amp;#8230;</title>
+      <link>http://localhost:1313/2008/03/pic-lens-efecto-para-picasa-flickr.html</link>
+      <pubDate>Mon, 10 Mar 2008 20:11:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/03/pic-lens-efecto-para-picasa-flickr.html</guid>
+      
+      <description>Hace unos días encontré un plug-in para firefox muy muy bueno. Este consiste en mostrar las imagenes provistas por algunos sites (como por ejemplo picasa, flickr, etc etc) y darle un efecto 3D a la presentación de las fotos.
+Se 100 free mobile ringtones virginloan oneclickcash paydayfast easy payday loansonic payday loanonline payday loan instant approvalfaxing loan no payday requiredloan payday uk,payday loan uk,payday loan in the uklow fee payday loanloan military payday,loan military overseas payday,military payday loanamerica cash loan payday,cash america payday loanloan payday until,loan until payday,loan payday say until wordpressonline no fax payday loanpayday cash advance oregon,payday cash advance wisconsin,payday cash advancefast loan payday,500 cash fast loan payday,cash fast faxless loan paydaypayday first loan free,hassle free payday loan,free loan paydayall payday loan in canada only,canada loan payday,canada loan manitoba payday winnipegfaxless hour loan one payday,hour in loan one payday,hour loan one paydayfaxless online payday loanapplication loan online paydaypayday loan applicationpayday loan no faxing requiredfax guaranteed loan no paydaylow cost payday loanameriloan loan paydayconsolidate payday loan debt,consolidate debt loan paydaycalgary payday loanpayday loan in georgiamilitary payday loanpayday loan application,application loan paydayadvance cash loan payday wiredpayday cash loanno fax required payday loanpayday loan calculatorloan till payday,info loan payday till,loan payday tillloan until paydaypayday loan on linemoney tree payday loanadvance cash fast loan paydayfast online payday loaninternet payday loan law,internet loan payday,business internet loan payday startloan payday yahoocash advance payday loan softwareno credit check payday loanpayday loan storefax loan no online paydayadvance loan online paydayfax loan no payday required2 loan online paydayeasy fast loan paydaybad credit guaranteed loan payday los recomiendo, lo pueden ver en este vínculo.</description>
+      
+    </item>
+    
+    <item>
+      <title>10 errores en el diseño de aplicaciones</title>
+      <link>http://localhost:1313/2008/02/10-errores-en-el-diseno-de-aplicaciones.html</link>
+      <pubDate>Thu, 21 Feb 2008 12:03:59 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/02/10-errores-en-el-diseno-de-aplicaciones.html</guid>
+      
+      <description>Esto lo saqué de sentido web me parece muy bueno y también lo publico en mi blog para no olvidarme de esto.
+Diez errores que se cometen cuando se diseña una aplicación, un resumen sería el siguiente:
+* Controles no estándares: los enlaces, botones, radio buttons y demás controles tienen una utilidad específica y estándar. Cambiar el comportamiento no es lo correcto y no hace más que confundir al usuario.</description>
+      
+    </item>
+    
+    <item>
+      <title>Header Nuevo</title>
+      <link>http://localhost:1313/2008/02/header-nuevo.html</link>
+      <pubDate>Wed, 20 Feb 2008 09:45:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/02/header-nuevo.html</guid>
+      
+      <description>Navegando por google reader leí una nota publicada en css-tricks.com y me pareció buena idea darle un touch de restyling a mi blong.
+La modificación es la siguiente, el header varía según el estado del tiempo, en el momento de publicar esta nota dice “Soleado”, pero seguramente si mañana llueve, cambiará la gráfica del header y el texto del margen derecho dirá “Llueve”. Estos datos los toma de un servicio publicado por yahoo weather y hace referencia en Caseros, lugar donde nací.</description>
+      
+    </item>
+    
+    <item>
+      <title>Quien aloja “X” sitio</title>
+      <link>http://localhost:1313/2008/02/quien-aloja-x-sitio.html</link>
+      <pubDate>Tue, 19 Feb 2008 15:30:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/02/quien-aloja-x-sitio.html</guid>
+      
+      <description>Si queres saber donde se aloja una página web acá te dejo un link bastatante interesante http://www.whoishostingthis.com, solamente tenes que poner la dirección web que quieras averiguar y listo, por ejemplo www.fideox.com.ar el resultado será dattatec.com</description>
+      
+    </item>
+    
+    <item>
+      <title>Flash And The Pan</title>
+      <link>http://localhost:1313/2008/02/flash-and-the-pan.html</link>
+      <pubDate>Mon, 11 Feb 2008 16:44:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/02/flash-and-the-pan.html</guid>
+      
+      <description>Walking down the street
+Kicking cans
+Looking at the billboard
+Also ran
+Summing up the people
+Checking out the race
+Doing what I’m doing
+Feeling out of place
+Walking, walking in the rain
+Feeling like a woman
+Looking like a man
+Sounding like a no-no
+Make it when I can
+Whistling in the darkness
+Shining in the light
+Coming to conclusion
+Right is might is tight
+Walking, walking in the rain</description>
+      
+    </item>
+    
+    <item>
+      <title>Hijo - Los Cafres</title>
+      <link>http://localhost:1313/2008/02/hijo-los-cafres.html</link>
+      <pubDate>Fri, 08 Feb 2008 10:58:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/02/hijo-los-cafres.html</guid>
+      
+      <description>Ohhhh uuhh wooohh oh…
+Tus ojitos al querer
+brillan como la miel.
+Sentir tu manitos sobre mi
+vivir tu inocencia,
+me duele tanto querer.
+Espero cada dia`
+por ver esa sonrisa.
+Mi presente es abrazarte
+que nada te falte,
+tu alegria es la vida
+en este instante.
+Que no pare, que te abraze
+llenaste mi sed
+de tus ganas inocentes
+que ahora quiero..
+Son lugares de placer
+hoy la vida es jugar,</description>
+      
+    </item>
+    
+    <item>
+      <title>Canción de cuna - Los piojos</title>
+      <link>http://localhost:1313/2008/02/cancion-de-cuna-los-piojos.html</link>
+      <pubDate>Thu, 07 Feb 2008 14:28:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/02/cancion-de-cuna-los-piojos.html</guid>
+      
+      <description>Quiero que te duermas como un sol
+Que se acuesta en un campo de trigo
+Tengo aquí en mi pecho un corazón
+Igualito al hueco de tu ombligo
+Sabes quien temblaba, cuando ibas a nacer
+Sabes que pensé, que por ahí no ibas a poder
+Sabes quien te puso en el pecho de mama, oh
+Debe ser que me pediste un día una canción
+Que fuera del corazón, ahí te va</description>
+      
+    </item>
+    
+    <item>
+      <title>“MacBookAir” Chuli esta es mi Notebook</title>
+      <link>http://localhost:1313/2008/01/macbookair-chuli-esta-es-mi-notebook.html</link>
+      <pubDate>Wed, 16 Jan 2008 09:54:07 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/01/macbookair-chuli-esta-es-mi-notebook.html</guid>
+      
+      <description>Si mi amor no es un cuaderno es una nootebook aunque la economia argentina este para el demonio o almenos es mi situación, trataré de juntar unos cuantos dolares (1800) y me compraré esta maravilla. Les dejo el vínculo para que me envidien (cuando la tenga).
+http://www.apple.com/macbookair/</description>
+      
+    </item>
+    
+    <item>
+      <title>Feliz año nuevo</title>
+      <link>http://localhost:1313/2008/01/feliz-ano-nuevo-3.html</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/01/feliz-ano-nuevo-3.html</guid>
+      
+      <description>Les deseo a todos un muy feliz año nuevo.</description>
+      
+    </item>
+    
+    <item>
+      <title>Feliz Navidad</title>
+      <link>http://localhost:1313/2007/12/feliz-navidad-3.html</link>
+      <pubDate>Tue, 25 Dec 2007 00:00:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/12/feliz-navidad-3.html</guid>
+      
+      <description>Que se les cumplan todos los deseos.
+Felicidades.</description>
+      
+    </item>
+    
+    <item>
+      <title>Site de Botnia</title>
+      <link>http://localhost:1313/2007/12/site-de-botnia.html</link>
+      <pubDate>Thu, 06 Dec 2007 15:51:48 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/12/site-de-botnia.html</guid>
+      
+      <description>Muy buena la idea de Greenpeace (o de quien haya sido) de publicar una replica casi exácta del site de esta empresa, digo “casi” En Five Card Stud – &amp;lt;a href=”http://www.whaleday.com”&amp;gt;casino&amp;lt;/a&amp;gt; cada jugador tiene una carta boca abajo y cuatro cartas boca arriba al final de la partida de póker en línea. porque en cuanto a Look &amp;amp; Feel son idénticas, pero en cuanto a contenido (texto) varia y mucho. Por favor lean la publicación de www.</description>
+      
+    </item>
+    
+    <item>
+      <title>Depeche Mode - Enjoy the silence</title>
+      <link>http://localhost:1313/2007/11/depeche-mode-enjoy-the-silence.html</link>
+      <pubDate>Sun, 18 Nov 2007 14:42:06 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/11/depeche-mode-enjoy-the-silence.html</guid>
+      
+      <description>Words like violence
+Break the silence
+Come crashing in
+Into my little world
+Painful to me
+Pierce right through me
+Can´t you understand
+Oh my little girl
+All I ever wanted
+All I ever needed
+Is here in my arms
+Words are very unnecessary
+They can only do harm
+Vows are spoken
+To be broken
+Feelings are intense
+Words are trivial
+Pleasures remain
+So does the pain
+Words are meaningless</description>
+      
+    </item>
+    
+    <item>
+      <title>PortableApps Suite</title>
+      <link>http://localhost:1313/2007/11/portableapps-suite.html</link>
+      <pubDate>Sat, 17 Nov 2007 12:39:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/11/portableapps-suite.html</guid>
+      
+      <description>PortableApps.com Suite ™ es una colección de aplicaciones portátiles incluyendo un navegador web, cliente de correo electrónico, calendario / programa, mensajería instantánea, antivirus, el juego sudoku, y la utilidad de copia de seguridad integrada de menú, todas las aplicaciones listas para ser usadas desde un pen drive.
+Mas información en PortableApps Suite.</description>
+      
+    </item>
+    
+    <item>
+      <title>Firefox Portable</title>
+      <link>http://localhost:1313/2007/11/firefox-portable.html</link>
+      <pubDate>Sat, 17 Nov 2007 12:33:38 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/11/firefox-portable.html</guid>
+      
+      <description>¿No sería bueno poder llevar su propio navegador, con todas sus direcciones favoritas, su configuración personal y hasta sus extensiones a cualquier computadora que utilice? Esto es una realidad con la versión portable de Firefox. Se trata de una parte del PortableApps Suite, un conjunto de aplicaciones que pueden correrse desde cualquier dispositivo portátil (por ejemplo un memory stick), dado su pequeño tamaño.</description>
+      
+    </item>
+    
+    <item>
+      <title>Heroin - Sumo</title>
+      <link>http://localhost:1313/2007/10/heroin-sumo.html</link>
+      <pubDate>Thu, 18 Oct 2007 15:13:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/10/heroin-sumo.html</guid>
+      
+      <description>Una de las mejores letras que he leído, Luca Prodan tenía una facilidad para decir mucho con pocas palabras, con Heroin de Sumo lo demostró muy bien.
+Más información en wikipedia (about Luca Prodan)</description>
+      
+    </item>
+    
+    <item>
+      <title>JUSTICIA PARA GASTON PEREZ</title>
+      <link>http://localhost:1313/2007/10/justicia-para-gaston-perez.html</link>
+      <pubDate>Fri, 05 Oct 2007 21:24:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/10/justicia-para-gaston-perez.html</guid>
+      
+      <description>No pedí permiso para publicar esto que me llegó por mail, pero creo que publicándolo aporto un granito de arena para que esto empiece a cambiar de una vez por todas.
+Estimados Vecinos:
+Durante todos mis 20 años nací y viví en la localidad de Caseros. Mis viejos, mis nonos y mis tíos me enseñaron a querer a este pueblo. Aprendí a amar cada momento, cada minuto vivido en sus calles, plazas, negocios.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hosts Virtuales de Apache 2 en Ubuntu</title>
+      <link>http://localhost:1313/2007/10/hosts-virtuales-de-apache-2-en-ubuntu.html</link>
+      <pubDate>Fri, 05 Oct 2007 07:00:40 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/10/hosts-virtuales-de-apache-2-en-ubuntu.html</guid>
+      
+      <description>Lo primero, creo una nueva entrada en /etc/hosts (mantengo lo que había y añado lo siguiente):
+127.0.0.1 www.fideox.com.ar
+Copio los archivos del nuevo site en /var/www/fideox
+Comienza el procedimiento de configuración del nuevo virtualhost en Apache2:
+$ cd /etc/apache2/sites-available
+Edito las dos primeras líneas del fichero default para que queden así:
+NameVirtualHost *
+&amp;lt;VirtualHost *&amp;gt;
+$ cp default www.fideox.com.ar
+Edito www.fideox.com.ar para que las primeras líneas queden así:
+&amp;lt;VirtualHost *&amp;gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Apache2 en Ubuntu</title>
+      <link>http://localhost:1313/2007/10/apache2-en-ubuntu.html</link>
+      <pubDate>Thu, 04 Oct 2007 22:56:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/10/apache2-en-ubuntu.html</guid>
+      
+      <description>Me pasé a ubuntu como servidor web, y al reiniciar el apache2 me tiraba este error “apache2: Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName“, esto lo solucione poniendo en el archivo hosts que se encuentra en /etc/hosts esta linea ” 127.0.0.1 localhost.localdomain localhost panchita” (panchita = nombre de la máquina) que por algún motivo se modificó.
+Espero que les sirva.</description>
+      
+    </item>
+    
+    <item>
+      <title>Google Earth como simulador de vuelo</title>
+      <link>http://localhost:1313/2007/09/google-earth-como-simulador-de-vuelo.html</link>
+      <pubDate>Fri, 28 Sep 2007 11:52:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/09/google-earth-como-simulador-de-vuelo.html</guid>
+      
+      <description>Google tiene dentro de su servicio “google earth” un simulador de vuelo, este se ejecuta presionando ( Control + Alt + A ), si quieren mas información sobre este tema pueden visitar el blog de este muchacho de apenas 22 años que describe muy bien esta nueva funcionalidad de uno de los programas mas utilizados en el mundo. http://marco-za.blogspot.com/2007/08/google-earth-flight-simulator.html</description>
+      
+    </item>
+    
+    <item>
+      <title>Google Phone</title>
+      <link>http://localhost:1313/2007/09/google-phone.html</link>
+      <pubDate>Thu, 13 Sep 2007 17:17:07 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/09/google-phone.html</guid>
+      
+      <description>Si, tecnología móvil google.
+Que se puede decir de google, un grande.</description>
+      
+    </item>
+    
+    <item>
+      <title>Microsoft Expression</title>
+      <link>http://localhost:1313/2007/09/microsoft-expression.html</link>
+      <pubDate>Thu, 06 Sep 2007 21:09:43 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/09/microsoft-expression.html</guid>
+      
+      <description>Sería como un flash pero con la difererncia “y muy importante” que la parte de código, programática esta separada de la del diseño, pero no solo eso sino que esta última puede ser C#, .NET, etc etc etc dandole a Expression un poder bastante importante a la hora de convinar diseño y dinamismo.
+Se puede encontrar mucha mas info en http://silverlight.net/ donde explica como esta conformado el paquete Expression y sus diferentes softwares para cada caso, yo por ahora me baje el Blend y el Design.</description>
+      
+    </item>
+    
+    <item>
+      <title>Muy Buen Site 2</title>
+      <link>http://localhost:1313/2007/08/muy-buen-site-2.html</link>
+      <pubDate>Sun, 12 Aug 2007 01:13:24 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/08/muy-buen-site-2.html</guid>
+      
+      <description>Hace un tiempo publiqué un site de México que tenia muy buen manejo de los tiempos en Flash, hoy publico un site donde muestra lo creativo que se puede ser teniendo un poco (bastante) de conocimiento en flash y dejando volar las ideas. Este site pertenece a una agencia de publicidad llamada Leo Burnett, espero que les guste.
+http://www.leoburnett.com/</description>
+      
+    </item>
+    
+    <item>
+      <title>Hosting para Fideox</title>
+      <link>http://localhost:1313/2007/07/hosting-para-fideox.html</link>
+      <pubDate>Mon, 23 Jul 2007 12:39:39 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/07/hosting-para-fideox.html</guid>
+      
+      <description>Después de muchos años (4) de hosting casero (fibertel) invertí unos pesos en mi blog para que esté online las 24 horas del día los 365 días año. El servicio lo contraté con Dattatec con un abono anual de 30 pesos (basico, peor es nada) .</description>
+      
+    </item>
+    
+    <item>
+      <title>Safari 3 Public Beta</title>
+      <link>http://localhost:1313/2007/06/safari-3-public-beta.html</link>
+      <pubDate>Tue, 19 Jun 2007 18:02:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/06/safari-3-public-beta.html</guid>
+      
+      <description>Apple se larga a competir con su navegador. Ahora los que alguna vez usaron mac (o lo hacen en sus casas pero no en la oficina) pueden usar el navegador por defecto de Mac OS en Windows.
+Safari (según apple) es el navegador más rápido en cualquier plataforma.
+Bueno para los que quieran probar esta version BETA está publicado en http://www.apple.com/safari/download/</description>
+      
+    </item>
+    
+    <item>
+      <title>Madre hay una sola</title>
+      <link>http://localhost:1313/2007/06/madre-hay-una-sola.html</link>
+      <pubDate>Sat, 02 Jun 2007 11:22:18 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/06/madre-hay-una-sola.html</guid>
+      
+      <description>Ciudades gigantes,
+enormes cloacas
+viajan torrentes hacia el mar
+de un amor que huele mal
+como anunciándole al cielo
+nuestro destino…
+se ven las marcas de la muerte
+por las ventanas del avión
+El progreso fue un fracaso
+fue un suicidio
+La ansiada prosperidad
+fue el más pesado vagón
+¿Para qué un juicio final?
+Si ya estamos desechos
+Una explosión natural
+hará una gran selección
+Yo te agradezco,
+porque aquí estoy,</description>
+      
+    </item>
+    
+    <item>
+      <title>Algunos comandos SSH</title>
+      <link>http://localhost:1313/2007/03/algunos-comandos-ssh.html</link>
+      <pubDate>Mon, 19 Mar 2007 16:52:18 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/03/algunos-comandos-ssh.html</guid>
+      
+      <description>Este es un listado de los comandos SSH que se usan con más frecuencia. Los comandos se encuentran organizados por tema e incluyen una descripción breve para comprender como usarlos.
+Comandos de navegación pwd muestra el path completo del directorio en el que se encuentra cd cambia de directorio, por ejemplo cd directorio/subdirectorio cd ~ lleva a su directorio home cd – lleva al último directorio en el que estuvo cd .</description>
+      
+    </item>
+    
+    <item>
+      <title>Aeropuerto Ezeiza (posted from flickr)</title>
+      <link>http://localhost:1313/2007/03/aeropuerto-ezeiza.html</link>
+      <pubDate>Sun, 18 Mar 2007 00:03:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/03/aeropuerto-ezeiza.html</guid>
+      
+      <description> </description>
+      
+    </item>
+    
+    <item>
+      <title>Xmail Hard Drive.com</title>
+      <link>http://localhost:1313/2007/03/xmail-hard-drivecom.html</link>
+      <pubDate>Sat, 17 Mar 2007 22:42:08 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/03/xmail-hard-drivecom.html</guid>
+      
+      <description>Es como el Gmail Drive pero mucho mejor ya que es multiplataforma. Estes donde estes y con cualquier sistema operativo podés usar el xmail hard drive. Lo único que necesitas es una cuenta de gmail.
+Entrá a este vínculo http://xmailharddrive.com/ y empezá a disfrutarlo.</description>
+      
+    </item>
+    
+    <item>
+      <title>Muy buen site</title>
+      <link>http://localhost:1313/2007/03/muy-buen-site.html</link>
+      <pubDate>Sat, 10 Mar 2007 02:50:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/03/muy-buen-site.html</guid>
+      
+      <description>http://www.xxlager.com.mx/
+Es una cerveza Mejicana, la cerveza no tuve la oportunidad de probarl, pero el site esta muy bueno.</description>
+      
+    </item>
+    
+    <item>
+      <title>Nuevo look again</title>
+      <link>http://localhost:1313/2007/03/nuevo-look-again.html</link>
+      <pubDate>Fri, 09 Mar 2007 23:18:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/03/nuevo-look-again.html</guid>
+      
+      <description>Cambié de look otra vez por que quiero usar el FAlbum que es un albúm de fotos que te permite incluir tus fotos de flickr en tu site. Queda muy lindo.
+Para que esto funcione correctamente me baje un theme (k2) que viene con el código que soporta este plugin, esto es provisorio hasta que FAlbum funcione con mi theme.</description>
+      
+    </item>
+    
+    <item>
+      <title>Feliz día mi Amor</title>
+      <link>http://localhost:1313/2007/02/feliz-dia-mi-amor.html</link>
+      <pubDate>Wed, 14 Feb 2007 00:00:24 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/02/feliz-dia-mi-amor.html</guid>
+      
+      <description>
+TE AMO!!! </description>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu Studio</title>
+      <link>http://localhost:1313/2007/01/ubuntu-studio.html</link>
+      <pubDate>Tue, 23 Jan 2007 02:13:55 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/01/ubuntu-studio.html</guid>
+      
+      <description>Una propuesta interesante por parte de la gente de Ubuntu en crear una distribución linux orientada a la edición de video audio e imagenes http://ubuntustudio.org/ les dejo el site para que lo visiten y se informen un poco mas.</description>
+      
+    </item>
+    
+    <item>
+      <title>Host de tu propio site</title>
+      <link>http://localhost:1313/2007/01/host-de-tu-propio-site.html</link>
+      <pubDate>Mon, 15 Jan 2007 20:09:52 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/01/host-de-tu-propio-site.html</guid>
+      
+      <description>Esta nota es dedicada a HhernánN (clio), para poder tener tu site lo primero que necesitas y te recomiendo que uses es un servidor web, hay mucho pero creo que el mejor es apache.
+Para configurarlo necesitas leer un poco la documentación que trae, es muy buena, pero también se puede buscar info en el gurú del mundo (google).
+Una vez instalado correctamente el servidor web (it works), pasamos a sacar tu dominio, en mi caso el mío es www.</description>
+      
+    </item>
+    
+    <item>
+      <title>Nuevo look</title>
+      <link>http://localhost:1313/2007/01/nuevo-look.html</link>
+      <pubDate>Mon, 15 Jan 2007 03:27:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/01/nuevo-look.html</guid>
+      
+      <description>Utilice un color calido como el Naranja (o anaranjado) por que creo que es el que mejor representa el calor que esta haciendo en Bs As. S:
+El cambio de look es por varios motivos, pero la más importante es por que “SI”.</description>
+      
+    </item>
+    
+    <item>
+      <title>Can&amp;#8217;t connect to MySQL server on &amp;#8216;***.***.**.***&amp;#8217; (10061)</title>
+      <link>http://localhost:1313/2007/01/cant-connect-to-mysql-server-on-10061.html</link>
+      <pubDate>Wed, 03 Jan 2007 12:16:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/01/cant-connect-to-mysql-server-on-10061.html</guid>
+      
+      <description>Tengo mi BD en una máquina linux con Mandriva 2007 y quiero conectarme para insertar datos desde un “windows” y se produce el siguiente error Can’t connect to MySQL server on ***.***.**.*** (10061).
+Solucione este error comentando la linea skip-networking, espero que les sirva.
+Enjoy!!!</description>
+      
+    </item>
+    
+    <item>
+      <title>Feliz Año Nuevo</title>
+      <link>http://localhost:1313/2007/01/feliz-ano-nuevo-2.html</link>
+      <pubDate>Mon, 01 Jan 2007 00:01:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/01/feliz-ano-nuevo-2.html</guid>
+      
+      <description>Que este año sea mucho mejor que el anterior.</description>
+      
+    </item>
+    
+    <item>
+      <title>Logotipos de empresas</title>
+      <link>http://localhost:1313/2006/12/logotipos-de-empresas.html</link>
+      <pubDate>Thu, 28 Dec 2006 03:36:59 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2006/12/logotipos-de-empresas.html</guid>
+      
+      <description>Navegando encontré algo que si lo hubiese encontrado antes me hubiera evitado un varios dolores de cabeza.
+Los que están diseñando mas de una vez tiene que utilizar logotipos de otras empresas, en mi caso tuve que utilizar los de Microsoft ejemplo: SQL Server Office, etc. etc. etc.
+En este site que les paso “http://www.brandsoftheworld.com/” pueden encontrar varios logotipos de empresas muy conocidas.
+Lo más importante son vectoriales.
+Seguramente nos encontramos, en algún momento, con la necesidad de tener en vector el logo de Ferrari, Coca-Cola o cualquier otra empresa que sea mundialmente conocida.</description>
+      
+    </item>
+    
+    <item>
+      <title>Mountar una imagen ISO en Linux</title>
+      <link>http://localhost:1313/2006/10/mountar-una-imagen-iso-en-linux.html</link>
+      <pubDate>Sat, 21 Oct 2006 02:04:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2006/10/mountar-una-imagen-iso-en-linux.html</guid>
+      
+      <description>Esta nota es más que nada una ayuda memoria, porque cada vez que tengo que montar una imagen ISO en linux no recuerdo como se hace talvez a alguien más le sirva.
+mount -t iso9660 -o loopback imagen.raw /punto/de/montaje </description>
+      
+    </item>
+    
+    <item>
+      <title>Firefox 2 Beta 1</title>
+      <link>http://localhost:1313/2006/07/firefox-2.html</link>
+      <pubDate>Sat, 22 Jul 2006 00:07:37 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2006/07/firefox-2.html</guid>
+      
+      <description>Ya está disponible la versión Beta de Firefox 2. El zorrito parece que se bien seguro.
+Se puede instalar en varios idiomas acá les dejo el link Firefox 2 Beta 1.
+Entre tantas mejoras que le hicieron al Firefox 2 esta es la que más me llamó la atención.
+Ability to re-open accidentally closed tabs
+Me pasó y muchas veces perdí unos cuantos minutos en volver a encontrar o el punto de donde había dejado la página.</description>
+      
+    </item>
+    
+    <item>
+      <title>Update - Replace en MySQL</title>
+      <link>http://localhost:1313/2006/07/update-replace-en-mysql.html</link>
+      <pubDate>Sat, 01 Jul 2006 10:01:51 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2006/07/update-replace-en-mysql.html</guid>
+      
+      <description>Tenía que reemplazar unas palabras en mi base de datos, consulte en el manual y busque varios ejemplo en google hasta que por fin encontré un ejemplo bien explícito.
+Lo anoto acá para tenerlo bien a mano para cuando lo vuelva a necesitar y por si alguien por ahi anda necesitando reemplazar una parte de un texto en un o en varios campos de su base de datos.
+update [table_name] set [field_name] = replace([field_name],&amp;rsquo;[string_to_find]’,&amp;rsquo;[string_to_replace]’);</description>
+      
+    </item>
+    
+    <item>
+      <title>Error establishing a database connection</title>
+      <link>http://localhost:1313/2006/03/error-establishing-a-database-connection.html</link>
+      <pubDate>Fri, 24 Mar 2006 17:13:43 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2006/03/error-establishing-a-database-connection.html</guid>
+      
+      <description>Después de probar y probar y de mucho probar encontré la solución a este error, y lo pueden leer en este vínculo.
+http://dev.mysql.com/doc/refman/5.0/en/old-client.html
+Lo publico porque sé que más de una persona puede que le aparezca este mensaje de error y en wordpress no son lo sufientemente claros como para describir lo que hay que hacer para solucionar este problema.
+Espero les sirva.</description>
+      
+    </item>
+    
+    <item>
+      <title>Internet a 2 Gigabits por segundo</title>
+      <link>http://localhost:1313/2006/03/internet-a-2-gigabits-por-segundo.html</link>
+      <pubDate>Mon, 06 Mar 2006 13:10:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2006/03/internet-a-2-gigabits-por-segundo.html</guid>
+      
+      <description>Titulo Original: Prueban Internet a una velocidad de 2 Gigabits por segundo
+La red de alta velocidad permitirá descargar la Enciclopedia Británica completa en siete segundos.
+Una mega red diseñada por científicos británicos permitirá navegar contenidos por Internet a una velocidad de 2.000 millones de bits por segundo (2 gigabits), en contraste a los 2 megabits por segundo que la mayoría de las conexiones alcanzan hoy en el Reino Unido.</description>
+      
+    </item>
+    
+    <item>
+      <title>Css y Firefox</title>
+      <link>http://localhost:1313/2005/12/css-y-firefox.html</link>
+      <pubDate>Fri, 30 Dec 2005 12:36:50 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/12/css-y-firefox.html</guid>
+      
+      <description>Hace poco me pasaron un link de como generar un site con CSS en Firefox.
+Me parecío interesante que lo lean, acá está el link a esa página.
+http://levhita.blogspot.com/</description>
+      
+    </item>
+    
+    <item>
+      <title>Tango 600: Un eléctrico que alcanza los 255 km/h</title>
+      <link>http://localhost:1313/2005/12/tango-600-un-electrico-que-alcanza-los-255-kmh.html</link>
+      <pubDate>Wed, 07 Dec 2005 22:36:29 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/12/tango-600-un-electrico-que-alcanza-los-255-kmh.html</guid>
+      
+      <description>Un pequeño modelo llamado Tango 600 fabricado por Commuter Cars -empresa de origen norteamericano- parece estar derribando todos los mitos de lo que significa la elaboración de un vehículo urbano.
+Con sus innovadores dos motores eléctricos, sus productores destacan que el modelo no emite contaminación al aire, el principal problema de contaminación en las grandes ciudades.
+Además posee una inédita autonomía de 330 kms sin necesidad de cargar las baterías. Su modelo compacto agrega las ventajas propias de un City Car: facilidad de estacionamiento, y menor uso de espacios públicos.</description>
+      
+    </item>
+    
+    <item>
+      <title>Bootdisk.com</title>
+      <link>http://localhost:1313/2005/11/bootdiskcom.html</link>
+      <pubDate>Tue, 08 Nov 2005 23:35:52 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/11/bootdiskcom.html</guid>
+      
+      <description>Muy buen site para cuando necesitas butear en ese sistema que se llama D.O.S (¿te acordas de ese sistema operativo?). Aparte de generarte un booteable para D.O.S. tiene otros discos de arranques m?s.
+Enjoy!!!
+bootdisk.com</description>
+      
+    </item>
+    
+    <item>
+      <title>Delfines entrenando humanos</title>
+      <link>http://localhost:1313/2005/08/dolphin.html</link>
+      <pubDate>Tue, 09 Aug 2005 00:01:43 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/08/dolphin.html</guid>
+      
+      <description>(titulo original) Entrenando humanos
+Cansado de limpiar cada día la pileta de los delfines, el entrenador de un conocido acuario de los Estados Unidos decidió entrenar a los delfines para que ellos mismos recogieran la basura que, después del show, volaba hasta la pileta. Así que comenzó a recompensarlos con comida extra cada vez que le traían un vaso de plástico o un papel que hubiera caído al agua.
+En una oportunidad Daisy, una hembra adulta encontró un pedazo de papel, lo llevó al fondo del acuario y le colocó una pequeña piedra encima para evitar que flotara.</description>
+      
+    </item>
+    
+    <item>
+      <title>IGuy</title>
+      <link>http://localhost:1313/2005/08/iguy.html</link>
+      <pubDate>Mon, 08 Aug 2005 12:00:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/08/iguy.html</guid>
+      
+      <description>Nota sacada de www.thinkgeek.com, está muy bueno… (si te sobra la plata obvio)
+Enjoy playtime with your iPod
+For 20, 30, 40 and 60 gig 4G and photo iPods
+Meet iGuy-the first bendable, posable friend for you and your iPod! Not only is iGuy fun, he’s fully functional- offering great rubberized protection, docking capability, and screen protection for your iPod or iPod Photo.
+iGuy is your iPod’s new best friend! He provides protection and fun for you and your iPod.</description>
+      
+    </item>
+    
+    <item>
+      <title>Migrar apps desde IE a Mozilla</title>
+      <link>http://localhost:1313/2005/08/migrar-apps-desde-ie-a-mozilla.html</link>
+      <pubDate>Sun, 07 Aug 2005 12:00:27 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/08/migrar-apps-desde-ie-a-mozilla.html</guid>
+      
+      <description>Por una página que más de un webmaster debe estar buscando, como hacer que el diseño entre IE y Mozilla se vean iguales en ambos navegadores.
+IBM publicó una nota donde dan algunos consejos para solucionar algunos de los problemas.
+Ver artículo</description>
+      
+    </item>
+    
+    <item>
+      <title>Adobe</title>
+      <link>http://localhost:1313/2005/08/adobe.html</link>
+      <pubDate>Sat, 06 Aug 2005 13:46:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/08/adobe.html</guid>
+      
+      <description>Conozcan las intalaciones de adobe, la empresa que produce el software más conocido para la edición de imágenes digitales, como por ejemplo Photosohop, Illustrator, Indesign, etc. etc.
+Edificio adobe</description>
+      
+    </item>
+    
+    <item>
+      <title>Frase de Película</title>
+      <link>http://localhost:1313/2005/07/frase-de-pelicula.html</link>
+      <pubDate>Fri, 15 Jul 2005 14:56:27 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/07/frase-de-pelicula.html</guid>
+      
+      <description>Un gran poder conlleva una gran responsabilidad.
+Ben Parker, el tío de Spiderman.</description>
+      
+    </item>
+    
+    <item>
+      <title>Benjamin Franklin</title>
+      <link>http://localhost:1313/2005/04/benjamin-franklin.html</link>
+      <pubDate>Sat, 30 Apr 2005 11:22:01 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/04/benjamin-franklin.html</guid>
+      
+      <description>La ira nunca carece de motivo, pero pocas veces se trata de un buen motivo.</description>
+      
+    </item>
+    
+    <item>
+      <title>Inteligencia Emocional</title>
+      <link>http://localhost:1313/2005/03/inteligencia-emocional.html</link>
+      <pubDate>Fri, 18 Mar 2005 10:32:10 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/03/inteligencia-emocional.html</guid>
+      
+      <description>Daniel Goleman ofrece en este libro la siguiente propuesta: la situación actual de las investigaciones de la Neuropsicología permiten conocer algunas de las causas de hechos actuales altamente preocupantes, como son el aumento del egoísmo, de la violencia y de la miseria social de nuestra sociedad; y de comprender como podemos ponerles remedio. Concretamente, nos permiten entender mejor qué es la inteligencia emocional y cómo podemos educarla. Actualmente la educación emocional de nuestros hijos está dejada al azar, con resultados cada vez más desastrosos.</description>
+      
+    </item>
+    
+    <item>
+      <title>Una historia especial</title>
+      <link>http://localhost:1313/2005/03/una-historia-especial.html</link>
+      <pubDate>Tue, 08 Mar 2005 10:21:03 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/03/una-historia-especial.html</guid>
+      
+      <description>Terminaba la década del 40, no era una época fácil en Europa. La segunda guerra mundial había dejado a Francia en ruinas. Jacques Cousteau, un joven oficial de la marina decide dar un vuelco a su vida, con la ayuda de sus amigos y un esponsor secreto, compra un viejo dragaminas fuera de servicio y lo bautiza “Calypso”, renuncia a la marina y convence a un grupo de buzos de acompañarlo en la gran aventura: Recorrer los mares del mundo filmando los fondos oceánicos.</description>
+      
+    </item>
+    
+    <item>
+      <title>Adios a PAPPO</title>
+      <link>http://localhost:1313/2005/02/adios-a-pappo.html</link>
+      <pubDate>Fri, 25 Feb 2005 10:50:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/02/adios-a-pappo.html</guid>
+      
+      <description>Noticia obtenida de La Nación (25 de febreo del 2005)
+Trágica muerte de Pappo El cantante de rock falleció esta madrugada luego de caerse de su moto y ser atropellado por un automóvil en la ruta 5, en la localidad de Jáuregui, partido de Luján.
+En la madrugada murió el cantante de rock Norberto Napolitano, más conocido como Pappo, al caerse de su moto y ser atropellado por un automovil en la ruta 5, en la localidad de Jáuregui, partido de Luján, según confirmaron a LA NACION fuentes policiales.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hola Mundo weblog</title>
+      <link>http://localhost:1313/2005/02/hello-world.html</link>
+      <pubDate>Thu, 24 Feb 2005 01:08:01 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2005/02/hello-world.html</guid>
+      
+      <description>Bienvenido a mi weblog.
+Para los que no saben muy bien que es un weblog paso a detallarlo:
+“Es un sitio web que posee una serie de artículos y/o publicaciones en un orden cronológico. Por ejemplo, alguien tiene una herramienta que le permite controlar y subir contenido a un sitio web, entoces gracias a su facilidad escribe todos los días, como si mantuviera una charla cronológica ? como si escribiera para organizar y recordar su información.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

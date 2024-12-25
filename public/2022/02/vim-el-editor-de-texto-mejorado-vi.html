@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es-es"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Vim el editor de texto mejorado Vi | Fideo - Federico Mazzei</title>
+<meta property="og:title" content="Vim el editor de texto mejorado Vi | Fideo - Federico Mazzei" />
+<meta name="twitter:title" content="Vim el editor de texto mejorado Vi | Fideo - Federico Mazzei" />
+<meta itemprop="name" content="Vim el editor de texto mejorado Vi | Fideo - Federico Mazzei" />
+<meta name="application-name" content="Vim el editor de texto mejorado Vi | Fideo - Federico Mazzei" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="es-es" />
+<meta name="language" content="es-es" />
+
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/2022/02/vim-el-editor-de-texto-mejorado-vi.html" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2022-02-25T08:34:44Z />
+    <meta property="article:published_time" content=2022-02-25T08:34:44Z />
+    <meta property="og:url" content="http://localhost:1313/2022/02/vim-el-editor-de-texto-mejorado-vi.html" />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Vim el editor de texto mejorado Vi",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2022-02-25",
+        "description": "",
+        "wordCount":  891 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2022-02-25",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Fideo - Federico Mazzei"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.123.7">
+
+    
+    <meta property="og:title" content="Vim el editor de texto mejorado Vi" />
+<meta property="og:description" content="Vi fue creado por William Nelson Joy mas conocido como Bill Joy; él empezó a desarrolar allá por el año 1976 este editor. Luego en 1991 Bram Moolenaar realiza una mejora este editor y lo llama Vim siendo este uno de los editores de texto mas utilizados por los desarrolladores.
+Pero este post no trata de hablar de historia de Vim sino de lo que se puede hacer con él." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/2022/02/vim-el-editor-de-texto-mejorado-vi.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-25T08:34:44+00:00" />
+<meta property="article:modified_time" content="2022-02-25T08:34:44+00:00" />
+
+
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Vim el editor de texto mejorado Vi"/>
+<meta name="twitter:description" content="Vi fue creado por William Nelson Joy mas conocido como Bill Joy; él empezó a desarrolar allá por el año 1976 este editor. Luego en 1991 Bram Moolenaar realiza una mejora este editor y lo llama Vim siendo este uno de los editores de texto mas utilizados por los desarrolladores.
+Pero este post no trata de hablar de historia de Vim sino de lo que se puede hacer con él."/>
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/2022/02/vim-el-editor-de-texto-mejorado-vi.html">
+    <link href="/style.min.128edcbf18e21a9a432fbb742547a4f6b35274170197aaf5d1d8074aeceb08e3.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Artículos
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/sobremi/">
+                        Sobre Mi
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Vim el editor de texto mejorado Vi</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2022-02-25T08:34:44&#43;00:00" itemprop="datePublished"> Feb 25, 2022 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>Vi fue creado por William Nelson Joy mas conocido como Bill Joy; él empezó a desarrolar allá por el año 1976 este editor. Luego en 1991 Bram Moolenaar realiza una mejora este editor y lo llama Vim siendo este uno de los editores de texto mas utilizados por los desarrolladores.</p>
+<p>Pero este post no trata de hablar de historia de Vim sino de lo que se puede hacer con él.</p>
+<p>Realizar una búsqueda sin importar si el texto a buscar está en mínuscula o mayúscula.</p>
+<pre tabindex="0"><code>:/texto a buscar\c
+</code></pre><p>El resultado “texto a buscar” puede estar escrito así “TexTo A BuScar” que lo va a encontrar igual</p>
+<p>Agregar texto al inicio de varias líneas</p>
+<pre tabindex="0"><code>Ctrl+v para iniciar el bloque visual, luego presionamos Shift+I para ingresar el texto que querramos, por ejemplo #  para agregar un comentario, luego presionamos la tecla ESC (escape) y listo se completa toda la linea seleccionada con lo que escribimos.
+</code></pre><p>Resúmenes de Vimtutor</p>
+<p>Dejo aquí abajo un resúmen que muestra vimtutor al terminar las lecciones. Recomiendo que realicen este tutorial a todas aquellas personas que se sientan frente a vim por primera vez o que no están muy familiarizados con él.</p>
+<pre tabindex="0"><code>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			    RESUMEN DE LA LECCIÓN 1
+
+
+  1. El cursor se mueve utilizando las teclas de las flechas o las teclas hjkl.
+	 h (izquierda)	   j (abajo)	  k (arriba)	  l (derecha)
+
+  2. Para acceder a Vim (desde el símbolo del sistema %) escriba:
+     vim FILENAME &lt;INTRO&gt;
+
+  3. Para salir de Vim escriba: &lt;ESC&gt; :q! &lt;INTRO&gt; para eliminar todos
+     los cambios.
+
+  4. Para borrar un carácter sobre el cursor en modo Normal pulse:  x
+
+  5. Para insertar texto en la posición del cursor estando en modo Normal:
+	  pulse   i   escriba el texto	 pulse &lt;ESC&gt;
+
+NOTA: Pulsando &lt;ESC&gt; se vuelve al modo Normal o cancela un mandato no deseado
+      o incompleto.
+
+Ahora continúe con la Lección 2.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			    RESUMEN DE LA LECCIÓN 2
+
+  1. Para borrar desde el cursor hasta el final de una palabra pulse:	dw
+
+  2. Para borrar desde el cursor hasta el final de una línea pulse:	d$
+
+  3. Para borrar una línea entera pulse:    dd
+
+  4. El formato de un mandato en modo Normal es:
+
+       [número]   mandato   objeto   O	 mandato   [número]   objeto
+     donde:
+       número - es cuántas veces se ha de ejecutar el mandato
+       mandato - es lo que hay que hacer, por ejemplo, d para borrar
+       objeto - es sobre lo que el mandato va a operar, por ejemplo
+		w (palabra), $ (hasta el final de la línea), etc.
+
+  5. Para deshacer acciones previas pulse:		 u (u minúscula)
+     Para deshacer todos los cambios de una línea pulse: U (U mayúscula)
+     Para deshacer lo deshecho pulse:			 CTRL-R
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			    RESUMEN DE LA LECCIÓN 3
+
+
+  1. Para sustituir texto que ha sido borrado, pulse  p . Esto Pone el texto
+     borrado DESPUÉS del cursor (si lo que se ha borrado es una línea se
+     situará sobre la línea que está sobre el cursor).
+
+  2. Para sustituir el carácter bajo el cursor, pulse	r   y luego el
+     carácter que sustituirá al original.
+
+  3. El mandato change le permite cambiar el objeto especificado desde la
+     posición del cursor hasta el final del objeto; e.g. Pulse	cw  para
+     cambiar desde el cursor hasta el final de la palabra, c$  para cambiar
+     hasta el final de la línea.
+
+  4. El formato para change es:
+
+	 [número]   c	objeto	      O		c   [número]   objeto
+
+  Pase ahora a la lección siguiente.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			    RESUMEN DE LA LECCIÓN 4
+
+
+  1. Ctrl-g  muestra la posición del cursor en el fichero y su estado.
+     Mayu-G mueve el cursor al final del fichero. Un número de línea
+     seguido de Mayu-G mueve el cursor a la línea con ese número.
+
+  2. Pulsando  /  seguido de una frase busca la frase hacia ADELANTE.
+     Pulsando  ?  seguido de una frase busca la frase hacia ATRÁS.
+     Después de una búsqueda pulse  n  para encontrar la aparición
+     siguiente en la misma dirección.
+
+  3. Pulsando  %  cuando el cursor esta sobre (,), [,], { o } localiza
+     la pareja correspondiente.
+
+  4. Para cambiar viejo por nuevo en una línea pulse	      :s/viejo/nuevo
+     Para cambiar todos los viejo por nuevo en una línea pulse :s/viejo/nuevo/g
+     Para cambiar frases entre dos números de líneas pulse  :#,#s/viejo/nuevo/g
+     Para cambiar viejo por nuevo en todo el fichero pulse  :%s/viejo/nuevo/g
+     Para pedir confirmación en cada caso añada  &#39;c&#39;	    :%s/viejo/nuevo/gc
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			   RESUMEN DE LA LECCIÓN 5
+
+
+  1.  :!mandato  ejecuta un mandato externo.
+
+      Algunos ejemplos útiles son:
+	  :!dir - muestra el contenido de un directorio.
+	  :!del NOMBRE_DE_FICHERO  -  borra el fichero NOMBRE_DE FICHERO.
+
+  2.  :#,#w NOMBRE_DE _FICHERO  guarda desde las líneas # hasta la # en el
+     fichero NOMBRE_DE_FICHERO.
+
+  3.  :r NOMBRE_DE _FICHERO  recupera el fichero del disco NOMBRE_DE FICHERO
+     y lo inserta en el fichero en curso a partir de la posición del cursor.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			   RESUMEN DE LA LECCIÓN 6
+
+
+  1. Pulsando  o  abre una línea por DEBAJO del cursor y sitúa el cursor en
+     la línea abierta en modo Insert.
+     Pulsando una O mayúscula se abre una línea SOBRE la que está el cursor.
+
+  2. Pulse una	a  para insertar texto DESPUÉS del carácter sobre el cursor.
+     Pulsando una  A  mayúscula añade automáticamente texto al final de la
+     línea.
+
+  3. Pulsando una  R  mayúscula se entra en modo Replace hasta que, para salir,
+     se pulse &lt;ESC&gt;.
+
+  4. Escribiendo «:set xxx» fija la opción «xxx»
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</code></pre><h2 id="lista-de-reproducción-de-vim-editor-de-texto-mejorado">Lista de reproducción de VIM editor de texto mejorado.</h2>
+<!-- raw HTML omitted -->
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2024 .
+        
+    </small>
+</footer>
+
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

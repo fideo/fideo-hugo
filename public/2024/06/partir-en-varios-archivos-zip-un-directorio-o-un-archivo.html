@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es-es"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Partir en varios archivos .zip un directorio o un archivo | Fideo - Federico Mazzei</title>
+<meta property="og:title" content="Partir en varios archivos .zip un directorio o un archivo | Fideo - Federico Mazzei" />
+<meta name="twitter:title" content="Partir en varios archivos .zip un directorio o un archivo | Fideo - Federico Mazzei" />
+<meta itemprop="name" content="Partir en varios archivos .zip un directorio o un archivo | Fideo - Federico Mazzei" />
+<meta name="application-name" content="Partir en varios archivos .zip un directorio o un archivo | Fideo - Federico Mazzei" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="es-es" />
+<meta name="language" content="es-es" />
+
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/2024/06/partir-en-varios-archivos-zip-un-directorio-o-un-archivo.html" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2024-06-05T12:33:09Z />
+    <meta property="article:published_time" content=2024-06-05T12:33:09Z />
+    <meta property="og:url" content="http://localhost:1313/2024/06/partir-en-varios-archivos-zip-un-directorio-o-un-archivo.html" />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Partir en varios archivos .zip un directorio o un archivo",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2024-06-05",
+        "description": "",
+        "wordCount":  240 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2024-06-05",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Fideo - Federico Mazzei"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.123.7">
+
+    
+    <meta property="og:title" content="Partir en varios archivos .zip un directorio o un archivo" />
+<meta property="og:description" content="En mi caso necesitaba realizar un comando que me permita partir en varios archivos .zip un directorio o un archivo .iso
+Obviamente que por pantalla gráfica esto es muy fácil de hacer pero el problema se presenta cuando estas accediendo a un servidor y tienes que partir un archivo grande en varios fragmentos para poder transportarlo ya sea para mandar por mail o copiarlo a otro lugar.
+En principio tenemos que tener instalado el p7zip si no lo tenes instalado en Ubuntu o linux derivados de Debian se instala así:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/2024/06/partir-en-varios-archivos-zip-un-directorio-o-un-archivo.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-06-05T12:33:09+00:00" />
+<meta property="article:modified_time" content="2024-06-05T12:33:09+00:00" />
+
+
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Partir en varios archivos .zip un directorio o un archivo"/>
+<meta name="twitter:description" content="En mi caso necesitaba realizar un comando que me permita partir en varios archivos .zip un directorio o un archivo .iso
+Obviamente que por pantalla gráfica esto es muy fácil de hacer pero el problema se presenta cuando estas accediendo a un servidor y tienes que partir un archivo grande en varios fragmentos para poder transportarlo ya sea para mandar por mail o copiarlo a otro lugar.
+En principio tenemos que tener instalado el p7zip si no lo tenes instalado en Ubuntu o linux derivados de Debian se instala así:"/>
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/2024/06/partir-en-varios-archivos-zip-un-directorio-o-un-archivo.html">
+    <link href="/style.min.128edcbf18e21a9a432fbb742547a4f6b35274170197aaf5d1d8074aeceb08e3.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Artículos
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/sobremi/">
+                        Sobre Mi
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Partir en varios archivos .zip un directorio o un archivo</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-06-05T12:33:09&#43;00:00" itemprop="datePublished"> Jun 5, 2024 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>En mi caso necesitaba realizar un comando que me permita partir en varios archivos .zip un directorio o un archivo .iso</p>
+<p>Obviamente que por pantalla gráfica esto es muy fácil de hacer pero el problema se presenta cuando estas accediendo a un servidor y tienes que partir un archivo grande en varios fragmentos para poder transportarlo ya sea para mandar por mail o copiarlo a otro lugar.</p>
+<p>En principio tenemos que tener instalado el <strong>p7zip</strong> si no lo tenes instalado en Ubuntu o linux derivados de Debian se instala así:</p>
+<pre tabindex="0"><code>sudo apt-get install p7zip-full
+</code></pre><p>Si ya lo tenes instalado lo único que tenes que hacer es especificar la cantidad de MB (Mega Bytes) en la que queres partir tu directorio o tu archivo. En mi ejemplo yo lo realizo con un archivo .iso y para eso ejecuto la siguiente linea.</p>
+<pre tabindex="0"><code>7z a -v 500m -tzip ARCHIVO.zip ARCHIVO.iso
+</code></pre><p>Una vez ejecutada se podrá ver en el directorio destino las N cantidad de partes de archivos .zip que fué generando de 500MB hasta completar el total del archivo .iso</p>
+<p>Si quisieramos realizar una compresión en varios archivos de un directorio el comando a utilizar sería algo así:</p>
+<pre tabindex="0"><code>7z a -v500m -tzip archivo.zip miDirectorio/*
+</code></pre><p>Los archivos.zip tendrá varias partes de 500MB según lo que pese el directorio a comprimir y partir</p>
+<p><a href="/tags/#comandos/">Podes ver mas ejemplos de lineas de comandos en este link</a></p>
+<p><!-- raw HTML omitted -->O podes buscar mas ayuda en el manual oficial de p7zip<!-- raw HTML omitted --></p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2024 .
+        
+    </small>
+</footer>
+
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

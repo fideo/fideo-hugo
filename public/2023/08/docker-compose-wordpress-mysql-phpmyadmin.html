@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es-es"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Docker Compose WordPress MySQL PhpMyAdmin | Fideo - Federico Mazzei</title>
+<meta property="og:title" content="Docker Compose WordPress MySQL PhpMyAdmin | Fideo - Federico Mazzei" />
+<meta name="twitter:title" content="Docker Compose WordPress MySQL PhpMyAdmin | Fideo - Federico Mazzei" />
+<meta itemprop="name" content="Docker Compose WordPress MySQL PhpMyAdmin | Fideo - Federico Mazzei" />
+<meta name="application-name" content="Docker Compose WordPress MySQL PhpMyAdmin | Fideo - Federico Mazzei" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="es-es" />
+<meta name="language" content="es-es" />
+
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/2023/08/docker-compose-wordpress-mysql-phpmyadmin.html" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2023-08-23T13:08:58Z />
+    <meta property="article:published_time" content=2023-08-23T13:08:58Z />
+    <meta property="og:url" content="http://localhost:1313/2023/08/docker-compose-wordpress-mysql-phpmyadmin.html" />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Docker Compose WordPress MySQL PhpMyAdmin",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2023-08-23",
+        "description": "",
+        "wordCount":  526 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2023-08-23",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Fideo - Federico Mazzei"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.123.7">
+
+    
+    <meta property="og:title" content="Docker Compose WordPress MySQL PhpMyAdmin" />
+<meta property="og:description" content="En este post dejo un código de docker compose que te permite levantar un docker con wordpress que usa una base de datos mysql y para poder administrarla usar el phpmyadmin.
+Esto es muy recomendable para aquellos desarrolladores que tienen que estar levantando ambientes de desarrollos con distintas versiones de wordpress ó mysql ya sea para actualizarlas o para probar algo en particular.
+En lo particular me sirve mucho para dejar reflejado en un ambiente local tal cual las características que tiene el sitio en producción; es decir que si el sitio de un cliente tiene en producción wordpress 5 mientras ya está vigente la versión 6 yo puedo seguir manteniendo esa versión ya sea para luego actualizarla o por resguardo (backup)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/2023/08/docker-compose-wordpress-mysql-phpmyadmin.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-23T13:08:58+00:00" />
+<meta property="article:modified_time" content="2023-08-23T13:08:58+00:00" />
+
+
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Docker Compose WordPress MySQL PhpMyAdmin"/>
+<meta name="twitter:description" content="En este post dejo un código de docker compose que te permite levantar un docker con wordpress que usa una base de datos mysql y para poder administrarla usar el phpmyadmin.
+Esto es muy recomendable para aquellos desarrolladores que tienen que estar levantando ambientes de desarrollos con distintas versiones de wordpress ó mysql ya sea para actualizarlas o para probar algo en particular.
+En lo particular me sirve mucho para dejar reflejado en un ambiente local tal cual las características que tiene el sitio en producción; es decir que si el sitio de un cliente tiene en producción wordpress 5 mientras ya está vigente la versión 6 yo puedo seguir manteniendo esa versión ya sea para luego actualizarla o por resguardo (backup)"/>
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/2023/08/docker-compose-wordpress-mysql-phpmyadmin.html">
+    <link href="/style.min.128edcbf18e21a9a432fbb742547a4f6b35274170197aaf5d1d8074aeceb08e3.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Artículos
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/sobremi/">
+                        Sobre Mi
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Docker Compose WordPress MySQL PhpMyAdmin</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2023-08-23T13:08:58&#43;00:00" itemprop="datePublished"> Aug 23, 2023 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>En este post dejo un código de docker compose que te permite levantar un docker con wordpress que usa una base de datos mysql y para poder administrarla usar el phpmyadmin.</p>
+<p>Esto es muy recomendable para aquellos desarrolladores que tienen que estar levantando ambientes de desarrollos con distintas versiones de wordpress ó mysql ya sea para actualizarlas o para probar algo en particular.</p>
+<p>En lo particular me sirve mucho para dejar reflejado en un ambiente local tal cual las características que tiene el sitio en producción; es decir que si el sitio de un cliente tiene en producción wordpress 5 mientras ya está vigente la versión 6 yo puedo seguir manteniendo esa versión ya sea para luego actualizarla o por resguardo (backup)<br>
+Lo mismo pasa con las bases de datos si hay varias versiones y tal vez algunas tengan algunas características más o menos dependiendo de la versión y con esto podemos reflejar exactamente lo mismo que tenemos en producción.</p>
+<p><!-- raw HTML omitted -->Dejo el código fuente de este docker en mi repositorio de github<!-- raw HTML omitted --></p>
+<pre tabindex="0"><code>  1 version: &#34;3&#34;
+  2 networks:
+  3     fideo-wordpress-net:
+  4         driver: bridge
+  5  
+  6 services:
+  7     mysql:
+  8         image: mysql:5.7
+  9         container_name: fideo-wordpress-6.1.1-mysql
+ 10         tty: true
+ 11         ports:
+ 12             - &#34;4406:3306&#34;
+ 13         volumes:
+ 14             - &#34;./data/mysql/:/var/lib/mysql&#34;
+ 15         environment:
+ 16             MYSQL_ROOT_PASSWORD: password
+ 17             MYSQL_DATABASE: nombrebasededatos
+ 18             MYSQL_USER: usuario
+ 19             MYSQL_PASSWORD: password
+ 20         networks:
+ 21             - fideo-wordpress-net
+ 22  
+ 23     server:
+ 24         image: wordpress:latest
+ 25         container_name: fideo-wordpress-6.1.1
+ 26         ports:
+ 27             - &#34;8080:80&#34;
+ 28         volumes:
+ 29             - &#34;./wordpress/:/var/www/html&#34;
+ 30         environment:
+ 31             WORDPRESS_DB_USER: nombredeusuario
+ 32             WORDPRESS_DB_PASSWORD: password
+ 33             WORDPRESS_DB_NAME: nombrebasededatos
+ 34             WORDPRESS_DB_HOST: fideo-wordpress-6.1.1-mysql
+ 35         depends_on:
+ 36             - mysql
+ 37         networks:
+ 38             - fideo-wordpress-net
+ 39 
+ 40      phpmyadmin:
+ 41         image: phpmyadmin/phpmyadmin
+ 42         container_name: fideo-phpmyadmin
+ 43         ports:
+ 44             - &#34;8081:80&#34;
+ 45         environment:
+ 46             PMA_HOST: fideo-wordpress-6.1.1-mysql
+ 47             MYSQL_ROOT_PASSWORD: password
+ 48         depends_on:
+ 49             - mysql
+ 50         networks:
+ 51             - fideo-wordpress-net
+</code></pre><p>También recomiendo poner a tu usuario dentro del grupo root esto evitará algunas molestias en el uso diario; entiendo que tal vez no sea lo mejor por seguridad pero si somos usuarios prudentes no habría problemas en hacer esto.</p>
+<p>editar con este comando</p>
+<pre tabindex="0"><code>sudo /usr/sbin/visudo
+</code></pre><p>Luego buscamos donde dice root ALL=(ALL:ALL) ALL y agregamos nuestro usuario me manejamos habitualmente y lo dejamos así:</p>
+<pre tabindex="0"><code># User privilege specification 
+root  ALL=(ALL:ALL) ALL 
+nombreusuario ALL=(ALL:ALL) ALL
+</code></pre><h2 id="levantando-nuestro-docker">Levantando nuestro Docker</h2>
+<p>Una vez que tengamos esto tenemos que probar nuestro docker compose ejecutando lo siguiente:</p>
+<pre tabindex="0"><code>docker compose up 
+</code></pre><p>recordemos que podemos utilizar el parámetro -d para dejarlo que corra en background <strong>docker compose up -d</strong></p>
+<h3 id="para-ver-mas-post-sobre-docker-te-invito-a-que-sigas-leyendo-mi-blog-haciendo-click-acátagsdocker"><a href="/tags/#docker">Para ver mas post sobre docker te invito a que sigas leyendo mi blog haciendo click acá.</a></h3>
+<h2 id="aumentar-el-tamaño-de-subida-de-archivos-a-phpmyadmin">Aumentar el tamaño de subida de archivos a PhpMyAdmin</h2>
+<p>Seguramente si estás trabajando con sitios de wordpress vas a necesitar subir archivos superiores a 2MB que es lo que viene por defecto en PhpMyAdmin; para esto tenes que crear un archivo que se llame <strong>uploads.ini</strong> y que contenga lo siguiente:</p>
+<pre tabindex="0"><code>file_uploads = On
+memory_limit = 500M
+upload_max_filesize = 500M
+post_max_size = 500M
+max_execution_time = 600
+</code></pre><p>Luego se vuelve a levantar el docker compose y listo ya se podría subir archivos de hasta 500M</p>
+<p>Espero que te sirva y si te sirvió no te olvides de dejarme un comentario 🙂</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2024 .
+        
+    </small>
+</footer>
+
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

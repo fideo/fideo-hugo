@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Fideo - Federico Mazzei</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on Fideo - Federico Mazzei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sat, 07 Sep 2024 09:05:21 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Activar la sincronización de Fecha y Hora en Debian Ubuntu</title>
+      <link>http://localhost:1313/2024/09/activar-la-sincronizacion-de-fecha-y-hora-en-debian-ubuntu.html</link>
+      <pubDate>Sat, 07 Sep 2024 09:05:21 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/09/activar-la-sincronizacion-de-fecha-y-hora-en-debian-ubuntu.html</guid>
+      
+      <description>Si necesitas activar la sincronización de la fecha y hora en debian ubuntu o cualquier distribución derivada de Debian con un simple comando se puede reparar esto.
+Me ha pasado que he instalado debian 12 y la notebook donde lo instalé no se sincronizaba correctamente el horario ni la fecha; entonces cada vez que encendía la notebook esta no podía navegar, ya que, estaba desincronizada la fecha y la hora.</description>
+      
+    </item>
+    
+    <item>
+      <title>Convertir texto de minúscula a MAYÚSCULA en Vim</title>
+      <link>http://localhost:1313/2024/08/convertir-texto-de-minuscula-a-mayuscula-en-vim.html</link>
+      <pubDate>Fri, 09 Aug 2024 09:13:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/08/convertir-texto-de-minuscula-a-mayuscula-en-vim.html</guid>
+      
+      <description>Para convertir texto de minúscula a MAYÚSCULA en Vim se puede realizar una convinación de tres o cuatro teclas para conseguir este resultado.
+Estando en modo NORMAL en vim y presionando las teclas gUw cambian la palabra siguiente de minúscula a MAYÚSCULA y si queremos hacer el paso inverso la convinación de teclas es guw como se puede apreciar el único cambio significativo es la letra u que cambia de minúscula a mayúscula según se necesite cambiar de un estado a otro.</description>
+      
+    </item>
+    
+    <item>
+      <title>Partir en varios archivos .zip un directorio o un archivo</title>
+      <link>http://localhost:1313/2024/06/partir-en-varios-archivos-zip-un-directorio-o-un-archivo.html</link>
+      <pubDate>Wed, 05 Jun 2024 12:33:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/06/partir-en-varios-archivos-zip-un-directorio-o-un-archivo.html</guid>
+      
+      <description>En mi caso necesitaba realizar un comando que me permita partir en varios archivos .zip un directorio o un archivo .iso
+Obviamente que por pantalla gráfica esto es muy fácil de hacer pero el problema se presenta cuando estas accediendo a un servidor y tienes que partir un archivo grande en varios fragmentos para poder transportarlo ya sea para mandar por mail o copiarlo a otro lugar.
+En principio tenemos que tener instalado el p7zip si no lo tenes instalado en Ubuntu o linux derivados de Debian se instala así:</description>
+      
+    </item>
+    
+    <item>
+      <title>LazyVim muestra algunos Warnings rg, fdfind y lazygit</title>
+      <link>http://localhost:1313/2024/05/lazyvim-muestra-algunos-warnings-rg-fdfind-y-lazygit.html</link>
+      <pubDate>Tue, 14 May 2024 14:55:33 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/05/lazyvim-muestra-algunos-warnings-rg-fdfind-y-lazygit.html</guid>
+      
+      <description>Si al realizar un checkhealth en LazyVim muestra algunos Warnings rg, fdfind y lazygit la solución a estos tres warnings que no está instalado ni el rg, ni el fdfind ni el lazygit lo que se debe realizar son los siguientes pasos:
+Primero debemos realizar un checkhealth e ir verificando a cada paso que realizamos si se va subsanando el warning o advertencia sobre ese inconveniente.
+Por eso abrimos el LazyVim o neovim y ejecutamos el comando :checkhealth nos mostrará una advertencia como la siguiente:</description>
+      
+    </item>
+    
+    <item>
+      <title>Como averiguar el id de AnyDesk por consola o terminal en linux</title>
+      <link>http://localhost:1313/2024/05/como-averiguar-el-id-de-anydesk-por-consola-o-terminal-en-linux.html</link>
+      <pubDate>Mon, 13 May 2024 12:02:51 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/05/como-averiguar-el-id-de-anydesk-por-consola-o-terminal-en-linux.html</guid>
+      
+      <description>Como averiguar el id de AnyDesk por consola o terminal en linux. Si por casulidad tenes instalado AnyDesk y no conoces el id de tu cuenta con AnyDesk la podes averiguar accediendo desde consola o terminal a tu equipo.
+Claro si accedes por consola o terminal a tu equipo podrías decir para que si ya tengo conexión con mi computadora a través de mi linea de comandos si puede ser… pero muchas veces necesitas ver o acceder visualmente a tu computadora y esto lo podes hacer con AnyDesk o un servicio de VNC activo en la computadora.</description>
+      
+    </item>
+    
+    <item>
+      <title>No funciona Wi-Fi en tu notebook con Linux</title>
+      <link>http://localhost:1313/2024/03/no-funciona-wi-fi-en-tu-notebook-con-linux.html</link>
+      <pubDate>Fri, 01 Mar 2024 09:42:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2024/03/no-funciona-wi-fi-en-tu-notebook-con-linux.html</guid>
+      
+      <description>Si terminaste de instalar Linux y no te funciona el Wi-Fi tenes que realizar los siguientes pasos para que empiece a funcionar.
+Estos pasos a continuación son para distribuciones basadas en Debian
+Ubuntu y sus sabores, Neon, Loc-Os, Linux Mint, PureOS, Deepin, Kali Linux, etc. etc.
+Antes de empezar a ejecutar los comandos que siguen a continuación tenemos que conseguir una conexión por cable de red para poder ejecutar algunos comando y descargar algunos componentes desde internet.</description>
+      
+    </item>
+    
+    <item>
+      <title>Copiar y pegar entre Vim y tu sistema operativo</title>
+      <link>http://localhost:1313/2023/09/copiar-y-pegar-entre-vim-y-tu-sistema-operativo.html</link>
+      <pubDate>Thu, 14 Sep 2023 15:52:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/09/copiar-y-pegar-entre-vim-y-tu-sistema-operativo.html</guid>
+      
+      <description>Si necesitas copiar y pegar entre Vim y tu sistema operativo este es tu post. Pasa y muy seguido que tengas que copiar algo desde lo que estas editando con Vim y llevarlo a otro “contexto” que es tu sistema operativo
+Esto puede ser un dolor de cabeza si no se entiende bien como es que funcionan los registros de vim.
+En Vim existen registros donde uno pueda guardar lo que llevamos al portapapeles por ejemplo, si nosotros quisiesemos copiar una línea y grabarla en el registro “a” solo tendríamos que seleccionar lo que necesitamos copiar y luego ejecutar:</description>
+      
+    </item>
+    
+    <item>
+      <title>Vim - Borrar el contenido de un tag con vim</title>
+      <link>http://localhost:1313/2023/09/borrar-el-contenido-de-un-tag-con-vim.html</link>
+      <pubDate>Tue, 05 Sep 2023 15:44:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/09/borrar-el-contenido-de-un-tag-con-vim.html</guid>
+      
+      <description>Para borrar el contenido de un tag con vim solo necesitamos usar o presionar tres teclas
+dit la “d” de delete
+la “i” de inside
+la “t” de tag
+Entonces parados sobre el tag que queremos borrar el contenido ejecutamos esas tred teclas y el contenido se borrará
+También podemos utilizar la combinación de teclas dat para borrar el tag completo incluido en el que estamos posicionado.
+También se puede borrar por ejemplo el contenido de una llave o un corchete o lo que está encerrado entre una comilla simple o doble.</description>
+      
+    </item>
+    
+    <item>
+      <title>Vimdiff comparar dos archivos con VIM</title>
+      <link>http://localhost:1313/2023/09/vimdiff-comparar-dos-archivos-con-vim.html</link>
+      <pubDate>Sun, 03 Sep 2023 15:43:59 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/09/vimdiff-comparar-dos-archivos-con-vim.html</guid>
+      
+      <description>Hoy vamos a usar Vimdiff (vim -d) para comparar dos archivos con VIM.
+Vimdiff nos permite comparar dos archivos, este comando es muy bueno cuando por ejemplo bajamos un archivo de un servidor y lo queremos comparar con lo que tenemos localmente.
+Para ejecutar este comando es muy fácil solo tenemos que seleccionar dos archivos que queremos comparar para eso yo generé dos archivos de muestra que los dejo en el repositorio de github https://github.</description>
+      
+    </item>
+    
+    <item>
+      <title>Docker Compose WordPress MySQL PhpMyAdmin</title>
+      <link>http://localhost:1313/2023/08/docker-compose-wordpress-mysql-phpmyadmin.html</link>
+      <pubDate>Wed, 23 Aug 2023 13:08:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/08/docker-compose-wordpress-mysql-phpmyadmin.html</guid>
+      
+      <description>En este post dejo un código de docker compose que te permite levantar un docker con wordpress que usa una base de datos mysql y para poder administrarla usar el phpmyadmin.
+Esto es muy recomendable para aquellos desarrolladores que tienen que estar levantando ambientes de desarrollos con distintas versiones de wordpress ó mysql ya sea para actualizarlas o para probar algo en particular.
+En lo particular me sirve mucho para dejar reflejado en un ambiente local tal cual las características que tiene el sitio en producción; es decir que si el sitio de un cliente tiene en producción wordpress 5 mientras ya está vigente la versión 6 yo puedo seguir manteniendo esa versión ya sea para luego actualizarla o por resguardo (backup)</description>
+      
+    </item>
+    
+    <item>
+      <title>Got permission denied while trying to connect to the Docker daemon</title>
+      <link>http://localhost:1313/2023/08/got-permission-denied-while-trying-to-connect-to-the-docker-daemon.html</link>
+      <pubDate>Fri, 18 Aug 2023 14:38:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/08/got-permission-denied-while-trying-to-connect-to-the-docker-daemon.html</guid>
+      
+      <description>Si acabas de instalar docker y te aparece ese mensaje de error Got permission denied while trying to connect to the Docker daemon al ejecutar docker, por ejemplo “docker ps” o “docker run” o cualquier otro comando de docker esto te puede servir.
+Corregir el error Primero tenemos que agregar el grupo docker y para esto en la consola ejecutamos lo siguiente:
+sudo groupadd docker Ahora tenemos que agregar el usuario nuestro a ese nuevo grupo y para esto ejecutamos en la linea de comando lo siguiente:</description>
+      
+    </item>
+    
+    <item>
+      <title>Configurar DKIM con OpenDKIM en Cloudflare</title>
+      <link>http://localhost:1313/2023/06/configurar-dkim-con-opendkim-en-cloudflare.html</link>
+      <pubDate>Fri, 30 Jun 2023 11:21:35 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/06/configurar-dkim-con-opendkim-en-cloudflare.html</guid>
+      
+      <description>Hace un tiempo cambié de proveedor de hosting y tuve que configurar yo los registros DKIM en Cloudflare y me encontré con el problema que no sabía como obtener las claves DKIM; bueno acá dejo un instructivo de lo que hice para que me dejen de llegar los mails tipo spoofing.
+DKIM o DomainKeys Identified Mail en inglés son las claves de identificación de dominio digitales que sirven para que un intruso no mande mails en tu nombre es decir usando tu dominio; a esto se lo conoce como spoofing.</description>
+      
+    </item>
+    
+    <item>
+      <title>Comandos básicos para VIM</title>
+      <link>http://localhost:1313/2023/06/comandos-basicos-para-vim.html</link>
+      <pubDate>Tue, 20 Jun 2023 10:18:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/06/comandos-basicos-para-vim.html</guid>
+      
+      <description>Estos son algunos de los comandos básicos que uso a diario cuando utilizo VIM.
+Iniciar VIM Si usas por primera vez vim tal vez no sepas por donde empezar y deberías empezar por instalar vim aunque hoy en día la mayoría de las distribuciones linux traen instalado vim; si esto no es así solo bastará con realizar
+sudo apt install vim o el comando similar a este último que tu distribución necesite para instalarlo; en este caso esa instrucción sirve para las distribuciones basadas en debian como por ejemplo Ubuntu.</description>
+      
+    </item>
+    
+    <item>
+      <title>Comparto la configuración de VIM</title>
+      <link>http://localhost:1313/2023/03/comparto-la-configuracion-de-vim.html</link>
+      <pubDate>Fri, 24 Mar 2023 19:53:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/03/comparto-la-configuracion-de-vim.html</guid>
+      
+      <description>Dejo en el repositorio de github la configuración de VIM, acá podrás encontrar toda la configuración que utilizo para configurar mi VIM. Los complementos que utilizo son para el desarrollo de sitios webs y para administración de servidores.
+https://github.com/fideo/vim
+Dentro del repositorio git-hub que compartí en la linea de arriba pueden encontrar varios archivos pero dos son los importantes (los otros son para los videos de youtube) .vimrc y .vimrc.plug ahí está toda la configuración que uno necesita para dejar vim como se muestran en los videos de youtube (esto puede modificarse con el paso del tiempo)</description>
+      
+    </item>
+    
+    <item>
+      <title>VIM YouCompleteMe</title>
+      <link>http://localhost:1313/2023/03/vim-youcompleteme.html</link>
+      <pubDate>Fri, 24 Mar 2023 16:55:25 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/03/vim-youcompleteme.html</guid>
+      
+      <description>Si te aparece este mensaje dentro de tu editor VIM
+The ycmd server SHUT DOWN (restart with ‘:YcmRestartServer’). YCM core library not dete…; you need to compile YCM before using it. Follow the instructions in the documentation.
+esto se debe a que tu complemento YouCompleteMe necesita ser reinstalado.
+Es tan simple como posisionarse dentro del directorio de instalación de YouCompleteMe en mi caso /home/fideo/.vim/plugged/youcompleteme y ejecutar esto
+python install.py Esto hará el proceso de instalación y corrige todas las librerías y dependencias que necesita para que se ejecute correctamente el complemento.</description>
+      
+    </item>
+    
+    <item>
+      <title>Anydesk problemas con Wayland Cómo habilitar o deshabilitar wayland en Ubuntu 22.04 Desktop</title>
+      <link>http://localhost:1313/2023/01/anydesk-problemas-wayland-habilitar-o-deshabilitar-wayland-ubuntu.html</link>
+      <pubDate>Sun, 01 Jan 2023 10:25:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2023/01/anydesk-problemas-wayland-habilitar-o-deshabilitar-wayland-ubuntu.html</guid>
+      
+      <description>Si estas trantando de usar AnyDesk en linux y te arroja un mensaje de error como este
+No se admite el servidor remoto de pantalla wayland
+Es porque hay que colocar en false la opción WaylandEnable que se encuentra en /etc/gdm3/custom.conf esto te permitirá conectarte a esa máquina cliente; es decir que la modificación de /etc/gdm3/custom.conf hay que hacerla en la PC que queremos conectarnos.
+Para eso tiene que abrir tu consola en modo administrador / sudo y editar ese archivo, en mi caso yo uso vim asi que sería así:</description>
+      
+    </item>
+    
+    <item>
+      <title>Tmux github powerline status</title>
+      <link>http://localhost:1313/2022/02/tmux-github-powerline-status.html</link>
+      <pubDate>Fri, 18 Feb 2022 11:15:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2022/02/tmux-github-powerline-status.html</guid>
+      
+      <description>Tmux github powerline status. Cree un repositorio en github para publicar mi configuración de Tmux; también la configuración de powerline y el .bashrc de mi PC por si alguien quiere usar esta configuración.
+Este es el la dirección en github del repositorio desde ahí se puede descargar y/o clonar https://github.com/fideo/tmux.conf
+Hay que crear en el home de su usuario (en mi caso /home/fideo/) el archivo .tmux.conf y copiar el contenido de lo que publiqué en github o directamente descargarlo pegarlo en su home.</description>
+      
+    </item>
+    
+    <item>
+      <title>Centos Web Panel CWP ERROR: Can&amp;#8217;t create temporary directory /var/lib/clamav/</title>
+      <link>http://localhost:1313/2022/02/centos-web-panel-cwp-error-cant-create-temporary-directory-var-lib-clamav.html</link>
+      <pubDate>Fri, 18 Feb 2022 08:48:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2022/02/centos-web-panel-cwp-error-cant-create-temporary-directory-var-lib-clamav.html</guid>
+      
+      <description>Tengo un servidor con lo manejo con CWP (Centos Web Panel) y en los logs vi un error como este
+ERROR: Can&amp;#39;t create temporary directory /var/lib/clamav/ Estuve investigando un poco como corregirlo y me dí cuenta que era problemas de permisos; al ejecutar
+sudo freshclam Esto debería realizar una actualización de la base de datos del antivirus; pero por no tener bien asignados los permisos me daba ese error. Cuando estaba el contenido del directorio /var/lib/clamav/ me mostraba que existen dos tipos de usuarios clamupdate y clamscan.</description>
+      
+    </item>
+    
+    <item>
+      <title>Comando para obtener la dirección ip interna de una PC</title>
+      <link>http://localhost:1313/2022/01/comando-para-obtener-la-direccion-ip-interna-de-una-pc.html</link>
+      <pubDate>Thu, 06 Jan 2022 12:02:22 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2022/01/comando-para-obtener-la-direccion-ip-interna-de-una-pc.html</guid>
+      
+      <description>En linux podemos obtener de varias formas la ip interna de una PC; lo más común es ejecutar ifconfig directamente en la consola, pero para esto tenemos que tener instalado net-tools.
+sudo apt install net-tools Pero yo no quería instalar nada (de caprichoso nomás) y fui por la forma tradicional que tiene linux para mostrarte las ip y es con el comando ip propiamente dicho que acompañado por el objeto address te muestra las direcciones ip creadas para tu PC.</description>
+      
+    </item>
+    
+    <item>
+      <title>Copiar buffer consola a entorno gráfico X11</title>
+      <link>http://localhost:1313/2021/12/copiar-buffer-consola-a-entorno-grafico-x11.html</link>
+      <pubDate>Wed, 22 Dec 2021 13:05:04 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/12/copiar-buffer-consola-a-entorno-grafico-x11.html</guid>
+      
+      <description>Necesitaba copiar un texto desde un server y decidí instalarme xclip. Para esto ejecuté:
+sudo apt install xclip Es muy fácil de usar xclip; si queremos copiar un texto podemos hacer lo siguiente:
+echo &amp;#34;Un texto cualquiera&amp;#34; | xclip -i Luego si queremos copiar ese texto en la consola hacemos lo siguiente:
+xclip -o y el resultado sería –&amp;gt; Un texto cualquiera
+Me encontré con un problema… que al ejecutar el xclip por consola obtenía un mensaje de error que me decía que display no estaba configurado.</description>
+      
+    </item>
+    
+    <item>
+      <title>Como hacer para GitHub no te pida mas el usuario y la cotraseña</title>
+      <link>http://localhost:1313/2021/12/como-hacer-para-github-no-te-pida-mas-el-usuario-y-la-cotrasena.html</link>
+      <pubDate>Thu, 16 Dec 2021 09:07:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/12/como-hacer-para-github-no-te-pida-mas-el-usuario-y-la-cotrasena.html</guid>
+      
+      <description>Hace un tiempo GitHub hizo modificaciones en cuanto a su forma de autentificarse, existen muchas formas de autenticarse con GItHub; pero una de las mas comunes es que al momento de realizar un push o pull te pida un usuario y una contraseña. Pero ahora para poder realizar esto necesitas tener en tu poder un Token.
+Esto es muy simple de realizar solo tienes que ir a Settings / Developer settings / Personal access token y ahí presionar el botón Generate new token.</description>
+      
+    </item>
+    
+    <item>
+      <title>Habilitar o Deshabilitar un servicio en Linux Ubuntu</title>
+      <link>http://localhost:1313/2021/12/habilitar-o-deshabilitar-un-servicio-en-linux-ubuntu.html</link>
+      <pubDate>Thu, 09 Dec 2021 08:31:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/12/habilitar-o-deshabilitar-un-servicio-en-linux-ubuntu.html</guid>
+      
+      <description>Si tienes un servicio que necesitas deshabilitar o habilitar acá te dejo los dos comandos que te permitirán realizar esto
+Para habilitar un servicio debes ejecutar como superusuario systemctl enable servicioAHabilitar.service
+sudo systemctl enable apache2 Para deshabilitar ese mismo servicio debes ejecutar (siempre como superusuario) systemctl disable servicioADeshabilitar.service
+sudo systemctl disable apache2 </description>
+      
+    </item>
+    
+    <item>
+      <title>Hacer que Docker no inicie automáticamente</title>
+      <link>http://localhost:1313/2021/12/hacer-que-docker-no-inicie-automaticamente.html</link>
+      <pubDate>Fri, 03 Dec 2021 10:55:05 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/12/hacer-que-docker-no-inicie-automaticamente.html</guid>
+      
+      <description>Me pasó que necesitaba por un tiempo hacer que docker no inicie automáticamente; es decir, que cuando se reinicia el Servidor las imágenes de docker no se carguen automáticamente.
+El proyecto yo lo tenía con docker-compose, pero para esto usé solo los comandos de docker.
+Primero chequeo lo que está corriendo con
+docker ps Debería mostrar todas las imágenes que tenemos corriendo
+docker update --restart no e1dff1f51add Y así sucesivamente con todas las imágenes que queremos que NO se inicie al reiniciar nuestro servidor.</description>
+      
+    </item>
+    
+    <item>
+      <title>Droidcam no funciona en Google Chrome Linux</title>
+      <link>http://localhost:1313/2021/11/droidcam-no-funciona-en-google-chrome-linux.html</link>
+      <pubDate>Wed, 17 Nov 2021 20:51:29 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/11/droidcam-no-funciona-en-google-chrome-linux.html</guid>
+      
+      <description>Droidcam no funciona en google chrome en un sistema operativo Linux; en Windows funciona perfectamente, pero en Linux lo podía hacer funcionar hasta que entendí que para que google chrome lo tome hay que ejecutar una serie de comandos
+Como primer paso ejecutamos esto en la consola de linux.
+sudo apt install linux-headers-`uname -r` gcc make Luego nos dirigimos a donde tenemos instalado Droidcam; yo lo suelo instalar en /opt/ es decir que ingreso a</description>
+      
+    </item>
+    
+    <item>
+      <title>Como copiar directorios o archivos de un Docker a Local o viceversa</title>
+      <link>http://localhost:1313/2021/11/como-copiar-directorios-o-archivos-de-un-docker-a-local-o-viceversa.html</link>
+      <pubDate>Tue, 16 Nov 2021 12:42:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/11/como-copiar-directorios-o-archivos-de-un-docker-a-local-o-viceversa.html</guid>
+      
+      <description>A veces necesitamos copiar un archivo desde nuestra máquina local de desarrollo al docker o viceversa; esto es muy común o frecuente que tengas que realizarlo cuando estás desarrollando una app, una web o lo que fuese dentro de un Docker.
+Para esto tenemos un par de comandos que son muy útiles.
+El primero sirve para copiar desde un contenedor docker a una máquina local:
+docker cp NOMBRE_CONTENEDOR:RUTA_DEL_CONTENEDOR RUTA_LOCAL El segundo sirve para copiar desde la pc local a un contenedor docker:</description>
+      
+    </item>
+    
+    <item>
+      <title>Comandos útiles para Docker</title>
+      <link>http://localhost:1313/2021/11/comandos-utiles-para-docker.html</link>
+      <pubDate>Tue, 02 Nov 2021 10:25:20 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/11/comandos-utiles-para-docker.html</guid>
+      
+      <description>Esto tal vez le puede servir a mas de uno y de paso me lo dejo como ayuda memoria
+Usé un dockerfile para crear un esquema de wordpress es decir que ese docker contiene un nginx, una base mysql (mariadb) y el lenguaje PHP que utiliza WordPress; cuando levantaba el docker con docker-compose up la base me daba error entonces necesitaba ejecutar por consola algunos comandos para poder crear la base que no la había creado y también para darle privilegios al usuario en cuestión.</description>
+      
+    </item>
+    
+    <item>
+      <title>Github pide usuario y contraseña siempre</title>
+      <link>http://localhost:1313/2021/09/github-pide-usuario-y-contrasena-siempre.html</link>
+      <pubDate>Thu, 30 Sep 2021 19:51:24 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/09/github-pide-usuario-y-contrasena-siempre.html</guid>
+      
+      <description>Si sos uno de los tantos que se cansa cada vez que tienes que hacer pull o push a un repositorio en github poniendo el usuario y la contraseña, puedes realizar estos pasos y dejará de pedirte user y pass cada vez que quieras realizar un pull o push a github.
+Primero tienes que ver que esté funcionando el ssh-agent para eso ejecutar este comando en la consola de linux</description>
+      
+    </item>
+    
+    <item>
+      <title>Crear un listado de directorios o carpetas desde la consola de linux</title>
+      <link>http://localhost:1313/2021/08/crear-un-listado-de-directorios-o-carpetas-desde-la-consola-de-linux.html</link>
+      <pubDate>Mon, 09 Aug 2021 09:49:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/08/crear-un-listado-de-directorios-o-carpetas-desde-la-consola-de-linux.html</guid>
+      
+      <description>Tal vez te encuentres con la necesidad de tener que armar una lista de directorios o carpetas, de tu sistema linux, acá te dejo un comando que te permite realizar ese proceso.
+ls -R | grep &amp;#34;:$&amp;#34; | sed -e &amp;#39;s/:$//&amp;#39; -e &amp;#39;s/[^-][^\/]*\//--/g&amp;#39; -e &amp;#39;s/^/ /&amp;#39; -e &amp;#39;s/-/|/&amp;#39; También se puede instalar el comando tree que es mucho mas cuidado estéticamente y tiene una cuantos parámetros que lo puedes ejecutar a tu gusto.</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux no reconoce tu android por conexión USB para usar Droidcam</title>
+      <link>http://localhost:1313/2021/07/linux-no-reconoce-tu-android-por-conexion-usb-para-usar-droidcam.html</link>
+      <pubDate>Tue, 27 Jul 2021 19:40:12 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/07/linux-no-reconoce-tu-android-por-conexion-usb-para-usar-droidcam.html</guid>
+      
+      <description>Si tener un celular (dispositivo móvil) con Android y quieres usar la cámara de ese celular como webcam puedes usar un programa que se llama Droidcam, es muy buena opción para no comprar una webcam y usa ese dispositivo viejo que tenías en un cajón.
+Este artículo trae una solución a un problema frecuente que se dá cuando usas linux, el problema se presenta que no siempre reconoce las conexiones por USB.</description>
+      
+    </item>
+    
+    <item>
+      <title>Arreglar el error Droidcam unable to find dev/video0</title>
+      <link>http://localhost:1313/2021/07/arreglar-el-error-droidcam-unable-to-find-dev-video0.html</link>
+      <pubDate>Tue, 27 Jul 2021 19:21:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2021/07/arreglar-el-error-droidcam-unable-to-find-dev-video0.html</guid>
+      
+      <description>Los pasos que realicé para que Droidcam vuelva funcionar como tras el error Droidcam unable to find dev/video0
+$ sudo apt install v4l2loopback-utils v4l-utils v4l2loopback-dkms cmake nasm yasm pkg-config libgtk2.0-dev $ sudo modprobe v4l2loopback $ v4l2-ctl --list-devices # check if you have dummy video devices Dummy video device (0x0000) (platform:v4l2loopback-000): /dev/video0 Me pasa muy seguido que tengo que corregir droidcam tras actualizar Ubuntu y para esto solo uso este comando.</description>
+      
+    </item>
+    
+    <item>
+      <title>Comando dd clonar copiar una ISO a un Pendrive</title>
+      <link>http://localhost:1313/2020/08/comando-dd-clonar-copiar-una-iso-a-un-pendrive.html</link>
+      <pubDate>Tue, 18 Aug 2020 18:46:56 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/08/comando-dd-clonar-copiar-una-iso-a-un-pendrive.html</guid>
+      
+      <description>En este post muestro como generar un pendrive booteable para instalar linux ubuntu por ejemplo, con el comando dd (Dataset Definition), pero sirve para cualquier imagen de disco que tenga un sistema operativo o que sea booteable esa imagen luego de ser instalada dentro del pendrive.
+Para esto vamos a usar primero el comando lsblk
+lsblk Este comando nos permite listar todos los dispositivos como por ejemplo discos duros, SSD, memorias flash, CD-ROM; una vez que visualizamos donde se encuentra nuestro pendrive procedemos a desmontarlo con el comando umount</description>
+      
+    </item>
+    
+    <item>
+      <title>Recursos de Python</title>
+      <link>http://localhost:1313/2020/07/python.html</link>
+      <pubDate>Wed, 22 Jul 2020 08:46:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/07/python.html</guid>
+      
+      <description>Dejo anotado acá algunos recursos de Python que fui recompilando
+https://argentinaenpython.com/quiero-aprender-python/
+https://www.learnpython.org/es/.
+https://pywombat.com/&amp;quot;
+https://automatetheboringstuff.com/&amp;quot;
+https://argentinaenpython.com/&amp;quot;</description>
+      
+    </item>
+    
+    <item>
+      <title>Comprimir y descomprimir archivos o directorios con 7zip</title>
+      <link>http://localhost:1313/2020/06/comprimir-y-descomprimir-archivos-o-directorios-con-7zip.html</link>
+      <pubDate>Wed, 24 Jun 2020 07:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/06/comprimir-y-descomprimir-archivos-o-directorios-con-7zip.html</guid>
+      
+      <description>Desde la consola se puede comprimir archivo o directorios con un simple comando
+Comprimir Si se necesita comprimir una carpeta o un archivo lo que se necesita hacer es lo siguiente:
+7z a archivo_comprimido.7z /ruta/a/carpetas/ /ruta/a/archivos A fines prácticos si se necesita realizar una compresión de un directorio o carpeta el comando sería el siguiente:
+7z a directorios_comprimidos.7z /ruta/a/carpetas/ si fuese un archivo solo el comando sería el siguiente
+7z a archivo_comprimido.</description>
+      
+    </item>
+    
+    <item>
+      <title>¿Que debo ejecutar para saber si mi linux es de 32 Bits o de 64 Bits?</title>
+      <link>http://localhost:1313/2020/06/que-debo-ejecutar-para-saber-si-mi-linux-es-de-32-bits-o-de-64-bits.html</link>
+      <pubDate>Tue, 09 Jun 2020 07:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2020/06/que-debo-ejecutar-para-saber-si-mi-linux-es-de-32-bits-o-de-64-bits.html</guid>
+      
+      <description>Para ver que tipo de arquitectura es nuestro sistema operativo Linux que estoy usando; es decir, si es de 32 Bits o de 64 Bits; para eso se ejecuta en consola el siguiente comando
+#!/bin/bash uname -m Donde muestra i686 para los sistemas operativos de 32 Bits y x86_64 para los que son de 64 Bits.
+El comando uname tiene un montón de información al ejecutarlo de la siguiente manera</description>
+      
+    </item>
+    
+    <item>
+      <title>Crear un repositorio git en servidor propio</title>
+      <link>http://localhost:1313/2017/09/crear-un-repositorio-git-en-servidor-propio.html</link>
+      <pubDate>Fri, 15 Sep 2017 12:17:37 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2017/09/crear-un-repositorio-git-en-servidor-propio.html</guid>
+      
+      <description>Para crear un repositorio git en servidor propio hay que seguir algunos pasos muy simples, pero deben hacerse en esta secuencia sin alterar nada.
+Servidor Primero entramos al servidor una vez dentro ejecutamos lo siguiente:
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;cd ~&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;mkdir repositorio.git&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;cd repositorio.git&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;git --bare init&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;git config core.sharedRepository true La primer linea cd ~ nos lleva a la home del usuario, es decir que si el usuario que está logueado es fideo la home sería /home/fideo/ para corroborar esto pueden ejecutar pwd y les mostrará donde están parados luego de ejecutar cd ~</description>
+      
+    </item>
+    
+    <item>
+      <title>Otros Comandos Linux</title>
+      <link>http://localhost:1313/2011/09/comandos-linux.html</link>
+      <pubDate>Thu, 29 Sep 2011 11:57:54 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/09/comandos-linux.html</guid>
+      
+      <description>Para mostrar la arquitectura de nuestra máquina podemos usar el comando arch el cual nos devolverá x86_64 si corresponde a una arquitectura de 64 bits o nos devolverá i386, i486, i586 o i686 si pertenece a una arquitectura de 32 bits
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;arch Si necesitamos obtener una lista de directorios (o carpetas) de una ruta específica podemos usar el siguiente comando.
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;ls -l /directorio/ | grep ^d Para pasar todas las letras Mayúsculas a Minúscula del contenido de un archivo podemos usar el comando sed tal como se muestra a continuación.</description>
+      
+    </item>
+    
+    <item>
+      <title>Algunos comandos SSH</title>
+      <link>http://localhost:1313/2007/03/algunos-comandos-ssh.html</link>
+      <pubDate>Mon, 19 Mar 2007 16:52:18 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2007/03/algunos-comandos-ssh.html</guid>
+      
+      <description>Este es un listado de los comandos SSH que se usan con más frecuencia. Los comandos se encuentran organizados por tema e incluyen una descripción breve para comprender como usarlos.
+Comandos de navegación pwd muestra el path completo del directorio en el que se encuentra cd cambia de directorio, por ejemplo cd directorio/subdirectorio cd ~ lleva a su directorio home cd – lleva al último directorio en el que estuvo cd .</description>
+      
+    </item>
+    
+    <item>
+      <title>Mountar una imagen ISO en Linux</title>
+      <link>http://localhost:1313/2006/10/mountar-una-imagen-iso-en-linux.html</link>
+      <pubDate>Sat, 21 Oct 2006 02:04:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2006/10/mountar-una-imagen-iso-en-linux.html</guid>
+      
+      <description>Esta nota es más que nada una ayuda memoria, porque cada vez que tengo que montar una imagen ISO en linux no recuerdo como se hace talvez a alguien más le sirva.
+mount -t iso9660 -o loopback imagen.raw /punto/de/montaje </description>
+      
+    </item>
+    
+  </channel>
+</rss>

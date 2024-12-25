@@ -1,0 +1,16 @@
+baseURL: https://federicomazzei.com.ar
+disablePathToLower: true
+languageCode: es-es
+title: Fideo - Federico Mazzei
+theme: hugo-theme-awesome
+
+menus:
+  main:
+    - name: Artículos
+      title: Artículos
+      pageRef: /posts
+      weight: 10
+    - name: Sobre Mi
+      title: Estooo
+      pageRef: /sobremi
+      weight: 20
