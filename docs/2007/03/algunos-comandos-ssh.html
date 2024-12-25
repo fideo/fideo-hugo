@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es-es"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Algunos comandos SSH | Fideo - Federico Mazzei</title>
+<meta property="og:title" content="Algunos comandos SSH | Fideo - Federico Mazzei" />
+<meta name="twitter:title" content="Algunos comandos SSH | Fideo - Federico Mazzei" />
+<meta itemprop="name" content="Algunos comandos SSH | Fideo - Federico Mazzei" />
+<meta name="application-name" content="Algunos comandos SSH | Fideo - Federico Mazzei" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="es-es" />
+<meta name="language" content="es-es" />
+
+  <link rel="alternate" hreflang="en" href="https://federicomazzei.com.ar/2007/03/algunos-comandos-ssh.html" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2007-03-19T16:52:18Z />
+    <meta property="article:published_time" content=2007-03-19T16:52:18Z />
+    <meta property="og:url" content="https://federicomazzei.com.ar/2007/03/algunos-comandos-ssh.html" />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Algunos comandos SSH",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2007-03-19",
+        "description": "",
+        "wordCount":  323 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2007-03-19",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Fideo - Federico Mazzei"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.123.7">
+
+    
+    <meta property="og:title" content="Algunos comandos SSH" />
+<meta property="og:description" content="Este es un listado de los comandos SSH que se usan con más frecuencia. Los comandos se encuentran organizados por tema e incluyen una descripción breve para comprender como usarlos.
+Comandos de navegación pwd muestra el path completo del directorio en el que se encuentra cd cambia de directorio, por ejemplo cd directorio/subdirectorio cd ~ lleva a su directorio home cd – lleva al último directorio en el que estuvo cd ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://federicomazzei.com.ar/2007/03/algunos-comandos-ssh.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2007-03-19T16:52:18+00:00" />
+<meta property="article:modified_time" content="2007-03-19T16:52:18+00:00" />
+
+
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Algunos comandos SSH"/>
+<meta name="twitter:description" content="Este es un listado de los comandos SSH que se usan con más frecuencia. Los comandos se encuentran organizados por tema e incluyen una descripción breve para comprender como usarlos.
+Comandos de navegación pwd muestra el path completo del directorio en el que se encuentra cd cambia de directorio, por ejemplo cd directorio/subdirectorio cd ~ lleva a su directorio home cd – lleva al último directorio en el que estuvo cd ."/>
+
+
+    
+
+    <link rel="canonical" href="https://federicomazzei.com.ar/2007/03/algunos-comandos-ssh.html">
+    <link href="/style.min.128edcbf18e21a9a432fbb742547a4f6b35274170197aaf5d1d8074aeceb08e3.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://federicomazzei.com.ar/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+    
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://federicomazzei.com.ar/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Artículos
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/sobremi/">
+                        Sobre Mi
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Algunos comandos SSH</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2007-03-19T16:52:18&#43;00:00" itemprop="datePublished"> Mar 19, 2007 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>Este es un listado de los comandos SSH que se usan con más frecuencia. Los comandos se encuentran organizados por tema e incluyen una descripción breve para comprender como usarlos.</p>
+<h3 id="comandos-de-navegación">Comandos de navegación</h3>
+<ul>
+<li><strong>pwd</strong> muestra el path completo del directorio en el que se encuentra</li>
+<li><strong>cd</strong> cambia de directorio, por ejemplo cd directorio/subdirectorio</li>
+<li><strong>cd ~</strong> lleva a su directorio home</li>
+<li><strong>cd –</strong> lleva al último directorio en el que estuvo</li>
+<li><strong>cd ..</strong> sube a un directorio superior</li>
+</ul>
+<h3 id="listado-de-archivos">Listado de archivos</h3>
+<ul>
+<li><strong>ls</strong> lista archivos y directorios de un directorio</li>
+<li><strong>ls -al</strong> lista archivos y directorios e información sobre los mismos</li>
+<li><strong>ls -aR</strong> lista archivos e información incluyendo todos los subdirectorios</li>
+<li><strong>ls -aR | more</strong> lista archivos e información incluyendo todos los subdirectorios por pantallas</li>
+<li><strong>ls -alR &gt; resultado.txt</strong> lista archivos e información de subdirectorios y lo guarda en un archivo</li>
+<li><strong>cat resultado.txt</strong> mostraría en pantalla el contenido del archivo</li>
+<li><strong>ls *.html</strong> lista todos los archivos acabados en .html</li>
+<li><strong>ls -al directorio/subdirectorio/</strong> lista archivos e información de ese subdirectorio</li>
+</ul>
+<h3 id="crear-editar-o-eliminar-archivos-y-directorios">Crear, editar o eliminar archivos y directorios</h3>
+<ul>
+<li><strong>pico /home/usuario/public_html/index.html</strong> edita el archivo index.html con el editor pico</li>
+<li><strong>touch /home/usuario/public_html/404.html</strong> crea el archivo vacio 404.html en ese directorio</li>
+<li><strong>rm archivo.txt</strong> elimina archivo.txt</li>
+<li><strong>rm -rf directorio/</strong> ¡CUIDADO! elimina el directorio indicado, los subdirectorios y todos sus archivos</li>
+<li><strong>mkdir descargas</strong> Crea un directorio llamado descargas</li>
+<li><strong>rmdir descargas</strong> Elimina el directorio llamado descargas</li>
+</ul>
+<h3 id="otros-comandos-ssh">Otros comandos SSH</h3>
+<ul>
+<li><strong>cp -a /home/usuario/public_html/origen/* /home/usuario/public_html/destino/</strong></li>
+</ul>
+<p>Copia todos los archivos de un directorio a otro manteniendo sus respectivos permisos</p>
+<ul>
+<li><strong>du -sh</strong> muestra es espacio total ocupado por el directorio en el que se encuentra</li>
+<li><strong>du -sh *</strong> muestra el espacio ocupado de cada archivo y directorio</li>
+<li><strong>lynx fideox.com.ar</strong> usar el navegador Lynx para acceder a <a href="https://www.fideox.com.ar">www.fideox.com.ar</a></li>
+<li><strong>whoami</strong> muestra su nombre de usuario</li>
+</ul>
+<h3 id="comprimir-zip">Comprimir zip</h3>
+<ul>
+<li><strong>La estructura del zip es:<br>
+zip destino origen</strong></li>
+</ul>
+<p>Desde consola, para descompimir el archivo en la carpeta actual:</p>
+<ul>
+<li>
+<ol>
+<li>Para compimir una carpeta:<br>
+<strong>zip -r archivo.zip /carpeta</strong></li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Comprime ese archivo.<br>
+<strong>zip archivo.zip archivo.txt</strong></li>
+</ol>
+</li>
+</ul>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2024 .
+        
+    </small>
+</footer>
+
+
+
+
+
+
+
+    
+    <script src="https://federicomazzei.com.ar/js/main.min.4ee188e1744c19816e95a540b2650ed9f033ea0371e74eac8e717355cfca8741.js" integrity="sha256-TuGI4XRMGYFulaVAsmUO2fAz6gNx506sjnFzVc/Kh0E="></script>
+
+    
+
+</body>
+</html>

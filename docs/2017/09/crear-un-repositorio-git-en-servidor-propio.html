@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es-es"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Crear un repositorio git en servidor propio | Fideo - Federico Mazzei</title>
+<meta property="og:title" content="Crear un repositorio git en servidor propio | Fideo - Federico Mazzei" />
+<meta name="twitter:title" content="Crear un repositorio git en servidor propio | Fideo - Federico Mazzei" />
+<meta itemprop="name" content="Crear un repositorio git en servidor propio | Fideo - Federico Mazzei" />
+<meta name="application-name" content="Crear un repositorio git en servidor propio | Fideo - Federico Mazzei" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="es-es" />
+<meta name="language" content="es-es" />
+
+  <link rel="alternate" hreflang="en" href="https://federicomazzei.com.ar/2017/09/crear-un-repositorio-git-en-servidor-propio.html" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2017-09-15T12:17:37Z />
+    <meta property="article:published_time" content=2017-09-15T12:17:37Z />
+    <meta property="og:url" content="https://federicomazzei.com.ar/2017/09/crear-un-repositorio-git-en-servidor-propio.html" />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Crear un repositorio git en servidor propio",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2017-09-15",
+        "description": "",
+        "wordCount":  419 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2017-09-15",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Fideo - Federico Mazzei"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.123.7">
+
+    
+    <meta property="og:title" content="Crear un repositorio git en servidor propio" />
+<meta property="og:description" content="Para crear un repositorio git en servidor propio hay que seguir algunos pasos muy simples, pero deben hacerse en esta secuencia sin alterar nada.
+Servidor Primero entramos al servidor una vez dentro ejecutamos lo siguiente:
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;cd ~&lt;br&gt;&lt;/br&gt;mkdir repositorio.git&lt;br&gt;&lt;/br&gt;cd repositorio.git&lt;br&gt;&lt;/br&gt;git --bare init&lt;br&gt;&lt;/br&gt;git config core.sharedRepository true La primer linea cd ~ nos lleva a la home del usuario, es decir que si el usuario que está logueado es fideo la home sería /home/fideo/ para corroborar esto pueden ejecutar pwd y les mostrará donde están parados luego de ejecutar cd ~" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://federicomazzei.com.ar/2017/09/crear-un-repositorio-git-en-servidor-propio.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-09-15T12:17:37+00:00" />
+<meta property="article:modified_time" content="2017-09-15T12:17:37+00:00" />
+
+
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Crear un repositorio git en servidor propio"/>
+<meta name="twitter:description" content="Para crear un repositorio git en servidor propio hay que seguir algunos pasos muy simples, pero deben hacerse en esta secuencia sin alterar nada.
+Servidor Primero entramos al servidor una vez dentro ejecutamos lo siguiente:
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;cd ~&lt;br&gt;&lt;/br&gt;mkdir repositorio.git&lt;br&gt;&lt;/br&gt;cd repositorio.git&lt;br&gt;&lt;/br&gt;git --bare init&lt;br&gt;&lt;/br&gt;git config core.sharedRepository true La primer linea cd ~ nos lleva a la home del usuario, es decir que si el usuario que está logueado es fideo la home sería /home/fideo/ para corroborar esto pueden ejecutar pwd y les mostrará donde están parados luego de ejecutar cd ~"/>
+
+
+    
+
+    <link rel="canonical" href="https://federicomazzei.com.ar/2017/09/crear-un-repositorio-git-en-servidor-propio.html">
+    <link href="/style.min.128edcbf18e21a9a432fbb742547a4f6b35274170197aaf5d1d8074aeceb08e3.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://federicomazzei.com.ar/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+    
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://federicomazzei.com.ar/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Artículos
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/sobremi/">
+                        Sobre Mi
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Crear un repositorio git en servidor propio</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2017-09-15T12:17:37&#43;00:00" itemprop="datePublished"> Sep 15, 2017 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>Para crear un repositorio git en servidor propio hay que seguir algunos pasos muy simples, pero deben hacerse en esta secuencia sin alterar nada.</p>
+<h4 id="servidor">Servidor</h4>
+<p>Primero entramos al servidor una vez dentro ejecutamos lo siguiente:</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;wp-block-preformatted&#34;&gt;cd ~&lt;br&gt;&lt;/br&gt;mkdir repositorio.git&lt;br&gt;&lt;/br&gt;cd repositorio.git&lt;br&gt;&lt;/br&gt;git --bare init&lt;br&gt;&lt;/br&gt;git config core.sharedRepository true
+</code></pre><p>La primer linea cd ~ nos lleva a la home del usuario, es decir que si el usuario que está logueado es fideo la home sería /home/fideo/ para corroborar esto pueden ejecutar pwd y les mostrará donde están parados luego de ejecutar cd ~<br>
+La segunda linea crea un directorio llamado repositorio.git el cual tendrá la información que git necesita para llevar nuestro log de archivos.<br>
+La tercer linea ingresa al directorio.<br>
+La cuarta linea le decimos a git inicialize ese directorio como un repositorio git para realizar los pull y push de ese repositorio.<br>
+La quinta y última linea de esta parte se configura en true la variable core.sharedRepository informandole a git que es un repositorio compartido.</p>
+<!-- raw HTML omitted -->
+<p>Una vez terminado lo anterior vamos a la máquina local donde tenemos el código a subir.</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;wp-block-preformatted&#34;&gt;mkdir repositorio&lt;br&gt;&lt;/br&gt;cd repositorio&lt;br&gt;&lt;/br&gt;git init&lt;br&gt;&lt;/br&gt;git add *&lt;br&gt;&lt;/br&gt;git commit -m &#34;Initial import&#34;&lt;br&gt;&lt;/br&gt;git remote add origin git+ssh://user@server/home/user/git/repositorio.git&lt;br&gt;&lt;/br&gt;git push origin master
+</code></pre><p>Para poder bajar / clonar con git ese ropositorio solo tenemos que ejecutar este comando</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;wp-block-preformatted&#34;&gt;git clone git+ssh://user@server/home/user/git/repositorio.git
+</code></pre><p>Algunas de las cositas que pueden servir para usar al crear un repositorio git en servidor propio.</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;wp-block-preformatted&#34;&gt;git pull&lt;br&gt;&lt;/br&gt;git status&lt;br&gt;&lt;/br&gt;git log archivo&lt;br&gt;&lt;/br&gt;git diff 84de2396c3f0fcdc9994028b5bf5f0005c763496 3c933adaf627bc8a58cfefb62ff0f2d5df640673 archivo
+</code></pre><p>Eliminar archivos</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;wp-block-preformatted&#34;&gt;git rm archivo&lt;br&gt;&lt;/br&gt;git commit -m &#34;borro archivo&#34; archivo&lt;br&gt;&lt;/br&gt;git push
+</code></pre><p>Revertir cambios realizados en un archivo específico el cual no hayamos realizado commit</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;wp-block-preformatted&#34;&gt;git checkout -- file
+</code></pre><p>Deshacer el último commit no enviado con push</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;wp-block-preformatted&#34;&gt;$ git reset --hard HEAD~1
+</code></pre><p>Revertir el último cambiado, al que se le ha hecho push</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;wp-block-preformatted&#34;&gt;git push -f origin last_commit:branch
+</code></pre><p>Cambiando de ramas</p>
+<p>Es posible que tengamos varias ramas por ejemplo production (prod) y master. Si estamos en master y queremos pasar los cambios a production se puede hacer lo siguiente:</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;wp-block-preformatted&#34;&gt;git branch origin/prod # en caso de no tenerla se crea la rama origin/prod&lt;br&gt;&lt;/br&gt;git branch -a # comprobar que realmente estamos en master&lt;br&gt;&lt;/br&gt;git branch --track prod origin/prod # si no lo tenemos ya asocia prod a origin/prod&lt;br&gt;&lt;/br&gt;git checkout prod # cambiamos a la rama prod&lt;br&gt;&lt;/br&gt;git merge master # se merguean los cambios desde master a prod&lt;br&gt;&lt;/br&gt;git push # se suben los cambios
+</code></pre><p>Mas documentación sobre git</p>
+<p><a href="https://git-scm.com/documentation">Documentación oficial</a><br>
+<a href="https://github.com/">GitHub</a><br>
+<a href="http://federicomazzei.com.ar/blog/category/git/">Mas información sobre git en este sitio</a></p>
+<p>Crear un repositorio git en servidor propio</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2024 .
+        
+    </small>
+</footer>
+
+
+
+
+
+
+
+    
+    <script src="https://federicomazzei.com.ar/js/main.min.4ee188e1744c19816e95a540b2650ed9f033ea0371e74eac8e717355cfca8741.js" integrity="sha256-TuGI4XRMGYFulaVAsmUO2fAz6gNx506sjnFzVc/Kh0E="></script>
+
+    
+
+</body>
+</html>

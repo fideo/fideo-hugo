@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es-es"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Deploy Meteor en tu propio servidor | Fideo - Federico Mazzei</title>
+<meta property="og:title" content="Deploy Meteor en tu propio servidor | Fideo - Federico Mazzei" />
+<meta name="twitter:title" content="Deploy Meteor en tu propio servidor | Fideo - Federico Mazzei" />
+<meta itemprop="name" content="Deploy Meteor en tu propio servidor | Fideo - Federico Mazzei" />
+<meta name="application-name" content="Deploy Meteor en tu propio servidor | Fideo - Federico Mazzei" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="es-es" />
+<meta name="language" content="es-es" />
+
+  <link rel="alternate" hreflang="en" href="https://federicomazzei.com.ar/2018/02/deploy-meteor-en-tu-propio-servidor.html" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2018-02-19T11:28:42Z />
+    <meta property="article:published_time" content=2018-02-19T11:28:42Z />
+    <meta property="og:url" content="https://federicomazzei.com.ar/2018/02/deploy-meteor-en-tu-propio-servidor.html" />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Deploy Meteor en tu propio servidor",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2018-02-19",
+        "description": "",
+        "wordCount":  404 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2018-02-19",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Fideo - Federico Mazzei"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.123.7">
+
+    
+    <meta property="og:title" content="Deploy Meteor en tu propio servidor" />
+<meta property="og:description" content="Hoy voy a dejar en mi blog asentado como hice para hacer que una aplicación Meteor esté corriendo en mi servidor / hosting.
+Por el momento yo tengo mis sites alojados en DonWeb con un servicio de Cloud Server.
+Accedo a este servicio a través de una consola y en ese server tengo instalado CentOS al momento de escribir esta nota.
+Si ejecutamos cat /etc/redhat-release devuelve CentOS Linux release 7.3.1611 (Core)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://federicomazzei.com.ar/2018/02/deploy-meteor-en-tu-propio-servidor.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-02-19T11:28:42+00:00" />
+<meta property="article:modified_time" content="2018-02-19T11:28:42+00:00" />
+
+
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Deploy Meteor en tu propio servidor"/>
+<meta name="twitter:description" content="Hoy voy a dejar en mi blog asentado como hice para hacer que una aplicación Meteor esté corriendo en mi servidor / hosting.
+Por el momento yo tengo mis sites alojados en DonWeb con un servicio de Cloud Server.
+Accedo a este servicio a través de una consola y en ese server tengo instalado CentOS al momento de escribir esta nota.
+Si ejecutamos cat /etc/redhat-release devuelve CentOS Linux release 7.3.1611 (Core)"/>
+
+
+    
+
+    <link rel="canonical" href="https://federicomazzei.com.ar/2018/02/deploy-meteor-en-tu-propio-servidor.html">
+    <link href="/style.min.128edcbf18e21a9a432fbb742547a4f6b35274170197aaf5d1d8074aeceb08e3.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://federicomazzei.com.ar/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+    
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://federicomazzei.com.ar/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Artículos
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/sobremi/">
+                        Sobre Mi
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Deploy Meteor en tu propio servidor</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2018-02-19T11:28:42&#43;00:00" itemprop="datePublished"> Feb 19, 2018 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>Hoy voy a dejar en mi blog asentado como hice para hacer que una aplicación <a href="https://guide.meteor.com/deployment.html">Meteor</a> esté corriendo en mi servidor / hosting.<br>
+Por el momento yo tengo mis sites alojados en DonWeb con un servicio de Cloud Server.<br>
+Accedo a este servicio a través de una consola y en ese server tengo instalado CentOS al momento de escribir esta nota.</p>
+<!-- raw HTML omitted -->
+<h4 id="si-ejecutamos">Si ejecutamos</h4>
+<pre tabindex="0"><code>cat /etc/redhat-release
+</code></pre><h4 id="devuelve">devuelve</h4>
+<p>CentOS Linux release 7.3.1611 (Core)</p>
+<p>Primero hay que instalar <a href="https://nginx.org/en/">nginx</a> , <a href="https://www.mongodb.com/es">mongodb</a> , <a href="https://www.meteor.com/">meteor</a> y <a href="https://www.phusionpassenger.com/">Passenger</a> para esto pueden seguir las instrucciones de cada uno de las app en sus respectivos sitios o ver como lo hice yo en el video 😉</p>
+<!-- raw HTML omitted -->
+<p>Igualmente acá les dejo un resumen de los comando a utilizar para instalar cada uno de los servicios en CentOS 7</p>
+<h2 id="instalando-nginx">Instalando nginx</h2>
+<ol>
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install epel-release
+</code></pre><ol start="2">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install nginx
+</code></pre><ol start="3">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install nginx
+</code></pre><ol start="4">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo systemctl start nginx
+</code></pre><h2 id="instalando-mongodb">Instalando MongoDB</h2>
+<ol>
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo vi /etc/yum.repos.d/mongodb-org.repo
+
+[mongodb-org-3.4]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.4/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-3.4.asc
+</code></pre><ol start="2">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum repolist
+
+Salida  
+. . .  
+repo id repo name  
+base/7/x86\_64 CentOS-7 – Base  
+extras/7/x86\_64 CentOS-7 – Extras  
+mongodb-org-3.2/7/x86\_64 MongoDB Repository  
+updates/7/x86\_64 CentOS-7 – Updates  
+. . .
+</code></pre><ol start="3">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install mongodb-org
+</code></pre><ol start="4">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo systemctl start mongod
+</code></pre><ol start="5">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo systemctl reload mongod
+</code></pre><h2 id="instalando-meteor">Instalando Meteor</h2>
+<pre tabindex="0"><code>curl https://install.meteor.com/ | sh
+</code></pre><h2 id="instalando-node-js">Instalando Node JS</h2>
+<ol>
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install epel-release
+</code></pre><ol start="2">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install nodejs
+</code></pre><ol start="3">
+<li></li>
+</ol>
+<pre tabindex="0"><code>node --version
+</code></pre><h4 id="salida">Salida</h4>
+<p>v0.10.30</p>
+<ol start="4">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install npm
+</code></pre><h2 id="instalando-passenger">Instalando Passenger</h2>
+<ol>
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install -y epel-release yum-utils
+</code></pre><ol start="2">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum-config-manager –enable epel
+</code></pre><ol start="3">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum clean all &amp;amp;&amp;amp; sudo yum update -y
+</code></pre><ol start="4">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install -y pygpgme curl
+</code></pre><ol start="5">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo curl –fail -sSLo /etc/yum.repos.d/passenger.repo https://oss-binaries.phusionpassenger.com/yum/definitions/el-passenger.repo
+</code></pre><ol start="6">
+<li></li>
+</ol>
+<pre tabindex="0"><code>sudo yum install -y nginx passenger || sudo yum-config-manager –enable cr &amp;amp;&amp;amp; sudo yum install -y nginx passenger
+</code></pre><p>Una vez realizado todos estos pasos hay que editar el archivo passenger.conf ubicado /etc/nginx/conf.d/passenger.conf . Esto nos permitirá hacer un <strong>deploy meteor en tu propio servidor</strong>.</p>
+<pre tabindex="0"><code>#passenger_root /some-filename/locations.ini;
+
+#passenger_ruby /usr/bin/ruby;
+
+#passenger_instance_registry_dir /var/run/passenger-instreg;
+</code></pre><p>Hay que sacarle el comentario ( # ) y grabarlo</p>
+<pre tabindex="0"><code>passenger_root /some-filename/locations.ini;
+
+passenger_ruby /usr/bin/ruby;
+
+passenger_instance_registry_dir /var/run/passenger-instreg;
+</code></pre><p>Luego se reinicia el servidor nginx</p>
+<pre tabindex="0"><code>sudo service nginx restart
+</code></pre><p>Se puede chequear la instalación ejecutando esta linea</p>
+<pre tabindex="0"><code>sudo /usr/bin/passenger-config validate-install
+</code></pre><p>Y tiene que devolver algo similar a esto</p>
+<pre tabindex="0"><code>* Checking whether this Phusion Passenger install is in PATH... ?
+
+* Checking whether there are no other Phusion Passenger installations... ?
+</code></pre><p><strong>Listo ya podés hacer un Deploy de Meteor en tu propio servidor.</strong></p>
+<p><a href="/2017/09/reaction-commerce-usando-propio-servidor">En este link les muestro como realizo un deploy con reaction commerce corriendo en mi propio servidor.</a></p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2024 .
+        
+    </small>
+</footer>
+
+
+
+
+
+
+
+    
+    <script src="https://federicomazzei.com.ar/js/main.min.4ee188e1744c19816e95a540b2650ed9f033ea0371e74eac8e717355cfca8741.js" integrity="sha256-TuGI4XRMGYFulaVAsmUO2fAz6gNx506sjnFzVc/Kh0E="></script>
+
+    
+
+</body>
+</html>

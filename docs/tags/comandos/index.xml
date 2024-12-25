@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comandos on Fideo - Federico Mazzei</title>
+    <link>https://federicomazzei.com.ar/tags/comandos/</link>
+    <description>Recent content in Comandos on Fideo - Federico Mazzei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 20 Jun 2023 10:18:11 +0000</lastBuildDate><atom:link href="https://federicomazzei.com.ar/tags/comandos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comandos básicos para VIM</title>
+      <link>https://federicomazzei.com.ar/2023/06/comandos-basicos-para-vim.html</link>
+      <pubDate>Tue, 20 Jun 2023 10:18:11 +0000</pubDate>
+      
+      <guid>https://federicomazzei.com.ar/2023/06/comandos-basicos-para-vim.html</guid>
+      
+      <description>Estos son algunos de los comandos básicos que uso a diario cuando utilizo VIM.
+Iniciar VIM Si usas por primera vez vim tal vez no sepas por donde empezar y deberías empezar por instalar vim aunque hoy en día la mayoría de las distribuciones linux traen instalado vim; si esto no es así solo bastará con realizar
+sudo apt install vim o el comando similar a este último que tu distribución necesite para instalarlo; en este caso esa instrucción sirve para las distribuciones basadas en debian como por ejemplo Ubuntu.</description>
+      
+    </item>
+    
+    <item>
+      <title>Algunos comandos SSH</title>
+      <link>https://federicomazzei.com.ar/2007/03/algunos-comandos-ssh.html</link>
+      <pubDate>Mon, 19 Mar 2007 16:52:18 +0000</pubDate>
+      
+      <guid>https://federicomazzei.com.ar/2007/03/algunos-comandos-ssh.html</guid>
+      
+      <description>Este es un listado de los comandos SSH que se usan con más frecuencia. Los comandos se encuentran organizados por tema e incluyen una descripción breve para comprender como usarlos.
+Comandos de navegación pwd muestra el path completo del directorio en el que se encuentra cd cambia de directorio, por ejemplo cd directorio/subdirectorio cd ~ lleva a su directorio home cd – lleva al último directorio en el que estuvo cd .</description>
+      
+    </item>
+    
+  </channel>
+</rss>

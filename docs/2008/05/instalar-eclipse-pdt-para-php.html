@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es-es"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Instalar Eclipse PDT para PHP | Fideo - Federico Mazzei</title>
+<meta property="og:title" content="Instalar Eclipse PDT para PHP | Fideo - Federico Mazzei" />
+<meta name="twitter:title" content="Instalar Eclipse PDT para PHP | Fideo - Federico Mazzei" />
+<meta itemprop="name" content="Instalar Eclipse PDT para PHP | Fideo - Federico Mazzei" />
+<meta name="application-name" content="Instalar Eclipse PDT para PHP | Fideo - Federico Mazzei" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="es-es" />
+<meta name="language" content="es-es" />
+
+  <link rel="alternate" hreflang="en" href="https://federicomazzei.com.ar/2008/05/instalar-eclipse-pdt-para-php.html" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2008-05-03T09:00:36Z />
+    <meta property="article:published_time" content=2008-05-03T09:00:36Z />
+    <meta property="og:url" content="https://federicomazzei.com.ar/2008/05/instalar-eclipse-pdt-para-php.html" />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Instalar Eclipse PDT para PHP",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2008-05-03",
+        "description": "",
+        "wordCount":  1039 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2008-05-03",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Fideo - Federico Mazzei"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.123.7">
+
+    
+    <meta property="og:title" content="Instalar Eclipse PDT para PHP" />
+<meta property="og:description" content="Eclipse PDT para PHP
+En este tutorial veremos como descargar, instalar y configurar el Entorno de Desarrollo Eclipse para trabajar con PHP. Eclipse es uno de los mas poderosos editores, para lenguajes como JAVA, C, PHP, y otros, y lo mejor de todo es que es de uso Gratuito.
+Instalar Eclipse PDT para PHP
+Eclipse, es un Entorno de Desarrollo Profesional y Gratuito, que puede ser utilizado para varios lenguajes Java, C, C&#43;&#43;, PHP, etc." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://federicomazzei.com.ar/2008/05/instalar-eclipse-pdt-para-php.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2008-05-03T09:00:36+00:00" />
+<meta property="article:modified_time" content="2008-05-03T09:00:36+00:00" />
+
+
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Instalar Eclipse PDT para PHP"/>
+<meta name="twitter:description" content="Eclipse PDT para PHP
+En este tutorial veremos como descargar, instalar y configurar el Entorno de Desarrollo Eclipse para trabajar con PHP. Eclipse es uno de los mas poderosos editores, para lenguajes como JAVA, C, PHP, y otros, y lo mejor de todo es que es de uso Gratuito.
+Instalar Eclipse PDT para PHP
+Eclipse, es un Entorno de Desarrollo Profesional y Gratuito, que puede ser utilizado para varios lenguajes Java, C, C&#43;&#43;, PHP, etc."/>
+
+
+    
+
+    <link rel="canonical" href="https://federicomazzei.com.ar/2008/05/instalar-eclipse-pdt-para-php.html">
+    <link href="/style.min.128edcbf18e21a9a432fbb742547a4f6b35274170197aaf5d1d8074aeceb08e3.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://federicomazzei.com.ar/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+    
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://federicomazzei.com.ar/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Artículos
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/sobremi/">
+                        Sobre Mi
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Instalar Eclipse PDT para PHP</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2008-05-03T09:00:36&#43;00:00" itemprop="datePublished"> May 3, 2008 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p><strong>Eclipse PDT para PHP</strong><br>
+En este tutorial veremos como descargar, instalar y configurar el Entorno de Desarrollo Eclipse para trabajar con PHP. Eclipse es uno de los mas poderosos editores, para lenguajes como JAVA, C, PHP, y otros, y lo mejor de todo es que es de uso Gratuito.<br>
+<strong>Instalar Eclipse PDT para PHP</strong><br>
+<strong>Eclipse</strong>, es un <strong>Entorno de Desarrollo Profesional</strong> y <strong>Gratuito</strong>, que puede ser utilizado para varios lenguajes Java, C, C++, <strong>PHP</strong>, etc. En este caso veremos como instalar una versión para PHP.</p>
+<p><strong>Descargando Eclipse PDT para PHP</strong><br>
+Lo primero que debemos hacer es ir a la web de <strong>Zend</strong> (creadores de PHP), o a la web de <strong>Eclipse</strong> (creadores de eclipse), cuyas direcciones son:</p>
+<p><a href="http://www.zend.com/pdt">http://www.zend.com/pdt</a> o <a href="http://www.eclipse.org/pdt">http://www.eclipse.org/pdt</a> respectivamente.</p>
+<p><strong>PDT</strong>, significa <strong>PHP Development Tools</strong>, se puede descargar desde cualquiera de las dos direcciones, y la versión que debemos elegir es la última del PDT,</p>
+<p><a href="http://downloads.zend.com/pdt/all-in-one/pdt-1.0.0.R20070917-debugger-5.2.10.v20070905-all-in-one-win32.zip">para Windows</a></p>
+<p>Y si lo prefieren,</p>
+<p><a href="http://downloads.zend.com/pdt/all-in-one/pdt-1.0.0.R20070917-debugger-5.2.10.v20070905-all-in-one-linux-gtk.tar.gz">para Linux</a></p>
+<p>En este tutorial, utilizare la versión Windows pero, son similares y podrán seguirlo en cualquiera de los dos sin problemas.</p>
+<p>Este archivo llamado <strong>All In One</strong>, contiene todo lo necesario, tanto el <strong>Eclipse</strong> como el <strong>PDT</strong>, pero es importante aclarar, que ya usaban <strong>Eclipse</strong> para otro lenguaje podrían descargar solo el <strong>PDT</strong> y agregarlo. Yo por ejemplo lo usaba para JAVA y le agregue el PDT, por una cuestion de comodidad y que sea mas fácil este tutorial, opte por realizarlo con <strong>Eclipse PDT All In One</strong>, desde cero e instalando todo completo, ya que seguro la mayoría no lo utiliza aun.</p>
+<h3 id="instalando-eclipse-pdt-para-php">Instalando Eclipse PDT para PHP</h3>
+<p>Luego de descargar el archivo, vamos a descomprimirlo, y esa carpeta esta lista para usarse. Eclipse esta realizado en JAVA y corre sobre la Máquina Virtual JAVA que ya tenemos instalada en nuestro Windows XP, por tanto el software Eclipse no necesitara instalación, lo que debemos hacer es simplemente ubicarlo en una carpeta de nuestro disco, en mi caso le llame <strong>c:\eclipse</strong> y crear un icono de acceso directo al ejecutable, llamado <strong>eclipse.exe</strong>. Con esto ya estamos listos para ejecutar el <strong>Entorno de Desarrollo Eclipse</strong>.El contenido del archivo descomprimido y llevado al c:\ queda como en la imagen.</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/carpeta-eclipse.gif" alt="Eclipse en nuestro disco duro"></p>
+<p>Con doble click en <strong>eclipse.exe</strong>, o en el icono si ya lo hemos creamos en el escritorio o barra de inicio, vamos a ver la carga de Eclipse, como la siguiente imagen:</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/ejecutar-eclipse.jpg" alt="Cargando Eclipse PDT"></p>
+<h3 id="configurando-eclipse-pdt-para-php">Configurando Eclipse PDT para PHP</h3>
+<p>Al ser la primera vez que ejecutamos <strong>Eclipse</strong>, nos preguntará cual es nuestra <strong>Carpeta de Trabajo</strong> (Workspace), en mi caso, como se ve en la imagen elijo <strong>c:\appserv\www</strong>, ya que utilizo el Paquete <strong>AppServ</strong>, que contiene <strong>Apache</strong>, <strong>MySQL</strong> y <strong>PHP</strong>, de manera de probar mis sistemas en el disco local, sin tener que subirlos a un hosting cada vez. Si no tienen instalado uno, pueden ver otro de mis tutoriales de como instalar <strong>AppServ</strong> acá: <a href="http://www.tallerwebmaster.com/Tutorial-Instalacion-de-AppServ-PHP-Apache-MySQL-c-67.html"><strong>Instalación de AppServ</strong></a>, o pueden usar otra carpeta, e incluso no probar localmente los sistemas y utilizar un hosting siempre, esto es como les quede mas cómodo.</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/espacio-trabajo.gif" alt="Seleccion del Espacio de Trabajo"></p>
+<p>También podemos elegir “Usar por defecto y no preguntar de nuevo” (Use this as the default and do not ask again), de manera de evitar esta pregunta las próximas veces que ejecutemos <strong>Eclipse</strong>.</p>
+<p>Como comentamos al comienzo, debemos tener en cuenta que <strong>Eclipse</strong> es un <strong>Entorno Multi lenguaje</strong>, por tanto, si no vemos la pantalla similar a la siguiente:</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/entorno-eclipse.gif" alt="Entorno Eclipse para PHP"></p>
+<p>Debemos elegir, las opciones para indicarle que trabajaremos con <strong>PHP</strong>, como indica el punto <strong>(1)</strong> de la imagen, al seleccionar este, el Entorno se acondiciona para trabajar con lenguaje <strong>PHP</strong>, y veremos el <strong>PHP Explorer (2)</strong>, el <strong>Cuadro de Salida (3)</strong>, entre otros. Todas estas Cajas o Cuadros pueden ser reacomodadas a gusto moviéndolas con el mouse. Si cerramos alguna caja por error la podemos mostrar nuevamente con <strong>Window</strong>, <strong>Show View</strong>, y la caja correspondiente.<br>
+<strong>Nuestro primer Proyecto</strong><br>
+Para <strong>Crear Proyecto PHP</strong> en Eclipse, vamos a ir al <strong>PHP Explorer</strong>, presionar <strong>Botón Derecho</strong>, y elegir <strong>Nuevo</strong> (New), <strong>Proyecto PHP</strong> (PHP Project).</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/proyecto-php.gif" alt="Crear Nuevo Proyecto PHP"></p>
+<p>Luego, en el Cuadro de Dialogo, vamos a definir las características del <strong>Proyecto PHP</strong> tal como indica la imagen:</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/nombre-proyecto.gif" alt="Nuevo Proyecto PHP"></p>
+<p>En primer lugar va el <strong>Nombre del Proyecto</strong> (Project name), en este caso le llamamos <strong>“PrimerProyecto”</strong></p>
+<p>Luego indicamos si vamos a almacenarlo en una carpeta especifica o la que Eclipse elige por <strong>Defecto</strong> (Use default), en cuyo caso el nombre de la carpeta estará formado por la carpeta que definimos cuando cargamos Eclipse por primera vez (<strong>c:\appserv\www</strong>), y en una subcarpeta con el nombre del proyecto, por tanto, quedaría en <strong>c:\appserv\www\PrimerProyecto</strong>.</p>
+<p>Debajo, podemos elegir si nuestro proyecto será escrito en cualquier versión de PHP (4 o 5), o en alguna de ellas específicamente (Enable project specifi settings), en mi caso seleccione PHP5,</p>
+<p>Si presionamos <strong>Siguiente</strong> (Next), podremos agregar al proyecto alguna librería externa, como no es el caso, daremos clic en <strong>Terminar</strong> (Finish).</p>
+<p>Se mostrara en el <strong>Explorador PHP</strong> (PHP Explorer), que es un árbol cuya raíz es el nombre del proyecto <strong>“PrimerProyecto”</strong>, tal como muestra la imagen:</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/archivo-php.gif" alt="Agregar Archivo PHP al Proyecto"></p>
+<p>Para <strong>Agregar Archivos PHP</strong> a nuestro proyecto solo debemos presionar, <strong>Botón Derecho</strong>, <strong>Nuevo</strong> (New), <strong>Archivo PHP</strong> (PHP File).</p>
+<p>Y en el cuadro de Dialogo, va a aparecer automáticamente como <strong>Carpeta</strong> (Source Folder), la carpeta donde esta nuestro Proyecto, o sea <strong>“/PrimerProyecto”</strong>, y abajo debemos darle un <strong>Nombre al Archivo</strong> (File Name), en este caso le di “<strong>index.php</strong>”</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/nuevo-php.gif" alt="Archivo PHP"></p>
+<p>Si presionamos <strong>Siguiente</strong> (Next), nos permite elegir una plantilla con código pre-escrito, que sirve en caso de que nuestros archivos PHP tengan de comienzo la misma forma, o si tenemos archivos pre-escritos para reutilizar, como no es el caso le daremos <strong>Terminar</strong> (Finish).</p>
+<p>El archivo se abre con las llaves de apertura y cierre de código PHP o sea <strong>&lt;?php</strong> y <strong>?&gt;</strong>, dentro podemos escribir nuestro código, en este caso fue bien sencillo como ven en la imagen:</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/proyecto-hola.gif" alt="Codigo PHP"></p>
+<p>Ahora que esta todo listo, vamos a <strong>Archivo</strong> (File), <strong>Guardar</strong> (Save), y de esta forma guardamos nuestro <strong>index.php</strong>, si queremos probarlo utilizamos:</p>
+<p><a href="http://localhost/PrimerProyecto/index.php">http://localhost/PrimerProyecto/index.php</a> en nuestro navegador, y veremos el resultado, que es un simple “Hola”</p>
+<p><img src="http://www.tallerwebmaster.com/imgarticulos/125/resultado-final.gif" alt="Hola"></p>
+<p>Como ven, utilizamos algo bien sencillo para comenzar, de esta forma tenemos listo el <strong>Entorno Integrado Eclipse para PHP</strong>, en una próxima entrega veremos algunos parámetros de configuración para ejecutar proyectos desde el mismo menú, visualizar variables y objetos, etc.</p>
+<p>Tutorial obtenido de <a href="http://www.tallerwebmaster.com/Tutorial-Instalar-Eclipse-PDT-para-PHP-c-125.htm" title="TallerWebmaster">TallerWebmaster</a></p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2024 .
+        
+    </small>
+</footer>
+
+
+
+
+
+
+
+    
+    <script src="https://federicomazzei.com.ar/js/main.min.4ee188e1744c19816e95a540b2650ed9f033ea0371e74eac8e717355cfca8741.js" integrity="sha256-TuGI4XRMGYFulaVAsmUO2fAz6gNx506sjnFzVc/Kh0E="></script>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Word on Fideo - Federico Mazzei</title>
+    <link>https://federicomazzei.com.ar/tags/word/</link>
+    <description>Recent content in Word on Fideo - Federico Mazzei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 18 Nov 2015 10:39:30 +0000</lastBuildDate><atom:link href="https://federicomazzei.com.ar/tags/word/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eliminar la contraseña y protección de archivos Word</title>
+      <link>https://federicomazzei.com.ar/2015/11/eliminar-la-contrasena-y-proteccion-de-archivos-word.html</link>
+      <pubDate>Wed, 18 Nov 2015 10:39:30 +0000</pubDate>
+      
+      <guid>https://federicomazzei.com.ar/2015/11/eliminar-la-contrasena-y-proteccion-de-archivos-word.html</guid>
+      
+      <description>Para esto vamos a guardar el archivo Word en cuestion en formato .HTML luego lo abrimos con un editor de html preferido y buscamos las lineas
+&amp;lt;pre class=&amp;#34;wp-block-preformatted&amp;#34;&amp;gt;[w:DocumentProtection]......[/w:DocumentProtection] [w:UnprotectPassword]00000000[/w:UnprotectPassword] Eliminamos esas dos lineas.
+Grabamos y abrimos desde el Word el archivo html que acabamos de editar.
+Volvemos a cambiar la extensión del documento y WUALAAAA!!! listo… desbloqueado el archivo Word.
+Enjoy!!!</description>
+      
+    </item>
+    
+  </channel>
+</rss>
